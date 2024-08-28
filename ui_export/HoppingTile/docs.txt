@@ -1,0 +1,20 @@
+Bloq implementing a "tile" of the one-body hopping unitary.
+
+Implements the unitary
+$$
+e^{i H_h^{x}} = \prod_{k\sigma} e^{i t H_h^{x(k,\sigma)}}
+$$
+for a particular choise of of plaquette hamiltonian $H_h^x$, where $x$ = pink or gold.
+
+#### Parameters
+ - `length`: Lattice side length L.
+ - `angle`: The prefactor scaling the Hopping hamiltonian in the unitary (`t` above). This should contain any relevant prefactors including the time step and any splitting coefficients.
+ - `tau`: The Hopping hamiltonian parameter. Typically the hubbard model is defined relative to $\tau$ so it's defaulted to 1.
+ - `eps`: The precision of the single qubit rotations.
+ - `pink`: The colour of the plaquette. 
+
+#### Registers
+ - `system`: The system register of size 2 `length`. 
+
+#### References
+ - [Early fault-tolerant simulations of the Hubbard model](https://arxiv.org/abs/2012.09238). see Eq. 21 and App E.

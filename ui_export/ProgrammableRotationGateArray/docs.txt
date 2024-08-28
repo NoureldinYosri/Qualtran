@@ -1,0 +1,7 @@
+An implementation of `ProgrammableRotationGateArrayBase` base class
+
+
+This implementation of the `ProgrammableRotationGateArray` base class expects
+all interleaved_unitaries to act on the `rotations_target` register.
+
+See docstring of `ProgrammableRotationGateArrayBase` for more details.

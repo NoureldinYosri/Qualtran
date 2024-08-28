@@ -1,0 +1,5 @@
+Swap two bits.
+
+#### Registers
+ - `x`: the first bit
+ - `y`: the second bit

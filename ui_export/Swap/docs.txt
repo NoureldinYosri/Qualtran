@@ -1,0 +1,8 @@
+Swap two registers
+
+#### Parameters
+ - `bitsize`: The bitsize of each of the two registers being swapped. 
+
+#### Registers
+ - `x`: the first register
+ - `y`: the second register

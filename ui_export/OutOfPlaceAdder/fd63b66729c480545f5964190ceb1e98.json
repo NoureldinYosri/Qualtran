@@ -1,0 +1,18 @@
+{
+  "name": "OutOfPlaceAdder",
+  "attrs": {
+    "bitsize": 64,
+    "is_adjoint": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "ArbitraryClifford",
+      "filename": "53d21dfb7b3e4ffc83a7bbe3f8aefc3e.json"
+    },
+    {
+      "name": "And",
+      "filename": "ea909b4a37d548f5cbc42a8d8bfbff2b.json"
+    }
+  ]
+}

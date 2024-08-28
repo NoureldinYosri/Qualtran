@@ -1,0 +1,13 @@
+{
+  "name": "Cast",
+  "attrs": {
+    "inp_dtype": {
+      "bitsize": 1,
+      "iteration_length": 2
+    },
+    "out_dtype": {},
+    "shape": []
+  },
+  "score": null,
+  "callees": []
+}

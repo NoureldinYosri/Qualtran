@@ -1,0 +1,152 @@
+{
+  "name": "StatePreparationAliasSampling",
+  "attrs": {
+    "selection_registers": [
+      {
+        "name": "selection",
+        "dtype": {
+          "bitsize": 3,
+          "iteration_length": 8
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "alt": "NOT_SERIALIZABLE",
+    "keep": "NOT_SERIALIZABLE",
+    "mu": 0,
+    "sum_of_lcu_coeffs": 8.0
+  },
+  "score": {
+    "max_x": 1,
+    "max_y": 2,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "selection/BoundedQUInt(3, 8)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,selection,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt/QAny(3)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,alt,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "less_than_equal/QBit()",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,less_than_equal,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "UNIFORM(8)"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "selection/BoundedQUInt(3, 8)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,selection,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt/QAny(3)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,alt,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "less_than_equal/QBit()",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,less_than_equal,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u03a3 |l>",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "QROM",
+      "filename": "eaedb4bd01f6890d6b801182b180e9d1.json"
+    },
+    {
+      "name": "PrepareUniformSuperposition",
+      "filename": "d01182d028905eaa5b77e2d0e714fb56.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "faf7c7e236e6f324967ca1638471ff93.json"
+    },
+    {
+      "name": "Hadamard",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "LessThanEqual",
+      "filename": "66d190c0f00bf45e3bdda272322e9400.json"
+    }
+  ]
+}

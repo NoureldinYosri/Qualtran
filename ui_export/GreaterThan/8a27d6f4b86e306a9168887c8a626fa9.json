@@ -1,0 +1,164 @@
+{
+  "name": "GreaterThan",
+  "attrs": {
+    "a_bitsize": 4,
+    "b_bitsize": 4
+  },
+  "score": {
+    "max_x": 2,
+    "max_y": 2,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "a/QUInt(4)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,a,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "b/QUInt(4)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,b,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QBit()",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,target,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 1,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 2,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "a/QUInt(4)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "dang,a,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "b/QUInt(4)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "dang,b,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QBit()",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "dang,target,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 2
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 2
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 2
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 2,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "X",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "LessThanEqual",
+      "filename": "b34eae09fcc8a02cd54bc43ccad899cf.json"
+    },
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

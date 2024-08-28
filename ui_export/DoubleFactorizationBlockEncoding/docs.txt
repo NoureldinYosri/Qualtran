@@ -1,0 +1,28 @@
+Block encoding of double factorization Hamiltonian.
+
+Implements Fig. 15 in the reference.
+
+#### Parameters
+ - `num_spin_orb`: The number of spin orbitals. Typically called $N$.
+ - `num_aux`: Dimension of auxiliary index for double factorized Hamiltonian. Typically called $L$.
+ - `num_eig`: The total number of eigenvalues.
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called $\aleph$ in Ref[1]. We assume this is the same for both outer and inner state preparations.
+ - `num_bits_rot`: Number of bits of precision for rotations amplification in uniform state preparation. Called $\beth$ in Ref[1].
+ - `num_bits_rot_aa_outer`: Number of bits of precision for single qubit rotation for amplitude amplification in outer state preparation. Called $b_r$ in the reference. Keeping inner and outer separate for consistency with openfermion.
+ - `num_bits_rot_aa_inner`: Number of bits of precision for single qubit rotation for amplitude amplification in inner state preparation. Called $b_r$ in the reference. 
+
+#### Registers
+ - `ctrl`: Registers used to control application of Hamiltonian terms / preparation.
+ - `l`: Register for outer state preparation.
+ - `p`: Register for inner state preparation.
+ - `rot_aa`: A qubit to be rotated for amplitude amplification.
+ - `spin`: A single qubit register for spin superpositions.
+ - `xi`: Register for rank parameter.
+ - `offset`: Offset for p register.
+ - `rot`: Amplitude amplification angles for inner preparations.
+ - `rotations`: Rotations for basis rotations.
+ - `sys`: The system register. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        hypercontraction](https://arxiv.org/abs/2011.03494)

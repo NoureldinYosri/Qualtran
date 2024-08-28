@@ -1,0 +1,12 @@
+Helper Bloq to prepare an intermediate resource state which can be used in AA
+
+Specifically, this prepares the state
+
+$$
+    \sqrt{\frac{1}{2^{m}}}\sum_{n=0}^{2^m - 1}\left(\cos{\left(\frac{\pi(n+1)}{2^m+1}\right)}
+    |n\rangle|0\rangle + i\sin{\left(\frac{\pi(n+1)}{2^m+1}\right)}|n\rangle|1\rangle\right)
+$$
+
+This is the state obtained after applying the Hadamard on the flag qubit as described in
+Eq 19 of https://arxiv.org/pdf/1805.03662.pdf, which can then be used in a single round of
+Amplitude Amplification to boost the amplitude of desired resource state to 1.

@@ -1,0 +1,166 @@
+{
+  "name": "PrepareTFirstQuantization",
+  "attrs": {
+    "num_bits_p": 6,
+    "eta": 10,
+    "num_bits_rot_aa": 8
+  },
+  "score": {
+    "max_x": 3,
+    "max_y": 2,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "w/QAny(2)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,w,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "r/QAny(6)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,r,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "s/QAny(6)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,s,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "UNIFORM(3)"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "r"
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,r,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "r"
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "2,r,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "w/QAny(2)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "dang,w,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "r/QAny(6)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "dang,r,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "s/QAny(6)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "dang,s,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u03a3 |l>",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 1,
+        "bottom_y": 1,
+        "label": {
+          "text": "PREP 2^(..",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "PREP 2^(..",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "PreparePowerTwoState",
+      "filename": "74f2ea3bf8623b68ea7947bcccb439af.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

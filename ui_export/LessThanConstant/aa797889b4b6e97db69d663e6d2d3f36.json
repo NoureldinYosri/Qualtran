@@ -1,0 +1,918 @@
+{
+  "name": "LessThanConstant",
+  "attrs": {
+    "bitsize": 4,
+    "less_than_val": 2
+  },
+  "score": {
+    "max_x": 25,
+    "max_y": 9,
+    "soqs": [
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "alloc"
+        },
+        "y": 2,
+        "seq_x": 0,
+        "topo_gen": 0,
+        "ident": "0,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "x/QUInt(4)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,x,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QBit()",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,target,l,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "2,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "2,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "2,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "2,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "2,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 5,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "3,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 4,
+        "topo_gen": 2,
+        "ident": "4,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 4,
+        "topo_gen": 2,
+        "ident": "4,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 0,
+        "seq_x": 4,
+        "topo_gen": 2,
+        "ident": "4,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 5,
+        "topo_gen": 3,
+        "ident": "5,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 5,
+        "topo_gen": 3,
+        "ident": "5,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 4,
+        "seq_x": 6,
+        "topo_gen": 4,
+        "ident": "6,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 6,
+        "topo_gen": 4,
+        "ident": "6,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 7,
+        "seq_x": 6,
+        "topo_gen": 4,
+        "ident": "6,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 7,
+        "seq_x": 7,
+        "topo_gen": 5,
+        "ident": "7,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 7,
+        "topo_gen": 5,
+        "ident": "7,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 5,
+        "seq_x": 8,
+        "topo_gen": 6,
+        "ident": "8,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 8,
+        "topo_gen": 6,
+        "ident": "8,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 8,
+        "seq_x": 8,
+        "topo_gen": 6,
+        "ident": "8,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 9,
+        "topo_gen": 7,
+        "ident": "9,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 1,
+        "seq_x": 9,
+        "topo_gen": 7,
+        "ident": "9,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 10,
+        "topo_gen": 8,
+        "ident": "10,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 10,
+        "topo_gen": 8,
+        "ident": "10,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 11,
+        "topo_gen": 9,
+        "ident": "11,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 11,
+        "topo_gen": 9,
+        "ident": "11,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 9,
+        "seq_x": 11,
+        "topo_gen": 9,
+        "ident": "11,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 9,
+        "seq_x": 12,
+        "topo_gen": 10,
+        "ident": "12,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 12,
+        "topo_gen": 10,
+        "ident": "12,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 9,
+        "seq_x": 13,
+        "topo_gen": 11,
+        "ident": "13,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 13,
+        "topo_gen": 11,
+        "ident": "13,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 14,
+        "topo_gen": 12,
+        "ident": "14,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 14,
+        "topo_gen": 12,
+        "ident": "14,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 9,
+        "seq_x": 14,
+        "topo_gen": 12,
+        "ident": "14,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 15,
+        "topo_gen": 13,
+        "ident": "15,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 15,
+        "topo_gen": 13,
+        "ident": "15,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 5,
+        "seq_x": 16,
+        "topo_gen": 14,
+        "ident": "16,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 16,
+        "topo_gen": 14,
+        "ident": "16,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 8,
+        "seq_x": 16,
+        "topo_gen": 14,
+        "ident": "16,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 5,
+        "seq_x": 17,
+        "topo_gen": 15,
+        "ident": "17,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 7,
+        "seq_x": 18,
+        "topo_gen": 15,
+        "ident": "18,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 18,
+        "topo_gen": 15,
+        "ident": "18,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 4,
+        "seq_x": 19,
+        "topo_gen": 16,
+        "ident": "19,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 19,
+        "topo_gen": 16,
+        "ident": "19,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 7,
+        "seq_x": 19,
+        "topo_gen": 16,
+        "ident": "19,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 20,
+        "topo_gen": 17,
+        "ident": "20,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 20,
+        "topo_gen": 17,
+        "ident": "20,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 21,
+        "topo_gen": 18,
+        "ident": "21,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 21,
+        "topo_gen": 18,
+        "ident": "21,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 0,
+        "seq_x": 21,
+        "topo_gen": 18,
+        "ident": "21,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 22,
+        "topo_gen": 19,
+        "ident": "22,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 23,
+        "topo_gen": 19,
+        "ident": "23,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 23,
+        "topo_gen": 19,
+        "ident": "23,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 23,
+        "topo_gen": 19,
+        "ident": "23,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 23,
+        "topo_gen": 19,
+        "ident": "23,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 23,
+        "topo_gen": 19,
+        "ident": "23,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "free"
+        },
+        "y": 2,
+        "seq_x": 24,
+        "topo_gen": 20,
+        "ident": "24,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "x/QUInt(4)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 25,
+        "topo_gen": 20,
+        "ident": "dang,x,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QBit()",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 25,
+        "topo_gen": 20,
+        "ident": "dang,target,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 2
+      },
+      {
+        "y": 0,
+        "seq_x_start": 4,
+        "seq_x_end": 21
+      },
+      {
+        "y": 0,
+        "seq_x_start": 23,
+        "seq_x_end": 25
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 25
+      },
+      {
+        "y": 2,
+        "seq_x_start": 0,
+        "seq_x_end": 24
+      },
+      {
+        "y": 3,
+        "seq_x_start": 2,
+        "seq_x_end": 23
+      },
+      {
+        "y": 4,
+        "seq_x_start": 2,
+        "seq_x_end": 23
+      },
+      {
+        "y": 5,
+        "seq_x_start": 2,
+        "seq_x_end": 23
+      },
+      {
+        "y": 6,
+        "seq_x_start": 2,
+        "seq_x_end": 23
+      },
+      {
+        "y": 7,
+        "seq_x_start": 6,
+        "seq_x_end": 19
+      },
+      {
+        "y": 8,
+        "seq_x_start": 8,
+        "seq_x_end": 16
+      },
+      {
+        "y": 9,
+        "seq_x_start": 11,
+        "seq_x_end": 14
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "X",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 6,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "X",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 2,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 7,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 7,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 8,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 8,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 8,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 11,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 12,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 13,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 14,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 15,
+        "top_y": 8,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 16,
+        "top_y": 8,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 17,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "X",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 18,
+        "top_y": 7,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 19,
+        "top_y": 7,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 20,
+        "top_y": 2,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 21,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 22,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "X",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 23,
+        "top_y": 6,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 24,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "And",
+      "filename": "ea909b4a37d548f5cbc42a8d8bfbff2b.json"
+    },
+    {
+      "name": "And",
+      "filename": "10122d57e505631155928c58bce4fddd.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

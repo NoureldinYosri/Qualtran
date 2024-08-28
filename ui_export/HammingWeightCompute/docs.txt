@@ -1,0 +1,16 @@
+A gate to compute the hamming weight of an n-bit register in a new log_{n} bit register.
+
+Implements $U|x\rangle |0\rangle \rightarrow |x\rangle|\text{hamming\_weight}(x)\rangle$
+using $\alpha$ Toffoli gates and $\alpha$ ancilla qubits, where
+$\alpha = n - \text{hamming\_weight}(n)$ for an n-bit input register.
+
+#### Parameters
+ - `bitsize`: Number of bits in the input register. The allocated output register is of size $\log_2(\text{bitsize})$ so it has enough space to hold the hamming weight of x. 
+
+#### Registers
+ - `- x`: A $\text{bitsize}$-sized input register (register x above).
+ - `- junk`: A RIGHT ancilla register of size $\text{bitsize} - \text{hamming\_weight(bitsize)}$.
+ - `- out`: A RIGHT output register of size $\log_2(\text{bitize})$. 
+
+#### References
+ - [Halving the cost of quantum addition](https://arxiv.org/abs/1709.06648). , Page-4

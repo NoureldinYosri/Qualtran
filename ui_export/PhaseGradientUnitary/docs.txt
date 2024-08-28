@@ -1,0 +1,23 @@
+Implementation of (Controlled-/)PhaseGradient unitary gate on an n-bit register.
+
+The class supports implementing the phase gradient unitary gate and a controlled version
+thereof. The n bit phase gradient unitary is defined as
+
+$$
+    \text{PhaseGrad}_{n, t} = \sum_{k=0}^{2^{n}-1}|k\rangle \langle k| \omega_{n, t}^{k}
+$$
+
+where
+
+$$
+    \omega_{n, t} = \exp\left(\frac{2\pi i t}{2^n}\right)
+$$
+
+The implementation simply decomposes into $n$ (controlled-) rotations, one on each qubit.
+
+#### Registers
+ - `phase_grad`: A THRU register which the phase gradient is applied to. 
+
+#### References
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](https://arxiv.org/abs/2007.07391). Appendix A: Addition for controlled rotations
+ - [Halving the cost of quantum addition](https://quantum-journal.org/papers/q-2018-06-18-74/pdf/). 

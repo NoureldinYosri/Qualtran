@@ -1,0 +1,32 @@
+{
+  "name": "SelectUVFirstQuantization",
+  "attrs": {
+    "num_bits_p": 5,
+    "eta": 10,
+    "num_atoms": 10,
+    "num_bits_nuc_pos": 16
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "ApplyNuclearPhase",
+      "filename": "83258a84978b61c6c4e761c91653b581.json"
+    },
+    {
+      "name": "SignedIntegerToTwosComplement",
+      "filename": "3ef30077b5eed3bcb80ed27907189a90.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "SignedIntegerToTwosComplement",
+      "filename": "6d5f3aa45390dcfeeb674fc71903a769.json"
+    },
+    {
+      "name": "Add",
+      "filename": "843bd57e99c2c5d96c99d6bb46a61679.json"
+    }
+  ]
+}

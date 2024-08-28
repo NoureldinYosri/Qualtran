@@ -1,0 +1,8 @@
+{
+  "name": "MultiTargetCNOT",
+  "attrs": {
+    "bitsize": "Symbol(n)"
+  },
+  "score": null,
+  "callees": []
+}

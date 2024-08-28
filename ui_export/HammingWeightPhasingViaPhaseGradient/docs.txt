@@ -1,0 +1,32 @@
+Applies $Z^{\text{exponent}}$ to every qubit of an input register of size `bitsize`.
+
+See docstring of `HammingWeightPhasing` for more details about how hamming weight phasing works.
+
+In this variant of Hamming Weight Phasing, instead of directly synthesizing $O(\log_2 (\texttt{bitsize}))$
+rotations on the Hamming weight register we synthesize the rotations via an addition into the
+phase gradient register. See reference [1] for more details on this technique.
+
+Note: For most reasonable values of `bitsize` and `eps`, the naive `HammingWeightPhasing` would
+have better constant factors than `HammingWeightPhasingViaPhaseGradient`. This is because, in
+general, the primary advantage of using phase gradient is to reduce the complexity from
+$O(n * \log(1/ \texttt{eps} ))$ to $O(\log^2(1/ \texttt{eps} ))$ (the phase gradient register is of size
+$O(\log(1/\texttt{eps}))$ and a scaled addition into the target takes $(b_{grad} - 2)(\log(1/\texttt{eps}) + 2)$).
+Therefore, to apply $n$ individual rotations on a target register of size $n$, the complexity is
+independent of $n$ and is essentially a constant (scales only with $log(1/\texttt{eps})$).
+However, for the actual constant values to be better, the value of $n$ needs to be
+$> \log(1/\texttt{eps})$. In the case of hamming weight phasing, $n$ corresponds to the hamming weight
+register which itself is $\log(\texttt{bitsize})$. Thus, as `eps` becomes smaller, the required
+value of $\texttt{bitsize}$, for the phase gradient version to become more performant, becomes
+larger.
+
+#### Parameters
+ - `bitsize`: Size of input register to apply `Z ** exponent` to.
+ - `exponent`: The exponent of `Z ** exponent` to be applied to each qubit in the input register.
+ - `eps`: Accuracy of synthesizing the Z rotations. 
+
+#### Registers
+ - `x`: Input THRU register of size `bitsize`, to apply `Z**exponent` to.
+ - `phase_grad`: Phase gradient THRU register of size `O(log2(1/eps))`, to be used to apply the phasing via addition. 
+
+#### References
+ - 1. [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization] (https://arxiv.org/abs/2007.07391), Appendix A: Addition for controlled rotations

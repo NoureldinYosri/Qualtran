@@ -1,0 +1,21 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "selection_bitsizes": [
+        "Symbol(k)"
+      ],
+      "target_bitsize": "Symbol(b)",
+      "n_target_registers": [
+        "NOT_SERIALIZABLE"
+      ]
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "5e1834ef3087507cb85ba3048fc00201.json"
+    }
+  ]
+}

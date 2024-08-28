@@ -1,0 +1,16 @@
+Implements $U_a|x\rangle = U_a|x\rangle|z\rangle = |x\rangle |z \land (x > a)\rangle$
+
+The bloq_counts and t_complexity are derived from equivalent qualtran gates
+assuming a clean decomposition which should yield identical costs.
+
+See: https://github.com/quantumlib/Qualtran/pull/381 and
+https://qualtran.readthedocs.io/en/latest/bloqs/comparison_gates.html
+
+
+#### Parameters
+ - `bitsize`: bitsize of x register.
+ - `val`: integer to compare x against (a above.) 
+
+#### Registers
+ - `x`: Register to compare against val.
+ - `target`: Register to hold result of comparison.

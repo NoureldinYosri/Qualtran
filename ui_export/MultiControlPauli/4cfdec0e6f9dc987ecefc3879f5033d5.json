@@ -1,0 +1,24 @@
+{
+  "name": "MultiControlPauli",
+  "attrs": {
+    "cvs": {
+      "n": "NOT_SERIALIZABLE"
+    },
+    "target_gate": "NOT_SERIALIZABLE"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "MultiAnd",
+      "filename": "2fb73e41b934bb07c394c0d01c59e111.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "b3e07d58ad9852dfb1dd44b2b1c09725.json"
+    },
+    {
+      "name": "CZPowGate",
+      "filename": "aa95cf46a96199912709398514f2b059.json"
+    }
+  ]
+}

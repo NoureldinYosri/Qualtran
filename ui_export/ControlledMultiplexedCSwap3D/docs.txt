@@ -1,0 +1,3 @@
+Controlled Multiplexed swap network.
+
+Handles case of 3D registers and padding this register with zeros.

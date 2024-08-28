@@ -1,0 +1,22 @@
+{
+  "name": "ModNeg",
+  "attrs": {
+    "n": "Symbol(n)",
+    "mod": "Symbol(p)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "MultiCToffoli",
+      "filename": "a342a5189b3a0b449c4d4033872be5eb.json"
+    },
+    {
+      "name": "AddK",
+      "filename": "413fb0adfad0e82d31de3fb0ce3d2b89.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

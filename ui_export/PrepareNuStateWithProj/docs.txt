@@ -1,0 +1,26 @@
+PREPARE for the $\nu$ state for the $U$ and $V$ components of the Hamiltonian.
+
+Prepares a state of the form
+
+$$
+    \frac{1}{\sqrt{\mathcal{M}2^{n_p + 2}}}
+    \sum_{\mu=2}^{n_p+1}\sum_{\nu \in B_\mu}
+    \sum_{m=0}^{\lceil \mathcal M(2^{\mu-2}/\lVert\nu\rVert)^2\rceil-1}
+    \frac{1}{2^\mu}|\mu\rangle|\nu_x\rangle|\nu_y\rangle|\nu_z\rangle|m\rangle|0\rangle
+$$
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register.
+ - `num_bits_n`: The number of bits to represent each dimension of the momentum for the projectile.
+ - `m_param`: $\mathcal{M}$ in the reference.
+ - `lambda_zeta`: sum of nuclear charges.
+ - `er_lambda_zeta`: eq 91 of the referce. Cost of erasing qrom. 
+
+#### Registers
+ - `mu`: The state controlling the nested boxes procedure.
+ - `nu`: The momentum transfer register.
+ - `m`: an ancilla register in a uniform superposition.
+ - `flag_nu`: Flag for success of the state preparation. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 19, section B

@@ -1,0 +1,12 @@
+Implements $U_a|x\rangle = U_a|x\rangle|z\rangle = |x\rangle |z \land (x = a)\rangle$
+
+The bloq_counts and t_complexity are derived from:
+https://qualtran.readthedocs.io/en/latest/bloqs/comparison_gates.html#equality-as-a-special-case
+
+#### Parameters
+ - `bitsize`: bitsize of x register.
+ - `val`: integer to compare x against (a above.) 
+
+#### Registers
+ - `x`: Register to compare against val.
+ - `target`: Register to hold result of comparison.

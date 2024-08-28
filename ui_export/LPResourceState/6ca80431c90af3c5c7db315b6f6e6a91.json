@@ -1,0 +1,37 @@
+{
+  "name": "LPResourceState",
+  "attrs": {
+    "bitsize": "Symbol(n)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Ry",
+      "filename": "0d7889c847e92a3f6b3ad239a2adab1f.json"
+    },
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "LPRSInterimPrep",
+      "filename": "e18b5b2533b687d69b1ca718c0fd09b5.json"
+    },
+    {
+      "name": "MultiControlPauli",
+      "filename": "4cfdec0e6f9dc987ecefc3879f5033d5.json"
+    },
+    {
+      "name": "GlobalPhase",
+      "filename": "3b8a98e652282d84a950734f99687d01.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "1decf4553371a132a85c758f8b08e68a.json"
+    },
+    {
+      "name": "CZPowGate",
+      "filename": "aa95cf46a96199912709398514f2b059.json"
+    }
+  ]
+}

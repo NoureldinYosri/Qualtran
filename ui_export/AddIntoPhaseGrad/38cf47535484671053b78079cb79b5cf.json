@@ -1,0 +1,17 @@
+{
+  "name": "AddIntoPhaseGrad",
+  "attrs": {
+    "x_bitsize": 17,
+    "phase_bitsize": 18,
+    "right_shift": 1,
+    "sign": 1,
+    "controlled_by": 1
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

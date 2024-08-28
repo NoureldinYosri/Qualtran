@@ -1,0 +1,59 @@
+{
+  "name": "QROM",
+  "attrs": {
+    "data_or_shape": [
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE"
+    ],
+    "selection_bitsizes": [
+      12
+    ],
+    "target_bitsizes": [
+      1,
+      1,
+      9,
+      9,
+      10
+    ],
+    "target_shapes": [
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ]
+    ],
+    "num_controls": 0
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "And",
+      "filename": "10122d57e505631155928c58bce4fddd.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "And",
+      "filename": "3be7f9c94e46dfea4642fe777130f638.json"
+    },
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

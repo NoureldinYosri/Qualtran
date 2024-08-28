@@ -1,0 +1,19 @@
+Trivial block encoding of a unitary operator.
+
+Builds the block encoding as
+$
+    B[U] = U
+$
+where $U$ is a unitary operator. Here, $B[U]$ is a $(1, 0, 0)$-block encoding of $U$.
+
+#### Parameters
+ - `U`: The unitary operator to block-encode.
+ - `alpha`: The normalization factor (default 1).
+ - `ancilla_bitsize`: The number of ancilla bits (default 0).
+ - `resource_bitsize`: The number of resource bits (default 0).
+ - `epsilon`: The precision parameter (default 0). 
+
+#### Registers
+ - `system`: The system register.
+ - `ancilla`: The ancilla register (present only if bitsize > 0).
+ - `resource`: The resource register (present only if bitsize > 0).

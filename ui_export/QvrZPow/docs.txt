@@ -1,0 +1,28 @@
+QVR oracle that applies a ZPow rotation to every qubit in the n-bit cost register.
+
+This phase oracle simply applies a $Z^{2^{k}}$ rotation to every qubit in the cost register.
+To obtain a desired accuracy of $\epsilon$, each individual rotation is synthesized with
+accuracy $\frac{\epsilon}{n}$, where $n$ is the size of cost register.
+
+The toffoli cost of this method scales as
+
+$$
+    \text{T-Cost} \approxeq \mathcal{O}\left(n \log{\frac{n}{\epsilon}} \right)
+$$
+
+Note that when $n$ is large, we can ignore small angle rotations s.t. number of rotations to
+synthesize $\leq \log{\left(\frac{2\pi \gamma}{\epsilon}\right)}$
+
+Thus, the T-cost scales as
+
+$$\begin{aligned}
+\text{T-Cost} &\approxeq \mathcal{O}\left(n \log{\frac{n}{\epsilon}} \right) \\
+          &\approxeq \mathcal{O}\left(\log^2{\frac{1}{\epsilon}}
+           + \log{\left(\frac{1}{\epsilon}\right)}
+             \log{\left(\log{\left(\frac{1}{\epsilon}\right)}\right)}\right)
+\end{aligned}$$
+
+#### Parameters
+ - `cost_reg`: Cost register of dtype `QFxp`. Supports arbitrary `QFxp` types, including signed and unsigned.
+ - `gamma`: Scaling factor to multiply the cost register by, before applying the phase. Can be arbitrary floating point number.
+ - `eps`: Precision for synthesizing the phases.

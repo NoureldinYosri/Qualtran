@@ -1,0 +1,26 @@
+{
+  "name": "Subtract",
+  "attrs": {
+    "a_dtype": {
+      "bitsize": "Symbol(n)"
+    },
+    "b_dtype": {
+      "bitsize": "Symbol(n)"
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "AddK",
+      "filename": "54a0d9342569853f63b4d9b737d1c6de.json"
+    },
+    {
+      "name": "Add",
+      "filename": "87066028a0dac4a85299fada4bcef2f9.json"
+    },
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

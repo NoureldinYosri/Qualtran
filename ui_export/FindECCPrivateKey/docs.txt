@@ -1,0 +1,39 @@
+Perform two phase estimations to break elliptic curve cryptography.
+
+This follows the strategy in Litinski 2023. We perform two phase estimations corresponding
+to `ECCAddR(R=P)` and `ECCAddR(R=Q)` for base point $P$ and public key $Q$.
+
+The first phase estimation projects us into a random eigenstate of the ECCAddR(R=P) operator
+which we index by the integer $c$. Per eq. 5 in the reference, these eigenstates take the form
+$$
+|\psi_c \rangle = \sum_j^{r-1} \omega^{cj}\ | [j]P \rangle  \\
+\omega = e^{2\pi i / r} \\
+[r] P = P
+$$
+
+This state is a simultaneous eigenstate of the second operator, `ECCAddR(R=Q)`. By
+the definition of the operator, acting it upon $|\psi_c\rangle$ gives:
+$$
+|\psi_c \rangle \rightarrow \sum_j w^{cj} | [j]P + Q \rangle\rangle
+$$
+
+The private key $k$ that we wish to recover relates the public key to the base point
+$$
+Q = [k] P
+$$
+so our simultaneous eigenstate can be equivalently written as
+$$
+\sum_j^{r-1} \omega^{cj} | [j+k] P \rangle \\
+= \omega^{-ck} |\psi_c \rangle
+$$
+
+Therefore, the measured result of the second phase estimation is $ck$. Since we have
+already measured the random index $c$, we can divide it out to recover the private key $k$.
+
+#### Parameters
+ - `n`: The bitsize of the elliptic curve points' x and y registers.
+ - `base_point`: The base point $P$ with unknown order $r$ such that $P = [r] P$.
+ - `public_key`: The public key $Q$ such that $Q = [k] P$ for private key $k$. 
+
+#### References
+ - [How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585). Litinski. 2023. Figure 4 (a).

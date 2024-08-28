@@ -1,0 +1,18 @@
+Controlled state preparation without entangled residual using Ry and Rz rotations from [1].
+
+Given a quantum state of which the list of coefficients $c_i$ is known
+$$
+    |\psi \rangle = \sum_{i=0}^{N-1}c_{i}|i\rangle
+$$
+this gate prepares $|\psi\rangle$ from $|0\rangle$ conditioned by a control qubit
+$$
+    U((|0\rangle + |1\rangle)|0\rangle) = |0\rangle |0\rangle + |1\rangle |\psi\rangle.
+$$
+
+#### Parameters
+ - `phase_bitsize`: size of the register that is used to store the rotation angles. Bigger values increase the accuracy of the results.
+ - `state_coefficients`: tuple of length 2^state_bitsizes that contains the complex coefficients of the state.
+ - `control_bitsize`: number of qubits of the control register. Set to zero for an uncontrolled gate. 
+
+#### References
+ - [Trading T-gates for dirty qubits in state preparation and unitary synthesis](https://arxiv.org/abs/1812.00954). Low, Kliuchnikov, Schaeffer. 2018.

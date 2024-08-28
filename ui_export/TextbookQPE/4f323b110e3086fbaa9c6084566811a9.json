@@ -1,0 +1,342 @@
+{
+  "name": "TextbookQPE",
+  "attrs": {
+    "unitary": {
+      "exponent": 0.468,
+      "global_shift": 0.0,
+      "eps": 1e-11
+    },
+    "m_bits": 3,
+    "ctrl_state_prep": {
+      "n": 3,
+      "gate": {}
+    },
+    "qft_inv": {
+      "subbloq": {
+        "bitsize": 3,
+        "with_reverse": true
+      }
+    }
+  },
+  "score": {
+    "max_x": 7,
+    "max_y": 4,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "qpe_reg/QFxp(3, 3)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,qpe_reg,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q/QBit()",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,q,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a023"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 4,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 3,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": "NOT_SERIALIZABLE"
+        },
+        "y": 4,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Z**0.468"
+        },
+        "y": 1,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "@^2"
+        },
+        "y": 3,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Z^2"
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "@^4"
+        },
+        "y": 2,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Z^4"
+        },
+        "y": 1,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 2,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 3,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 4,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QFTTextBook"
+        },
+        "y": 0,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "qpe_reg/QFxp(3, 3)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "dang,qpe_reg,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q/QBit()",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "dang,q,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 0,
+        "seq_x_start": 5,
+        "seq_x_end": 7
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 7
+      },
+      {
+        "y": 2,
+        "seq_x_start": 1,
+        "seq_x_end": 5
+      },
+      {
+        "y": 3,
+        "seq_x_start": 1,
+        "seq_x_end": 5
+      },
+      {
+        "y": 4,
+        "seq_x_start": 1,
+        "seq_x_end": 5
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 4,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 4,
+        "bottom_y": 1,
+        "label": {
+          "text": "C[Z**0.468]",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 3,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 2,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 4,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "QFTTextBook\u2020",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "09e5cff3b4da47fb5e641a1ceefa83a1.json"
+    },
+    {
+      "name": "OnEach",
+      "filename": "a73676b16ce5cd0bdaf327793c9d52c2.json"
+    },
+    {
+      "name": "Controlled",
+      "filename": "a3aa271c48119e5b85ca902107d60066.json"
+    }
+  ]
+}

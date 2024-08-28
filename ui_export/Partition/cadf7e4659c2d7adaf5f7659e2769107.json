@@ -1,0 +1,17 @@
+{
+  "name": "Partition",
+  "attrs": {
+    "n": 1,
+    "regs": [
+      {
+        "name": "y",
+        "dtype": {},
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "partition": true
+  },
+  "score": null,
+  "callees": []
+}

@@ -1,0 +1,1 @@
+Applies U_a|x>|z> = |x> |z ^ (x < a)>

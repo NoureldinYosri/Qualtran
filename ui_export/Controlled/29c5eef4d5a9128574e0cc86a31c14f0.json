@@ -1,0 +1,16 @@
+{
+  "name": "Controlled",
+  "attrs": {
+    "subbloq": {},
+    "ctrl_spec": {
+      "qdtypes": [
+        {}
+      ],
+      "cvs": [
+        "NOT_SERIALIZABLE"
+      ]
+    }
+  },
+  "score": null,
+  "callees": []
+}

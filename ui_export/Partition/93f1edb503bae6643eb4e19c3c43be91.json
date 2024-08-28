@@ -1,0 +1,83 @@
+{
+  "name": "Partition",
+  "attrs": {
+    "n": 12,
+    "regs": [
+      {
+        "name": "U",
+        "dtype": {
+          "bitsize": 1,
+          "iteration_length": 2
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "V",
+        "dtype": {
+          "bitsize": 1,
+          "iteration_length": 2
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "p_x",
+        "dtype": {
+          "bitsize": 2,
+          "iteration_length": 3
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "p_y",
+        "dtype": {
+          "bitsize": 2,
+          "iteration_length": 3
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "alpha",
+        "dtype": {
+          "bitsize": 1,
+          "iteration_length": 2
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "q_x",
+        "dtype": {
+          "bitsize": 2,
+          "iteration_length": 3
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "q_y",
+        "dtype": {
+          "bitsize": 2,
+          "iteration_length": 3
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "beta",
+        "dtype": {
+          "bitsize": 1,
+          "iteration_length": 2
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "partition": true
+  },
+  "score": null,
+  "callees": []
+}

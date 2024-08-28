@@ -1,0 +1,24 @@
+{
+  "name": "AddScaledValIntoPhaseReg",
+  "attrs": {
+    "x_dtype": {
+      "bitsize": 3,
+      "num_frac": 0,
+      "signed": false
+    },
+    "phase_bitsize": 35,
+    "gamma": 0.7853981633974483,
+    "gamma_dtype": {
+      "bitsize": "NOT_SERIALIZABLE",
+      "num_frac": 39,
+      "signed": false
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "AddIntoPhaseGrad",
+      "filename": "429e7c02c264749af5ef9d7f2ea2e6ce.json"
+    }
+  ]
+}

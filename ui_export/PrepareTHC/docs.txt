@@ -1,0 +1,43 @@
+State Preparation for THC Hamilontian.
+
+Prepares the state
+
+$$
+    \frac{1}{\sqrt{\lambda}}|+\rangle|+\rangle\left[
+        \sum_\ell^{N/2} \sqrt{t_\ell}|\ell\rangle|M+1\rangle
+        + \frac{1}{\sqrt{2}} \sum_{\mu\le\nu}^M \sqrt{\zeta_{\mu\nu}} |\mu\rangle|\nu\rangle
+    \right].
+$$
+
+Note we use UniformSuperpositionTHC as a subroutine as part of this bloq in
+contrast to the reference which keeps them separate.
+
+#### Parameters
+ - `num_mu`: THC auxiliary index dimension $M$
+ - `num_spin_orb`: number of spin orbitals $N$
+ - `alt_mu`: Alternate values for mu indices.
+ - `alt_nu`: Alternate values for nu indices.
+ - `alt_theta`: Alternate values for theta indices.
+ - `theta`: Signs of lcu coefficients.
+ - `keep`: keep values.
+ - `keep_bitsize`: number of bits for keep register for coherent alias sampling. 
+
+#### Registers
+ - `mu`: $\mu$ register.
+ - `nu`: $\nu$ register.
+ - `plus_mn`: plus state for controlled swaps on mu/nu.
+ - `plus_a / plus_b`: plus state for controlled swaps on spins.
+ - `sigma`: ancilla register for alias sampling.
+ - `rot`: ancilla register for rotation for uniform superposition state.
+ - `succ`: success flag qubit from uniform state preparation
+ - `nu_eq_mp1`: flag for if $nu = M+1$
+ - `theta`: sign register.
+ - `s`: Contiguous index register.
+ - `alt_mn`: Register to store alt mu and nu values.
+ - `alt_theta`: Register for alternate theta values.
+ - `keep`: keep_bitsize-sized register for the keep values from coherent alias sampling.
+ - `less_than`: Single qubit ancilla for alias sampling.
+ - `extra_ctrl`: An extra control register for producing a multi-controlled CSwap. 
+
+#### References
+ - [Even more efficient quantum computations of chemistry through     tensor hypercontraction](https://arxiv.org/pdf/2011.03494.pdf). Fig. 2 and Fig. 3.

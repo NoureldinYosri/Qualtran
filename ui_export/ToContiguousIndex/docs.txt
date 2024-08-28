@@ -1,0 +1,20 @@
+Build a contiguous register s from mu and nu.
+
+$$
+    s = \nu (\nu + 1) / 2 + \mu
+$$
+
+Assuming nu is zero indexed (in contrast to the THC paper which assumes 1,
+hence the slightly different formula).
+
+#### Parameters
+ - `bitsize`: number of bits for mu and nu registers.
+ - `s_bitsize`: Number of bits for contiguous register. 
+
+#### Registers
+ - `mu`: input register
+ - `nu`: input register
+ - `s`: output contiguous register 
+
+#### References
+ - [Even more efficient quantum computations of chemistry through tensor hypercontraction](https://arxiv.org/pdf/2011.03494.pdf). Eq. 29.

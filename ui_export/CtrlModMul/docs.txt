@@ -1,0 +1,10 @@
+Perform controlled `x *= k mod m` for constant k, m and variable x.
+
+#### Parameters
+ - `k`: The integer multiplicative constant.
+ - `mod`: The integer modulus.
+ - `bitsize`: The size of the `x` register. 
+
+#### Registers
+ - `ctrl`: The control bit
+ - `x`: The integer being multiplied

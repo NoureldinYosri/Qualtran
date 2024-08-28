@@ -1,0 +1,26 @@
+{
+  "name": "ModInv",
+  "attrs": {
+    "n": "Symbol(n)",
+    "mod": "Symbol(p)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "AddK",
+      "filename": "2d524db5521dc5ce95d25d17d3002616.json"
+    },
+    {
+      "name": "Negate",
+      "filename": "a342a5189b3a0b449c4d4033872be5eb.json"
+    },
+    {
+      "name": "Swap",
+      "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+    },
+    {
+      "name": "_ModInvInner",
+      "filename": "87a5629e87bd5d5b4c5726c235c1e32a.json"
+    }
+  ]
+}

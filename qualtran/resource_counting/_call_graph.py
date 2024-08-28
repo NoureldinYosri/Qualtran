@@ -116,7 +116,7 @@ def get_bloq_callee_counts(
 
     try:
         return _generalize_callees(bloq.build_call_graph(ssa), cast(GeneralizerT, generalizer))
-    except (DecomposeNotImplementedError, DecomposeTypeError):
+    except (DecomposeNotImplementedError, DecomposeTypeError, ValueError):
         return []
 
 

@@ -1,0 +1,218 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "selection_bitsizes": [
+        1
+      ],
+      "target_bitsize": 1,
+      "n_target_registers": [
+        2
+      ]
+    }
+  },
+  "score": {
+    "max_x": 3,
+    "max_y": 3,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "selection/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,selection,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "targets[0]/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,targets,l,(0,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "targets[1]/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,targets,l,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "@(approx)"
+        },
+        "y": 3,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(x)"
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(y)"
+        },
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "selection/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "dang,selection,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "targets[0]/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "dang,targets,r,(0,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "targets[1]/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "dang,targets,r,(1,)"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 0
+      },
+      {
+        "y": 0,
+        "seq_x_start": 2,
+        "seq_x_end": 3
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      },
+      {
+        "y": 3,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 3,
+        "bottom_y": 1,
+        "label": {
+          "text": "CSwapApprox\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "14f2d8e3574a677f54ccbfc0a20629b2.json"
+    }
+  ]
+}

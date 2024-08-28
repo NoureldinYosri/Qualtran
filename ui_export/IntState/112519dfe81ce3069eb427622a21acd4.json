@@ -1,0 +1,15 @@
+{
+  "name": "IntState",
+  "attrs": {
+    "val": 1,
+    "bitsize": 2048,
+    "state": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "ArbitraryClifford",
+      "filename": "20d6f52b0024becd1771674771d26d6a.json"
+    }
+  ]
+}

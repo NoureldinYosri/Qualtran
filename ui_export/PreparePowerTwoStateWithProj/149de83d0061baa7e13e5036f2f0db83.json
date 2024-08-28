@@ -1,0 +1,15 @@
+{
+  "name": "PreparePowerTwoStateWithProj",
+  "attrs": {
+    "bitsize_n": 8,
+    "bitsize_p": 6,
+    "is_adjoint": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

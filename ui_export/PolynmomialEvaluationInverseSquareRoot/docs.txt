@@ -1,0 +1,12 @@
+Bloq to evaluate a polynomial approximation to inverse Square root from QROM.
+
+#### Parameters
+ - `in_bitsize`: The number of bits encoding the input registers.
+ - `out_bitsize`: The number of bits encoding the input registers. 
+
+#### Registers
+ - `in_c{0,1,2,3}`: QROM input containing the 4 polynomial coefficients.
+ - `out`: Output register to store polynomial approximation to inverse square root. 
+
+#### References
+ - [Quantum computation of stopping power for inertial fusion target design](     https://arxiv.org/pdf/2308.12352.pdf)

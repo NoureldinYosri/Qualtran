@@ -1,0 +1,9 @@
+{
+  "name": "Rz",
+  "attrs": {
+    "angle": 0.04,
+    "eps": 1e-10
+  },
+  "score": null,
+  "callees": []
+}

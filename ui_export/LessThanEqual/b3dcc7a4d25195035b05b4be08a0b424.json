@@ -1,0 +1,26 @@
+{
+  "name": "LessThanEqual",
+  "attrs": {
+    "x_bitsize": "NOT_SERIALIZABLE",
+    "y_bitsize": "NOT_SERIALIZABLE"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "BiQubitsMixer",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    },
+    {
+      "name": "SingleQubitCompare",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    },
+    {
+      "name": "BiQubitsMixer",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    },
+    {
+      "name": "SingleQubitCompare",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    }
+  ]
+}

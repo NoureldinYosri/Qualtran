@@ -1,0 +1,10 @@
+{
+  "name": "CZPowGate",
+  "attrs": {
+    "exponent": -3.0517578125e-05,
+    "global_shift": 0.0,
+    "eps": 5.5555555555555555e-12
+  },
+  "score": null,
+  "callees": []
+}

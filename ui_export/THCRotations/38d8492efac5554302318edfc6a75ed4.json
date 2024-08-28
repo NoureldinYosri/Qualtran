@@ -1,0 +1,19 @@
+{
+  "name": "THCRotations",
+  "attrs": {
+    "num_mu": 10,
+    "num_spin_orb": 8,
+    "num_bits_theta": 12,
+    "kr1": 1,
+    "kr2": 1,
+    "two_body_only": false,
+    "is_adjoint": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

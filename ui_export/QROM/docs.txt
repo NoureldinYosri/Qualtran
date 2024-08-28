@@ -1,0 +1,33 @@
+Bloq to load `data[l]` in the target register when the selection stores an index `l`.
+
+See docstrings of `QROMBase` for an overview of the QROM primitive and the various attributes.
+
+This bloq is an implementation of the `QROMBase` interface that uses the unary iteration based
+approach described in Ref [1].
+
+## Cost of this (unary iteration based) QROM
+
+### T / Toffoli cost
+The T/Toffoli cost of this QROM scales linearly with the product of iteration lengths over
+all dimensions (i.e. $\mathcal{O}(\mathrm{np.prod(\text{selection\_shape})}$).
+
+### Clifford Cost
+To load a classical dataset into a target register of bitsize $b$ and shape
+$\text{target\_shape}$, the clifford cost of this QROM scales as
+$\mathcal{O}(b \cdot \text{np.prod(selection\_shape+target\_shape)})
+=\mathcal{O}(b \cdot \text{np.prod(data.shape)})$. This is because we need $\mathcal{O}(b)$
+CNOT gates to load 1 classical data element in the target register and for each of the
+$\text{np.prod(selection\_shape)}$ selection indices, we have $\text{np.prod(target\_shape)}$
+such data elements to load.
+
+### Ancilla cost
+The number of clean ancilla required by this QROM scales linearly with the size of the
+selection registers + number of controls.
+
+## Variable spaced QROM
+When the input classical data contains consecutive entries of identical data elements to
+load, the QROM also implements the "variable-spaced" QROM optimization described in Ref [2].
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662).     Babbush et. al. (2018). Figure 1.
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](https://arxiv.org/abs/2007.07391).     Babbush et. al. (2020). Figure 3.

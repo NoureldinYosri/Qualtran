@@ -1,0 +1,34 @@
+{
+  "name": "TensorProduct",
+  "attrs": {
+    "block_encodings": [
+      {
+        "U": {
+          "is_adjoint": false
+        },
+        "alpha": "Symbol(alpha1)",
+        "ancilla_bitsize": "Symbol(a1)",
+        "resource_bitsize": 0,
+        "epsilon": "Symbol(eps1)"
+      },
+      {
+        "U": {},
+        "alpha": "Symbol(alpha2)",
+        "ancilla_bitsize": "Symbol(a2)",
+        "resource_bitsize": 0,
+        "epsilon": "Symbol(eps2)"
+      }
+    ]
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Unitary",
+      "filename": "9ee29a4eb29dde6f7c956ddc18f97828.json"
+    },
+    {
+      "name": "Unitary",
+      "filename": "4aa4805209d32679fe0e6eaa7fe1de6a.json"
+    }
+  ]
+}

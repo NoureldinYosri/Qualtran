@@ -1,0 +1,8 @@
+Add a single-qubit (unparameterized) bloq on each of n qubits.
+
+#### Parameters
+ - `n`: the number of qubits to add the bloq to.
+ - `gate`: A single qubit gate. The single qubit register must be named q. 
+
+#### Registers
+ - `- q`: an n-qubit register.

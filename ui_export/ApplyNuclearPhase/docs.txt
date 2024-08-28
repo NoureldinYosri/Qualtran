@@ -1,0 +1,13 @@
+Apply the phase factor $-e^{-ik_\nu\cdot R_\ell}$ to the state.
+
+#### Parameters
+ - `num_bits_p`: Number of bits for the momentum register.
+ - `num_bits_nuc`: Number of bits of precision for the nuclear positions. 
+
+#### Registers
+ - `l`: A register indexing the nuclear positions.
+ - `rl`: A register storing the value of $R_\ell$.
+ - `nu`: The momentum transfer register. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). pg 25, paragraph 2.

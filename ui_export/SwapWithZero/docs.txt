@@ -1,0 +1,15 @@
+Swaps $|\Psi_0\rangle$ with $|\Psi_x\rangle$ if selection register stores index `x`.
+
+Implements the unitary
+$$
+U |x\rangle |\Psi_0\rangle |\Psi_1\rangle \dots \Psi_{M-1}\rangle \rightarrow
+  |x\rangle |\Psi_x\rangle |\text{Rest of } \Psi\rangle$
+$$
+Note that the state of $|\text{Rest of } \Psi\rangle$ is allowed to be anything and
+should not be depended upon.
+
+Also supports the multidimensional version where $|x\rangle$ can be an n-dimensional index
+of the form $|x_1\rangle|x_2\rangle \dots |x_n\rangle$
+
+#### References
+ - [Trading T-gates for dirty qubits in state preparation and unitary synthesis](https://arxiv.org/abs/1812.00954). Low, Kliuchnikov, Schaeffer. 2018.

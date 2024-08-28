@@ -1,0 +1,20 @@
+{
+  "name": "ProgRotGateArray",
+  "attrs": {
+    "num_aux": 50,
+    "num_spin_orb": 10,
+    "num_eig": 250,
+    "num_bits_rot": 7
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "QROAM",
+      "filename": "f453501958765aff02e5a97ec69ec188.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

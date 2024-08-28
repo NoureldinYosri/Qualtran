@@ -1,0 +1,4 @@
+The identity gate on one qubit.
+
+#### Registers
+ - `q`: The qubit

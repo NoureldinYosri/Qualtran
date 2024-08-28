@@ -1,0 +1,9 @@
+An identity PrepareOracle.
+
+This is helpful for creating a reflection about zero and as a signal state for block encodings.
+
+#### Parameters
+ - `selection_regs`: The selection registers for state prepareation. These are the incilla the state will be prepared over. 
+
+#### Registers
+ - `selection_registers`: The selection registers.

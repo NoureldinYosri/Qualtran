@@ -1,0 +1,12 @@
+Applies U(add, M)|x> = |(x + add) % M> if x < M else |x>.
+
+Applies modular addition to input register `|x>` given parameters `mod` and `add_val` s.t.
+ 1. If integer `x` < `mod`: output is `|(x + add) % M>`
+ 2. If integer `x` >= `mod`: output is `|x>`.
+
+This condition is needed to ensure that the mapping of all input basis states (i.e. input
+states |0>, |1>, ..., |2 ** bitsize - 1) to corresponding output states is bijective and thus
+the gate is reversible.
+
+Also supports controlled version of the gate by specifying a per qubit control value as a tuple
+of integers passed as `cvs`.

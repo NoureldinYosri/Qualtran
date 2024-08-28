@@ -1,0 +1,12 @@
+{
+  "name": "Split",
+  "attrs": {
+    "dtype": {
+      "bitsize": 16,
+      "num_frac": 16,
+      "signed": false
+    }
+  },
+  "score": null,
+  "callees": []
+}

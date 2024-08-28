@@ -1,0 +1,25 @@
+Inner prepare for THC block encoding.
+
+Prepares the state in Eq. B11 of Ref [1].
+
+Currently we only provide costs as listed in Ref[1] without their corresponding decompositions.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for single factorized Hamiltonian. Call L in Ref[1].
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called aleph (fancy N) in Ref[1].
+ - `num_bits_rot_aa`: Number of bits of precision for rotations for amplitude amplification in uniform state preparation. Called b_r in Ref[1].
+ - `kp1`: qroam blocking factor for data indexed by the first register. ($l$ in this case)
+ - `kp2`: qroam blocking factor for data indexed by the second register. ($p, q$ in this case (these are made into a contiguous register.)) 
+
+#### Registers
+ - `l`: register to store L values for auxiliary index.
+ - `p`: spatial orbital index. range(0, num_spin_orb // 2)
+ - `q`: spatial orbital index. range(0, num_spin_orb // 2)
+ - `succ_pq`: flag for success of this state preparation. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494) Appendix B. Listing 2, page 44.
+    [Qubitization of Arbitrary Basis Quantum Chemistry Leveraging Sparsity
+    and Low Rank Factorization](https://quantum-journal.org/papers/q-2019-12-02-208/) Sec. 3.2

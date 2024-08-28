@@ -1,0 +1,13 @@
+{
+  "name": "QuantumVariableRotation",
+  "attrs": {
+    "phi_bitsize": 14
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Rz",
+      "filename": "f1ca4ee1a84262d2c903e237afbec916.json"
+    }
+  ]
+}

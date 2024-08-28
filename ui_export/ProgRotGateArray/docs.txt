@@ -1,0 +1,20 @@
+Rotate to/from MO basis so-as-to apply number operators in DF basis.
+
+An actual implementation of should derive from ProgrammableRotationGateArray.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for double factorized Hamiltonian. Called L in Ref[1].
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `num_eig`: The total number of eigenvalues.
+ - `num_bits_rot`: Number of bits of precision for rotations amplification in uniform state preparation. Called $\beth$ in Ref[1]. 
+
+#### Registers
+ - `offset`: Offset for p register.
+ - `p`: Register for inner state preparation. This is of size $\ceil \log (L \Xi + N / 2)$.
+ - `rotatations`: Data register storing rotations.
+ - `spin_sel`: A single qubit register for spin.
+ - `sys`: The system register. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494). Step 4. Page 53.

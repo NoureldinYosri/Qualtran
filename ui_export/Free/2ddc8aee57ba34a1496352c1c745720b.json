@@ -1,0 +1,10 @@
+{
+  "name": "Free",
+  "attrs": {
+    "dtype": {
+      "bitsize": 20
+    }
+  },
+  "score": null,
+  "callees": []
+}

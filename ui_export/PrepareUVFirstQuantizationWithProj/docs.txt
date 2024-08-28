@@ -1,0 +1,20 @@
+PREPARE the U and V parts of the Hamiltonian.
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register.
+ - `num_bits_n`: The number of bits to represent each dimension of the momentum register for the projectile.
+ - `eta`: The number of electrons.
+ - `num_atoms`: The number of atoms. $L$ in the reference.
+ - `m_param`: $\mathcal{M}$ in the reference.
+ - `lambda_zeta`: sum of nuclear charges.
+ - `num_bits_nuc_pos`: The number of bits of precision for representing the nuclear coordinates. 
+
+#### Registers
+ - `mu`: The state controlling the nested boxes procedure.
+ - `nu`: The momentum transfer register.
+ - `m`: an ancilla register in a uniform superposition.
+ - `l`: The register for atomic species.
+ - `flag_nu`: Flag for success of the state preparation. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 19, section B

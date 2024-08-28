@@ -1,0 +1,19 @@
+Bloq implementing the hubbard U part of the hamiltonian.
+
+Specifically:
+$$
+    U_I = e^{i t H_I}
+$$
+which can be implemented using equal angle single-qubit Z rotations.
+
+#### Parameters
+ - `length`: Lattice length $L$.
+ - `angle`: The prefactor scaling the Hopping hamiltonian in the unitary (`t` above). This should contain any relevant prefactors including the time step and any splitting coefficients.
+ - `hubb_u`: The hubbard $U$ parameter.
+ - `eps`: The precision of the single qubit rotations. 
+
+#### Registers
+ - `system`: The system register of size 2 `length`. 
+
+#### References
+ - [Early fault-tolerant simulations of the Hubbard model](https://arxiv.org/abs/2012.09238). Eq. 6 page 2 and page 13 paragraph 1.

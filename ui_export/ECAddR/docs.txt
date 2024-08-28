@@ -1,0 +1,23 @@
+Perform elliptic curve addition of constant `R`.
+
+Given the constant elliptic curve point $R$ and an input point $A$
+factored into the `x` and `y` registers such that $|A\rangle = |(a_x,a_y)\rangle$,
+this bloq takes
+
+$$
+|A\rangle \rightarrow |A+R\rangle
+$$
+
+#### Parameters
+ - `n`: The bitsize of the two registers storing the elliptic curve point.
+ - `R`: The elliptic curve point to add. 
+
+#### Registers
+ - `ctrl`: A control bit.
+ - `x`: The x component of the input elliptic curve point of bitsize `n`.
+ - `y`: The y component of the input elliptic curve point of bitsize `n`. 
+
+#### References
+ - [How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585). Litinski. 2023. Section 1, eq. (3) and (4).
+ - [Quantum resource estimates for computing elliptic curve discrete logarithms](https://arxiv.org/abs/1706.06752). Roetteler et. al. 2017. Algorithm 1 and Figure 10.
+ - [https://github.com/microsoft/QuantumEllipticCurves/blob/dbf4836afaf7a9fab813cbc0970e65af85a6f93a/MicrosoftQuantumCrypto/EllipticCurves.qs#L456](QuantumQuantumCrypto). `DistinctEllipticCurveClassicalPointAddition`.

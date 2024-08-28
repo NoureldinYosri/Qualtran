@@ -1,0 +1,10 @@
+{
+  "name": "ZPowGate",
+  "attrs": {
+    "exponent": "NOT_SERIALIZABLE",
+    "global_shift": -1,
+    "eps": "NOT_SERIALIZABLE"
+  },
+  "score": null,
+  "callees": []
+}

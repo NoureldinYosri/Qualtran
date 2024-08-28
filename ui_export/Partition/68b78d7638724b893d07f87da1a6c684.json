@@ -1,0 +1,19 @@
+{
+  "name": "Partition",
+  "attrs": {
+    "n": 2,
+    "regs": [
+      {
+        "name": "temp",
+        "dtype": {
+          "bitsize": 2
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "partition": true
+  },
+  "score": null,
+  "callees": []
+}

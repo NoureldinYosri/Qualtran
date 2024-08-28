@@ -1,0 +1,18 @@
+A controlled SELECT operation for single-qubit gates.
+
+$$
+\mathrm{SELECT} = \sum_{l}|l \rangle \langle l| \otimes [G(l)]_l
+$$
+
+Where $G$ is a function that maps an index to a single-qubit gate.
+
+This gate uses the unary iteration scheme to apply `nth_gate(selection)` to the
+`selection`-th qubit of `target` all controlled by the `control` register.
+
+#### Parameters
+ - `selection_regs`: Indexing `select` signature of type Tuple[`Register`, ...]. It also contains information about the iteration length of each selection register.
+ - `nth_gate`: A function mapping the composite selection index to a single-qubit gate.
+ - `control_regs`: Control signature for constructing a controlled version of the gate. 
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662). Babbush et. al. (2018). Section III.A. and Figure 7.

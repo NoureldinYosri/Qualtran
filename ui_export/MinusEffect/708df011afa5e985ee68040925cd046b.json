@@ -1,0 +1,10 @@
+{
+  "name": "MinusEffect",
+  "attrs": {
+    "bit": true,
+    "state": false,
+    "n": 1
+  },
+  "score": null,
+  "callees": []
+}

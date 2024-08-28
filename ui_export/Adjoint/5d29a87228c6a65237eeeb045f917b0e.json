@@ -1,0 +1,11 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "bitsize": "NOT_SERIALIZABLE",
+      "with_reverse": true
+    }
+  },
+  "score": null,
+  "callees": []
+}

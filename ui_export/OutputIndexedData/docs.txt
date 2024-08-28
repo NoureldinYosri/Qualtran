@@ -1,0 +1,24 @@
+Output data indexed by outer index $l$ needed for inner preparation.
+
+We need to output $\Xi^{(l)}$ with $n_{\Xi}$ bits and the amplitude
+amplification angles with $b_r$ bits for the inner state preparation. We
+also output an offset with $n_{L\Xi}$ bits. The offset will be used to help
+index a contiguous register formed from $l$ and $k$.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for double factorized Hamiltonian. Called L in Ref[1].
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `num_eig`: Total number of eigenvalues.
+ - `num_bits_rot_aa`: Number of bits of precision for single qubit rotation for amplitude amplification.  Called $b_r$ in the reference. 
+
+#### Registers
+ - `l`: register to store L values for auxiliary index.
+ - `l_ne_zero`: flag for one-body term.
+ - `xi`: rank for each l
+ - `rot`: rotation for amplitude amplification.
+ - `offset`: offset for each DF factor. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494)
+        Appendix C, page 52. Step 2.

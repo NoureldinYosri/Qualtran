@@ -1,0 +1,400 @@
+{
+  "name": "IsingZZUnitary",
+  "attrs": {
+    "nsites": 3,
+    "angle": 0.04,
+    "eps": 1e-10
+  },
+  "score": {
+    "max_x": 11,
+    "max_y": 3,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(3)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,system,l,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 1,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 2,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 3,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Rz(0.012732395447351628\u03c0)"
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 3,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Rz(0.012732395447351628\u03c0)"
+        },
+        "y": 3,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 3,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 1,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Rz(0.012732395447351628\u03c0)"
+        },
+        "y": 1,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 1,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 1,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 3,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 2,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(3)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "dang,system,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 0
+      },
+      {
+        "y": 0,
+        "seq_x_start": 10,
+        "seq_x_end": 11
+      },
+      {
+        "y": 1,
+        "seq_x_start": 0,
+        "seq_x_end": 10
+      },
+      {
+        "y": 2,
+        "seq_x_start": 0,
+        "seq_x_end": 10
+      },
+      {
+        "y": 3,
+        "seq_x_start": 0,
+        "seq_x_end": 10
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 2,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 2,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 3,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 3,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 3,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 1,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 3,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Rz",
+      "filename": "bc7acf32ba307543f6db7f8592c7b231.json"
+    },
+    {
+      "name": "Split",
+      "filename": "3dcc0bd2f367bb51df15ea86cbd217f6.json"
+    },
+    {
+      "name": "Join",
+      "filename": "3dcc0bd2f367bb51df15ea86cbd217f6.json"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Unitary",
+  "attrs": {
+    "U": {
+      "is_adjoint": false
+    },
+    "alpha": 0.5,
+    "ancilla_bitsize": 2,
+    "resource_bitsize": 1,
+    "epsilon": 0.01
+  },
+  "score": {
+    "max_x": 1,
+    "max_y": 2,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,system,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ancilla/QAny(2)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,ancilla,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "resource/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,resource,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "system"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,system,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,system,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ancilla/QAny(2)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,ancilla,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "resource/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,resource,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "T",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "TGate",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    }
+  ]
+}

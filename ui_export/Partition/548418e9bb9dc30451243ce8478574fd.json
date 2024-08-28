@@ -1,0 +1,30 @@
+{
+  "name": "Partition",
+  "attrs": {
+    "n": 49,
+    "regs": [
+      {
+        "name": "xx",
+        "dtype": {
+          "bitsize": 2
+        },
+        "_shape": [
+          2,
+          3
+        ],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "yy",
+        "dtype": {
+          "bitsize": 37
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "partition": true
+  },
+  "score": null,
+  "callees": []
+}

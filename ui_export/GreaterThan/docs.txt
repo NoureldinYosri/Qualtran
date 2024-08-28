@@ -1,0 +1,18 @@
+Compare two integers.
+
+Implements $U|a\rangle|b\rangle|0\rangle \rightarrow
+|a\rangle|b\rangle|a > b\rangle$ using $8n T$  gates.
+
+The bloq_counts and t_complexity are derived from equivalent qualtran gates
+assuming a clean decomposition which should yield identical costs.
+
+See: https://github.com/quantumlib/Qualtran/pull/381 and
+https://qualtran.readthedocs.io/en/latest/bloqs/comparison_gates.html
+
+#### Parameters
+ - `bitsize`: Number of bits used to represent the two integers a and b. 
+
+#### Registers
+ - `a`: n-bit-sized input registers.
+ - `b`: n-bit-sized input registers.
+ - `target`: A single bit output register to store the result of A > B.

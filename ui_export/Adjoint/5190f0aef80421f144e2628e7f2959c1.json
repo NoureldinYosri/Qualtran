@@ -1,0 +1,1333 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "num_mu": 450,
+      "num_spin_orb": 152
+    }
+  },
+  "score": {
+    "max_x": 35,
+    "max_y": 9,
+    "soqs": [
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "alloc"
+        },
+        "y": 5,
+        "seq_x": 0,
+        "topo_gen": 0,
+        "ident": "0,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "mu/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,mu,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,nu,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu_eq_mp1/QBit()",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,nu_eq_mp1,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "succ/QBit()",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,succ,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "rot/QBit()",
+          "fontsize": 8
+        },
+        "y": 4,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,rot,l,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 5,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 9,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 8,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 6,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 7,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 0,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "3,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x > 76)"
+        },
+        "y": 8,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "3,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 0,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "4,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 1,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "4,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 6,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "4,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 5,
+        "topo_gen": 3,
+        "ident": "6,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 5,
+        "topo_gen": 3,
+        "ident": "6,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 5,
+        "topo_gen": 3,
+        "ident": "6,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 1,
+        "seq_x": 6,
+        "topo_gen": 4,
+        "ident": "5,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<a)"
+        },
+        "y": 7,
+        "seq_x": 6,
+        "topo_gen": 4,
+        "ident": "5,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 7,
+        "seq_x": 7,
+        "topo_gen": 5,
+        "ident": "7,controls,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 7,
+        "topo_gen": 5,
+        "ident": "7,controls,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 9,
+        "seq_x": 7,
+        "topo_gen": 5,
+        "ident": "7,controls,Side.THRU,(2,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 3,
+        "seq_x": 7,
+        "topo_gen": 5,
+        "ident": "7,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 8,
+        "topo_gen": 6,
+        "ident": "8,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 8,
+        "topo_gen": 6,
+        "ident": "8,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 8,
+        "topo_gen": 6,
+        "ident": "8,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 0,
+        "seq_x": 9,
+        "topo_gen": 7,
+        "ident": "9,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x > 76)"
+        },
+        "y": 8,
+        "seq_x": 9,
+        "topo_gen": 7,
+        "ident": "9,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 1,
+        "seq_x": 10,
+        "topo_gen": 7,
+        "ident": "10,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x = 451)"
+        },
+        "y": 2,
+        "seq_x": 10,
+        "topo_gen": 7,
+        "ident": "10,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 0,
+        "seq_x": 11,
+        "topo_gen": 8,
+        "ident": "11,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 1,
+        "seq_x": 11,
+        "topo_gen": 8,
+        "ident": "11,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 6,
+        "seq_x": 11,
+        "topo_gen": 8,
+        "ident": "11,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 12,
+        "topo_gen": 8,
+        "ident": "19,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 12,
+        "topo_gen": 8,
+        "ident": "19,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 12,
+        "topo_gen": 8,
+        "ident": "19,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 1,
+        "seq_x": 13,
+        "topo_gen": 9,
+        "ident": "12,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<a)"
+        },
+        "y": 7,
+        "seq_x": 13,
+        "topo_gen": 9,
+        "ident": "12,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a029"
+        },
+        "y": 0,
+        "seq_x": 14,
+        "topo_gen": 9,
+        "ident": "14,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a029"
+        },
+        "y": 1,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "13,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 0,
+        "seq_x": 16,
+        "topo_gen": 11,
+        "ident": "15,reg0_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 16,
+        "topo_gen": 11,
+        "ident": "15,reg1_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 16,
+        "topo_gen": 11,
+        "ident": "15,reg2_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a029"
+        },
+        "y": 1,
+        "seq_x": 17,
+        "topo_gen": 12,
+        "ident": "16,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a029"
+        },
+        "y": 0,
+        "seq_x": 18,
+        "topo_gen": 12,
+        "ident": "17,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Ry(0.3846002349105602\u03c0)"
+        },
+        "y": 4,
+        "seq_x": 19,
+        "topo_gen": 12,
+        "ident": "18,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 1,
+        "seq_x": 20,
+        "topo_gen": 13,
+        "ident": "21,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x = 451)"
+        },
+        "y": 2,
+        "seq_x": 20,
+        "topo_gen": 13,
+        "ident": "21,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 0,
+        "seq_x": 21,
+        "topo_gen": 13,
+        "ident": "20,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x > 76)"
+        },
+        "y": 8,
+        "seq_x": 21,
+        "topo_gen": 13,
+        "ident": "20,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 0,
+        "seq_x": 22,
+        "topo_gen": 14,
+        "ident": "22,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 1,
+        "seq_x": 22,
+        "topo_gen": 14,
+        "ident": "22,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 6,
+        "seq_x": 22,
+        "topo_gen": 14,
+        "ident": "22,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 1,
+        "seq_x": 23,
+        "topo_gen": 15,
+        "ident": "23,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<a)"
+        },
+        "y": 7,
+        "seq_x": 23,
+        "topo_gen": 15,
+        "ident": "23,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 24,
+        "topo_gen": 16,
+        "ident": "24,reg0_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 24,
+        "topo_gen": 16,
+        "ident": "24,reg1_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 24,
+        "topo_gen": 16,
+        "ident": "24,reg2_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 9,
+        "seq_x": 24,
+        "topo_gen": 16,
+        "ident": "24,reg3_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 25,
+        "topo_gen": 17,
+        "ident": "25,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 25,
+        "topo_gen": 17,
+        "ident": "25,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 25,
+        "topo_gen": 17,
+        "ident": "25,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Ry(-0.3846002349105602\u03c0)"
+        },
+        "y": 4,
+        "seq_x": 26,
+        "topo_gen": 17,
+        "ident": "32,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 0,
+        "seq_x": 27,
+        "topo_gen": 18,
+        "ident": "26,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x > 76)"
+        },
+        "y": 8,
+        "seq_x": 27,
+        "topo_gen": 18,
+        "ident": "26,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In(x)"
+        },
+        "y": 1,
+        "seq_x": 28,
+        "topo_gen": 18,
+        "ident": "27,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2a01(x = 451)"
+        },
+        "y": 2,
+        "seq_x": 28,
+        "topo_gen": 18,
+        "ident": "27,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 0,
+        "seq_x": 29,
+        "topo_gen": 19,
+        "ident": "28,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 1,
+        "seq_x": 29,
+        "topo_gen": 19,
+        "ident": "28,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 6,
+        "seq_x": 29,
+        "topo_gen": 19,
+        "ident": "28,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 1,
+        "seq_x": 30,
+        "topo_gen": 20,
+        "ident": "29,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<a)"
+        },
+        "y": 7,
+        "seq_x": 30,
+        "topo_gen": 20,
+        "ident": "29,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a029"
+        },
+        "y": 0,
+        "seq_x": 31,
+        "topo_gen": 20,
+        "ident": "34,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 6,
+        "seq_x": 32,
+        "topo_gen": 21,
+        "ident": "30,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 7,
+        "seq_x": 32,
+        "topo_gen": 21,
+        "ident": "30,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 8,
+        "seq_x": 32,
+        "topo_gen": 21,
+        "ident": "30,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 9,
+        "seq_x": 32,
+        "topo_gen": 21,
+        "ident": "30,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 5,
+        "seq_x": 32,
+        "topo_gen": 21,
+        "ident": "30,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a029"
+        },
+        "y": 1,
+        "seq_x": 33,
+        "topo_gen": 21,
+        "ident": "33,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "free"
+        },
+        "y": 5,
+        "seq_x": 34,
+        "topo_gen": 22,
+        "ident": "31,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "mu/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 35,
+        "topo_gen": 22,
+        "ident": "dang,mu,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 35,
+        "topo_gen": 22,
+        "ident": "dang,nu,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu_eq_mp1/QBit()",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 35,
+        "topo_gen": 22,
+        "ident": "dang,nu_eq_mp1,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "succ/QBit()",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": 35,
+        "topo_gen": 22,
+        "ident": "dang,succ,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "rot/QBit()",
+          "fontsize": 8
+        },
+        "y": 4,
+        "seq_x": 35,
+        "topo_gen": 22,
+        "ident": "dang,rot,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 35
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 35
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 35
+      },
+      {
+        "y": 3,
+        "seq_x_start": -1,
+        "seq_x_end": 35
+      },
+      {
+        "y": 4,
+        "seq_x_start": -1,
+        "seq_x_end": 35
+      },
+      {
+        "y": 5,
+        "seq_x_start": 0,
+        "seq_x_end": 1
+      },
+      {
+        "y": 5,
+        "seq_x_start": 32,
+        "seq_x_end": 34
+      },
+      {
+        "y": 6,
+        "seq_x_start": 1,
+        "seq_x_end": 32
+      },
+      {
+        "y": 7,
+        "seq_x_start": 1,
+        "seq_x_end": 32
+      },
+      {
+        "y": 8,
+        "seq_x_start": 1,
+        "seq_x_end": 32
+      },
+      {
+        "y": 9,
+        "seq_x_start": 1,
+        "seq_x_end": 32
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 9,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "X",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 8,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 6,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 7,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 9,
+        "bottom_y": 3,
+        "label": {
+          "text": "MultiControlPauli\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 8,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 2,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 11,
+        "top_y": 6,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 12,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 13,
+        "top_y": 7,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 14,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 15,
+        "top_y": 1,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 16,
+        "top_y": 4,
+        "bottom_y": 0,
+        "label": {
+          "text": "ReflectionUsingPrepare\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 17,
+        "top_y": 1,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 18,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 19,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 20,
+        "top_y": 2,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 21,
+        "top_y": 8,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 22,
+        "top_y": 6,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 23,
+        "top_y": 7,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 24,
+        "top_y": 9,
+        "bottom_y": 4,
+        "label": {
+          "text": "ReflectionUsingPrepare\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 25,
+        "top_y": 9,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 26,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 27,
+        "top_y": 8,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 28,
+        "top_y": 2,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 29,
+        "top_y": 6,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 30,
+        "top_y": 7,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 31,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 32,
+        "top_y": 9,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 33,
+        "top_y": 1,
+        "bottom_y": 1,
+        "label": {
+          "text": "\u2020",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 34,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "d08772356ded30ec945beb614e3caf9f.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "20c4e439edda4f1f326a871f03a36f11.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "c5c87b88d6d9bdef3e5cca1c27c7d3cd.json"
+    },
+    {
+      "name": "LessThanEqual",
+      "filename": "b16695a1923b1948435ac1789e0ef2d6.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "5b526fc8e6198862ba0298bf39bc42c2.json"
+    },
+    {
+      "name": "Ry",
+      "filename": "0373f9043d8570d0418f61c10a511177.json"
+    },
+    {
+      "name": "Free",
+      "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "a4a2b7c1b871f11a7757c192cc9f692a.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Join",
+      "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "13023716635fdad8340252db0f2bcb10.json"
+    },
+    {
+      "name": "Split",
+      "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+    },
+    {
+      "name": "Allocate",
+      "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "d503451e56dbf6b6ec203a8835150838.json"
+    },
+    {
+      "name": "Ry",
+      "filename": "ac97914616d589b4c481cbd7e63e4ea7.json"
+    }
+  ]
+}

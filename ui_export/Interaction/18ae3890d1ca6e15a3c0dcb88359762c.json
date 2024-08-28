@@ -1,0 +1,16 @@
+{
+  "name": "Interaction",
+  "attrs": {
+    "length": 8,
+    "angle": 0.5,
+    "hubb_u": 4.0,
+    "eps": 1e-09
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Rz",
+      "filename": "f871b261549c709686f3870d3f078543.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ModAddK",
+  "attrs": {
+    "bitsize": "Symbol(n)",
+    "mod": "Symbol(m)",
+    "add_val": "Symbol(k)",
+    "cvs": []
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Add",
+      "filename": "87066028a0dac4a85299fada4bcef2f9.json"
+    }
+  ]
+}

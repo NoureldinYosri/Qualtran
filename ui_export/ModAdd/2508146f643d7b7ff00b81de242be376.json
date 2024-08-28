@@ -1,0 +1,30 @@
+{
+  "name": "ModAdd",
+  "attrs": {
+    "bitsize": "Symbol(n)",
+    "mod": "Symbol(p)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "LinearDepthGreaterThan",
+      "filename": "8e698cd73a267c907d70b14328eb1808.json"
+    },
+    {
+      "name": "AddK",
+      "filename": "f81cb040847a7809521d9f535fea1587.json"
+    },
+    {
+      "name": "AddK",
+      "filename": "413fb0adfad0e82d31de3fb0ce3d2b89.json"
+    },
+    {
+      "name": "Add",
+      "filename": "160859b2c4cb2b8f8e8a08e8f06958a4.json"
+    }
+  ]
+}

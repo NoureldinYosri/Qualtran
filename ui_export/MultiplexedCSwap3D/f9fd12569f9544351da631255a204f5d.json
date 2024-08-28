@@ -1,0 +1,38 @@
+{
+  "name": "MultiplexedCSwap3D",
+  "attrs": {
+    "num_bits_p": 6,
+    "eta": 10
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Split",
+      "filename": "b26452df6b104cde3fc5393155749242.json"
+    },
+    {
+      "name": "Join",
+      "filename": "3aa9e24ab38e82796de652f031522007.json"
+    },
+    {
+      "name": "Join",
+      "filename": "27d804918ada4968deb26e6890b0f8e3.json"
+    },
+    {
+      "name": "Split",
+      "filename": "27d804918ada4968deb26e6890b0f8e3.json"
+    },
+    {
+      "name": "Join",
+      "filename": "b26452df6b104cde3fc5393155749242.json"
+    },
+    {
+      "name": "MultiplexedCSwap",
+      "filename": "d895e2b587a51d2e34a947fccca7f234.json"
+    },
+    {
+      "name": "Split",
+      "filename": "3aa9e24ab38e82796de652f031522007.json"
+    }
+  ]
+}

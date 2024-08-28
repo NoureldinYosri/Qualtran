@@ -1,0 +1,8 @@
+Perform a single phase estimation of ECAddR for a given point.
+
+This is used as a subroutine in `FindECCPrivateKey`. First, we phase-estimate the
+addition of the base point $P$, then of the public key $Q$.
+
+#### Parameters
+ - `n`: The bitsize of the elliptic curve points' x and y registers.
+ - `point`: The elliptic curve point to phase estimate against.

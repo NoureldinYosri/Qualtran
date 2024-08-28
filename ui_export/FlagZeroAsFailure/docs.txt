@@ -1,0 +1,11 @@
+Bloq to flag if minus zero appears in the $\nu$ state.
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register. 
+
+#### Registers
+ - `nu`: the momentum transfer register.
+ - `flag_minus_zero`: a flag bit for failure of the state preparation. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 21, Eq 80.

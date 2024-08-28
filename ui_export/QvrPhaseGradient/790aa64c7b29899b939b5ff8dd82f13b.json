@@ -1,0 +1,116 @@
+{
+  "name": "QvrPhaseGradient",
+  "attrs": {
+    "cost_reg": {
+      "name": "result",
+      "dtype": {
+        "bitsize": 10,
+        "num_frac": 10,
+        "signed": false
+      },
+      "_shape": [],
+      "side": "Side.THRU"
+    },
+    "gamma": 0.1234,
+    "eps": 1e-08
+  },
+  "score": {
+    "max_x": 1,
+    "max_y": 1,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "result/QFxp(10, 10)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,result,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "phase_grad/QFxp(32, 32)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,phase_grad,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "AddScaledValIntoPhaseReg"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "phase_grad"
+        },
+        "y": 1,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,phase_grad,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "result/QFxp(10, 10)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,result,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "phase_grad/QFxp(32, 32)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,phase_grad,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 1,
+        "bottom_y": 0,
+        "label": {
+          "text": "AddScaledValIntoPhaseReg",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "AddScaledValIntoPhaseReg",
+      "filename": "b0a57e6ac18c630c9f2fbdfe77b05347.json"
+    }
+  ]
+}

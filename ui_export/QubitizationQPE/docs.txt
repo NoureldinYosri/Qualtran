@@ -1,0 +1,34 @@
+Heisenberg limited phase estimation circuit for learning eigenphase of `walk`.
+
+The Bloq yields an OPTREE to construct Heisenberg limited phase estimation circuit
+for learning eigenphases of the `walk` operator with `m` bits of accuracy. The
+circuit is implemented as given in Fig.2 of Ref-1.
+
+    ```
+       ┌─────────┐                                     ┌─────────┐
+  |0> -│         │-------------------------(0)---(0)---│         │---M--- [m1]:highest bit
+       │         │                          |     |    │         │
+  |0> -│         │----------------(0)---(0)-+-----+----│         │---M--- [m2]
+       │CtrlState│                 |     |  |     |    │ QFT_inv │
+  |0> -│  Prep   │-------(0)---(0)-+-----+--+-----+----│         │---M--- [m3]
+       │         │        |     |  |     |  |     |    │         │
+  |0> -│         │---@----+-----+--+-----+--+-----+----│         │---M--- [m4]:lowest bit
+       └─────────┘   |    |     |  |     |  |     |    └─────────┘
+|Psi> ---------------W----R-W^2-R--R-W^4-R--R-W^8-R---------------------- |Psi>
+    ```
+
+TODO: Note that there are slight differences between the Fig2 of the Ref[1] and the circuit
+      implemented here. Further investigation is required to reconcile the difference.
+
+#### Parameters
+ - `walk`: Bloq representing the Qubitization walk operator to run the phase estimation protocol on.
+ - `m_bits`: Bitsize of the phase register to be used during phase estimation.
+ - `ctrl_state_prep`: Bloq to prepare the control state on the phase register. Defaults to `OnEach(self.m_bits, Hadamard())`.
+ - `qft_inv`: Bloq to apply inverse QFT on the phase register. Defaults to `QFTTextBook(self.m_bits).adjoint()`  
+
+#### Registers
+ - `qpe_reg`: Control register of type `QFxp(self.m_bits, self.m_bits)` for phase estimation.
+ - `target registers`: All registers used in `self.unitary.signature` 
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662). Fig. 2

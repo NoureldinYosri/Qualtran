@@ -1,0 +1,14 @@
+{
+  "name": "SumOfSquares",
+  "attrs": {
+    "bitsize": 5,
+    "k": 3
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

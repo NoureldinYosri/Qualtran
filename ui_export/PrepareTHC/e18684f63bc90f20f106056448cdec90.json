@@ -1,0 +1,1250 @@
+{
+  "name": "PrepareTHC",
+  "attrs": {
+    "num_mu": 8,
+    "num_spin_orb": 8,
+    "alt_mu": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      7,
+      7,
+      7,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "alt_nu": [
+      1,
+      3,
+      7,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      5,
+      4,
+      4,
+      6,
+      6,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      7,
+      5,
+      5,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "alt_theta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "theta": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "keep": [
+      163,
+      174,
+      108,
+      183,
+      77,
+      106,
+      200,
+      203,
+      140,
+      38,
+      100,
+      32,
+      59,
+      239,
+      4,
+      228,
+      154,
+      174,
+      203,
+      23,
+      54,
+      133,
+      197,
+      155,
+      235,
+      148,
+      214,
+      134,
+      225,
+      160,
+      215,
+      63,
+      100,
+      31,
+      137,
+      192,
+      167,
+      202,
+      219,
+      0
+    ],
+    "keep_bitsize": 8
+  },
+  "score": {
+    "max_x": 15,
+    "max_y": 16,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "mu/BoundedQUInt(4, 9)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,mu,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu/BoundedQUInt(4, 9)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,nu,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu_eq_mp1/QBit()",
+          "fontsize": 8
+        },
+        "y": 8,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,nu_eq_mp1,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "succ/QBit()",
+          "fontsize": 8
+        },
+        "y": 7,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,succ,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "rot/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 6,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,rot,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "s/QAny(6)",
+          "fontsize": 8
+        },
+        "y": 10,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,s,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "theta/QBit()",
+          "fontsize": 8
+        },
+        "y": 9,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,theta,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt_theta/QBit()",
+          "fontsize": 8
+        },
+        "y": 13,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,alt_theta,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt_mn[0]/QAny(4)",
+          "fontsize": 8
+        },
+        "y": 11,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,alt_mn,l,(0,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt_mn[1]/QAny(4)",
+          "fontsize": 8
+        },
+        "y": 12,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,alt_mn,l,(1,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "keep/QAny(8)",
+          "fontsize": 8
+        },
+        "y": 14,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,keep,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "sigma/BoundedQUInt(8, 256)",
+          "fontsize": 8
+        },
+        "y": 5,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,sigma,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "less_than/QBit()",
+          "fontsize": 8
+        },
+        "y": 15,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,less_than,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "plus_a/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,plus_a,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "plus_b/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 4,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,plus_b,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "plus_mn/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,plus_mn,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "extra_ctrl/QBit()",
+          "fontsize": 8
+        },
+        "y": 16,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,extra_ctrl,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "mu"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,mu,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "nu"
+        },
+        "y": 1,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,nu,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "nu_eq_mp1"
+        },
+        "y": 8,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,nu_eq_mp1,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "succ"
+        },
+        "y": 7,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,succ,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "rot"
+        },
+        "y": 6,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,rot,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H\u2a028"
+        },
+        "y": 5,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "3,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "10,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 3,
+        "topo_gen": 1,
+        "ident": "11,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 2,
+        "seq_x": 4,
+        "topo_gen": 1,
+        "ident": "12,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u03bc"
+        },
+        "y": 0,
+        "seq_x": 5,
+        "topo_gen": 2,
+        "ident": "1,mu,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u03bd"
+        },
+        "y": 1,
+        "seq_x": 5,
+        "topo_gen": 2,
+        "ident": "1,nu,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u2295\u03bd(\u03bd-1)/2+\u03bc"
+        },
+        "y": 10,
+        "seq_x": 5,
+        "topo_gen": 2,
+        "ident": "1,s,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 7,
+        "seq_x": 6,
+        "topo_gen": 2,
+        "ident": "13,controls,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 6,
+        "topo_gen": 2,
+        "ident": "13,controls,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 16,
+        "seq_x": 6,
+        "topo_gen": 2,
+        "ident": "13,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "In"
+        },
+        "y": 10,
+        "seq_x": 7,
+        "topo_gen": 3,
+        "ident": "2,selection,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QROAM_a"
+        },
+        "y": 9,
+        "seq_x": 7,
+        "topo_gen": 3,
+        "ident": "2,target0_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QROAM_b"
+        },
+        "y": 13,
+        "seq_x": 7,
+        "topo_gen": 3,
+        "ident": "2,target1_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QROAM_c"
+        },
+        "y": 11,
+        "seq_x": 7,
+        "topo_gen": 3,
+        "ident": "2,target2_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QROAM_d"
+        },
+        "y": 12,
+        "seq_x": 7,
+        "topo_gen": 3,
+        "ident": "2,target3_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QROAM_e"
+        },
+        "y": 14,
+        "seq_x": 7,
+        "topo_gen": 3,
+        "ident": "2,target4_,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 14,
+        "seq_x": 8,
+        "topo_gen": 4,
+        "ident": "4,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 5,
+        "seq_x": 8,
+        "topo_gen": 4,
+        "ident": "4,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 15,
+        "seq_x": 8,
+        "topo_gen": 4,
+        "ident": "4,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 13,
+        "seq_x": 9,
+        "topo_gen": 5,
+        "ident": "5,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Z"
+        },
+        "y": 15,
+        "seq_x": 9,
+        "topo_gen": 5,
+        "ident": "5,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "(0)"
+        },
+        "y": 15,
+        "seq_x": 10,
+        "topo_gen": 6,
+        "ident": "6,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Z"
+        },
+        "y": 9,
+        "seq_x": 10,
+        "topo_gen": 6,
+        "ident": "6,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 11,
+        "topo_gen": 7,
+        "ident": "7,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(x)"
+        },
+        "y": 11,
+        "seq_x": 11,
+        "topo_gen": 7,
+        "ident": "7,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(y)"
+        },
+        "y": 0,
+        "seq_x": 11,
+        "topo_gen": 7,
+        "ident": "7,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 12,
+        "topo_gen": 8,
+        "ident": "8,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(x)"
+        },
+        "y": 12,
+        "seq_x": 12,
+        "topo_gen": 8,
+        "ident": "8,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(y)"
+        },
+        "y": 1,
+        "seq_x": 12,
+        "topo_gen": 8,
+        "ident": "8,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "x"
+        },
+        "y": 14,
+        "seq_x": 13,
+        "topo_gen": 9,
+        "ident": "9,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "y"
+        },
+        "y": 5,
+        "seq_x": 13,
+        "topo_gen": 9,
+        "ident": "9,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "z^(x<=y)"
+        },
+        "y": 15,
+        "seq_x": 13,
+        "topo_gen": 9,
+        "ident": "9,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 14,
+        "topo_gen": 9,
+        "ident": "14,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(x)"
+        },
+        "y": 0,
+        "seq_x": 14,
+        "topo_gen": 9,
+        "ident": "14,x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "\u00d7(y)"
+        },
+        "y": 1,
+        "seq_x": 14,
+        "topo_gen": 9,
+        "ident": "14,y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "mu/BoundedQUInt(4, 9)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,mu,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu/BoundedQUInt(4, 9)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,nu,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "extra_ctrl/QBit()",
+          "fontsize": 8
+        },
+        "y": 16,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,extra_ctrl,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "plus_mn/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,plus_mn,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "plus_a/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,plus_a,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "nu_eq_mp1/QBit()",
+          "fontsize": 8
+        },
+        "y": 7,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,nu_eq_mp1,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "plus_b/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 4,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,plus_b,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "sigma/BoundedQUInt(8, 256)",
+          "fontsize": 8
+        },
+        "y": 5,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,sigma,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "keep/QAny(8)",
+          "fontsize": 8
+        },
+        "y": 14,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,keep,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "less_than/QBit()",
+          "fontsize": 8
+        },
+        "y": 15,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,less_than,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "rot/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 6,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,rot,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "succ/QBit()",
+          "fontsize": 8
+        },
+        "y": 8,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,succ,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "theta/QBit()",
+          "fontsize": 8
+        },
+        "y": 9,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,theta,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "s/QAny(6)",
+          "fontsize": 8
+        },
+        "y": 10,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,s,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt_mn[0]/QAny(4)",
+          "fontsize": 8
+        },
+        "y": 11,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,alt_mn,r,(0,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt_mn[1]/QAny(4)",
+          "fontsize": 8
+        },
+        "y": 12,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,alt_mn,r,(1,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alt_theta/QBit()",
+          "fontsize": 8
+        },
+        "y": 13,
+        "seq_x": 15,
+        "topo_gen": 10,
+        "ident": "dang,alt_theta,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 3,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 4,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 5,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 6,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 7,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 8,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 9,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 10,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 11,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 12,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 13,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 14,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 15,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      },
+      {
+        "y": 16,
+        "seq_x_start": -1,
+        "seq_x_end": 15
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 8,
+        "bottom_y": 0,
+        "label": {
+          "text": "\u03a3 |\u03bc\u03bd>",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 2,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 10,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 16,
+        "bottom_y": 3,
+        "label": {
+          "text": "MultiControlPauli",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 14,
+        "bottom_y": 9,
+        "label": {
+          "text": "QROAM",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 15,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 15,
+        "bottom_y": 13,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 15,
+        "bottom_y": 9,
+        "label": {
+          "text": "C0Z",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 11,
+        "top_y": 15,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 12,
+        "top_y": 15,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 13,
+        "top_y": 15,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 14,
+        "top_y": 16,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "OnEach",
+      "filename": "1103cb4086fc1f9fe21b07055f4ee9ac.json"
+    },
+    {
+      "name": "LessThanEqual",
+      "filename": "13e665a19568149eb5d756a14a547247.json"
+    },
+    {
+      "name": "UniformSuperpositionTHC",
+      "filename": "2e58389b255a5d8a1c8e859771f86277.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "ToContiguousIndex",
+      "filename": "e040caea7ef613e1bafe4fac97275b85.json"
+    },
+    {
+      "name": "SelectSwapQROM",
+      "filename": "580c9540d246926558ff064a3e64d38c.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "2cd7acc378c730a98acc846c27bb5183.json"
+    }
+  ]
+}

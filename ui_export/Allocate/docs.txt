@@ -1,0 +1,7 @@
+Allocate an `n` bit register.
+
+#### Parameters
+ - `dtype`: the quantum data type of the allocated register. 
+
+#### Registers
+ - `reg [right]`: The allocated register.

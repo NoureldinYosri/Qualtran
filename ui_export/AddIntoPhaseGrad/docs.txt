@@ -1,0 +1,20 @@
+Quantum-quantum addition into a phase gradient register using $b_{phase} - 2$ Toffolis
+
+$$
+    U|x\rangle|\text{phase\_grad}\rangle = |x\rangle|\text{phase\_grad} + x\rangle
+$$
+
+#### Parameters
+ - `x_bitsize`: Size of input register.
+ - `phase_bitsize`: Size of phase gradient register to which the input value should be added.
+ - `right_shift`: An integer specifying the amount by which the input register x should be right shifted before adding to the phase gradient register.
+ - `sign`: Whether the input register x should be  added or subtracted from the phase gradient register.
+ - `controlled_by`: Whether to control this bloq with a ctrl register. When controlled_by=None, this bloq is not controlled. When controlled_by=0, this bloq is active when the ctrl register is 0. When controlled_by=1, this bloq is active when the ctrl register is 1. 
+
+#### Registers
+ - `- ctrl`: Control THRU register
+ - `- x`: Input THRU register storing input value x to be added to the phase gradient register.
+ - `- phase_grad`: Phase gradient THRU register. 
+
+#### References
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](https://arxiv.org/abs/2007.07391). Appendix A: Addition for controlled rotations

@@ -1,0 +1,19 @@
+Outer state preparation.
+
+Implements Eq. B8 from the Reference.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for single factorized Hamiltonian. Called $L$ in the reference.
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called $\aleph$ in the reference.
+ - `num_bits_rot_aa`: Number of bits of precision for rotations for amplitude amplification in uniform state preparation. Called $b_r$ in the reference. 
+
+#### Registers
+ - `l`: register to store L values for auxiliary index.
+ - `succ_l`: flag for success of this state preparation.
+ - `l_ne_zero`: flag for preparation of one-body term too.
+ - `rot_aa`: The qubit that is rotated for amplitude amplification. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494)
+        Appendix B, page 43. Step 1.

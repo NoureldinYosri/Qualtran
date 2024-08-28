@@ -1,0 +1,5 @@
+Two-qubit controlled-NOT.
+
+#### Registers
+ - `ctrl`: One-bit control register.
+ - `target`: One-bit target register.

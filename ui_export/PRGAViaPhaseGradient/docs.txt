@@ -1,0 +1,14 @@
+Array of controlled rotations $Z^{\theta_i/2}$ for a list of angles $\theta$.
+
+It uses phase kickback and thus needs a phase gradient state in order to work. This
+state must be provided externally for efficiency, as it is unaffected and can thus be reused.
+Refer to [1], section on arbitrary quantum state preparation on page 3.
+
+#### Parameters
+ - `selection_bitsize`: number of qubits used for encoding the selection register of the QROM, it must be equal to $\lceil \log_2(l_{rv}) \rceil$, where $l_{rv}$ is the number of angles provided.
+ - `phase_bitsize`: size of the register that is used to store the rotation angles. Bigger values increase the accuracy of the results.
+ - `rom_values`: the tuple of values to be loaded in the rom, which correspond to the angle of each rotation.
+ - `control_bitsize`: number of qubits of the control register. Set to zero for an uncontrolled gate. 
+
+#### References
+ - [Trading T-gates for dirty qubits in state preparation and unitary synthesis](https://arxiv.org/abs/1812.00954). Low, Kliuchnikov, Schaeffer. 2018.

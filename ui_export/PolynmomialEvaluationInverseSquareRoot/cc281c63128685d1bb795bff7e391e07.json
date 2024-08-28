@@ -1,0 +1,19 @@
+{
+  "name": "PolynmomialEvaluationInverseSquareRoot",
+  "attrs": {
+    "x_sq_bitsize": 7,
+    "poly_bitsize": 8,
+    "out_bitsize": 12
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "MultiplyTwoReals",
+      "filename": "2b90c6ad4357e2dfd78cac90d1bbe6d6.json"
+    },
+    {
+      "name": "Add",
+      "filename": "4fa6a9f3a4910e3e8013557ac3cfc3d6.json"
+    }
+  ]
+}

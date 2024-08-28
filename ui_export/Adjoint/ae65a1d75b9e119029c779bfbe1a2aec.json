@@ -1,0 +1,21 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "bitsize": 2,
+      "mod": 3,
+      "add_val": 1,
+      "cvs": [
+        0,
+        0
+      ]
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "2e9a361c07eb5b06e3eeb1fd9195ed99.json"
+    }
+  ]
+}

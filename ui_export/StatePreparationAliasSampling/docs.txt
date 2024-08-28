@@ -1,0 +1,40 @@
+Initialize a state with $L$ unique coefficients using coherent alias sampling.
+
+In particular, we take the zero state to:
+
+$$
+\sum_{\ell=0}^{L-1} \sqrt{p_\ell} |\ell\rangle |\mathrm{temp}_\ell\rangle
+$$
+
+where the probabilities $p_\ell$ are $\mu$-bit binary approximations to the true values and
+where the temporary register must be treated with care, see the details in Section III.D. of
+the reference.
+
+The preparation is equivalent to [classical alias sampling]
+(https://en.wikipedia.org/wiki/Alias_method): we sample `l` with probability `p[l]` by first
+selecting `l` uniformly at random and then returning it with probability `keep[l] / 2**mu`;
+otherwise returning `alt[l]`.
+
+Signature:
+    selection: The input/output register $|\ell\rangle$ of size lg(L) where the desired
+        coefficient state is prepared.
+    temp: Work space comprised of sub signature:
+        - sigma: A mu-sized register containing uniform probabilities for comparison against
+            `keep`.
+        - alt: A lg(L)-sized register of alternate indices
+        - keep: a mu-sized register of probabilities of keeping the initially sampled index.
+        - one bit for the result of the comparison.
+
+This gate corresponds to the following operations:
+ - UNIFORM_L on the selection register
+ - H^mu on the sigma register
+ - QROM addressed by the selection register into the alt and keep signature.
+ - LessThanEqualGate comparing the keep and sigma signature.
+ - Coherent swap between the selection register and alt register if the comparison
+   returns True.
+
+Total space will be (2 * log(L) + 2 mu + 1) work qubits + log(L) ancillas for QROM.
+The 1 ancilla in work qubits is for the `LessThanEqualGate` followed by coherent swap.
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662). Babbush et. al. (2018). Section III.D. and Figure 11.

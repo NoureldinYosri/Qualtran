@@ -1,0 +1,8 @@
+{
+  "name": "TGate",
+  "attrs": {
+    "is_adjoint": true
+  },
+  "score": null,
+  "callees": []
+}

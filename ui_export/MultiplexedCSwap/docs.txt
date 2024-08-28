@@ -1,0 +1,26 @@
+Swaps the $l$-th register into an ancilla using unary iteration.
+
+Applies the unitary which performs
+$$
+    U |l\rangle|\psi_0\rangle\cdots|\psi_l\rangle\cdots|\psi_n\rangle|\mathrm{junk}\rangle
+    \rightarrow
+    |l\rangle|\psi_0\rangle\cdots|\mathrm{junk}\rangle\cdots|\psi_n\rangle|\psi_l\rangle
+$$
+through a combination of unary iteration and CSwaps.
+
+The toffoli cost should be $L n_b + L - 2 + n_c$, where $L$ is the
+iteration length, $n_b$ is the bitsize of
+the registers to swap, and $n_c$ is the number of controls.
+
+#### Parameters
+ - `selection_regs`: Indexing `select` signature of type Tuple[`Register`, ...]. It also contains information about the iteration length of each selection register.
+ - `target_bitsize`: The size of the registers we want to swap.
+ - `control_regs`: Control registers for constructing a controlled version of the gate. 
+
+#### Registers
+ - `control_registers`: Control registers
+ - `selection_regs`: Indexing `select` signature of type Tuple[`Register`, ...]. It also contains information about the iteration length of each selection register.
+ - `target_registers`: Target registers to swap. We swap FROM registers labelled x`i`, where i is an integer and TO a single register called y 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 20 paragraph 2.

@@ -1,0 +1,24 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "bitsize": "Symbol(n)",
+      "eps": 1e-11
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Hadamard",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Rz",
+      "filename": "0d7889c847e92a3f6b3ad239a2adab1f.json"
+    },
+    {
+      "name": "Controlled",
+      "filename": "291e78b7b8f72ffc77479fba69ffd3b5.json"
+    }
+  ]
+}

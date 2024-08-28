@@ -1,0 +1,17 @@
+Prepare a phase gradient state $|\phi\rangle$ on a new register of bitsize $b_{grad}$
+
+$$
+    |\phi\rangle = \frac{1}{\sqrt{2^{n}}} \sum_{k=0}^{2^{n} - 1} \omega_{n, t}^{k} |k\rangle
+$$
+
+where
+
+$$
+    \omega_{n, t} = \exp\left(\frac{2\pi i t}{2^n}\right)
+$$
+
+Allocates / deallocates registers to store the phase gradient state and delegates
+to the `PhaseGradientUnitary` bloq defined above.
+
+#### References
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](https://arxiv.org/abs/2007.07391). Appendix A: Addition for controlled rotations

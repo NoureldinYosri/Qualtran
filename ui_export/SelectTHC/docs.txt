@@ -1,0 +1,25 @@
+SELECT for THC Hamiltonian.
+
+#### Parameters
+ - `num_mu`: THC auxiliary index dimension $M$
+ - `num_spin_orb`: number of spin orbitals $N$
+ - `num_bits_theta`: Number of bits of precision for the rotations. Called $\beth$ in the reference.
+ - `kr1`: block sizes for QROM erasure for outputting rotation angles. See Eq 34.
+ - `kr2`: block sizes for QROM erasure for outputting rotation angles. This is for the second QROM (eq 35)
+ - `control_val`: A control bit for the entire gate.
+ - `keep_bitsize`: number of bits for keep register for coherent alias
+ - `sampling. This can be determined from the PrepareTHC bloq. See`: 
+ - `https`: //github.com/quantumlib/Qualtran/issues/549 
+
+#### Registers
+ - `succ`: success flag qubit from uniform state preparation
+ - `nu_eq_mp1`: flag for if $nu = M+1$
+ - `mu`: $\mu$ register.
+ - `nu`: $\nu$ register.
+ - `theta`: sign register.
+ - `plus_mn`: Flag controlling swaps between mu and nu. Note that as per the Reference, the swaps are NOT performed as part of SELECT as they're acounted for during Prepare.
+ - `plus_a / plus_b`: plus state for controlled swaps on spins.
+ - `sys_a / sys_b`: System registers for (a)lpha/(b)eta orbitals. 
+
+#### References
+ - [Even more efficient quantum computations of chemistry through     tensor hypercontraction](https://arxiv.org/pdf/2011.03494.pdf). Fig. 7.

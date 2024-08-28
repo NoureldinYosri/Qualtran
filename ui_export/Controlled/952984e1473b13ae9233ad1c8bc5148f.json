@@ -1,0 +1,19 @@
+{
+  "name": "Controlled",
+  "attrs": {
+    "subbloq": {
+      "angle": -2.214297435588181,
+      "eps": 1e-11
+    },
+    "ctrl_spec": {
+      "qdtypes": [
+        {}
+      ],
+      "cvs": [
+        "NOT_SERIALIZABLE"
+      ]
+    }
+  },
+  "score": null,
+  "callees": []
+}

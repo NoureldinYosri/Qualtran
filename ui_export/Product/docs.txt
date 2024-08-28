@@ -1,0 +1,16 @@
+Compute the product of an `n` and `m` bit binary number.
+
+Implements $U|a\rangle|b\rangle|0\rangle \rightarrow
+|a\rangle|b\rangle|a\times b\rangle$ using $2nm-n$ Toffolis.
+
+#### Parameters
+ - `a_bitsize`: Number of bits used to represent the first integer.
+ - `b_bitsize`: Number of bits used to represent the second integer. 
+
+#### Registers
+ - `a`: a_bitsize-sized input register.
+ - `b`: b_bitsize-sized input register.
+ - `result`: A 2*`max(a_bitsize, b_bitsize)` bit-sized output register to store the result a*b. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). pg 81 gives a Toffoli complexity for multiplying two numbers.

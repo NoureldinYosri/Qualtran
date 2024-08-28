@@ -1,0 +1,10 @@
+{
+  "name": "ZeroEffect",
+  "attrs": {
+    "bit": false,
+    "state": false,
+    "n": 1
+  },
+  "score": null,
+  "callees": []
+}

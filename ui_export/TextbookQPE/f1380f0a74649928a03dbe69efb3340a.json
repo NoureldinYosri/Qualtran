@@ -1,0 +1,36 @@
+{
+  "name": "TextbookQPE",
+  "attrs": {
+    "unitary": {
+      "exponent": "NOT_SERIALIZABLE",
+      "global_shift": 0.0,
+      "eps": 1e-11
+    },
+    "m_bits": "Symbol(m)",
+    "ctrl_state_prep": {
+      "n": "Symbol(m)",
+      "gate": {}
+    },
+    "qft_inv": {
+      "subbloq": {
+        "bitsize": "Symbol(m)",
+        "with_reverse": true
+      }
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "OnEach",
+      "filename": "888df92f42d6099ded5d155f0d29c304.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "2a46ea51cae84f51363a7829938ce155.json"
+    },
+    {
+      "name": "Controlled",
+      "filename": "d8442b37b3f15fef20847e68ae6372e6.json"
+    }
+  ]
+}

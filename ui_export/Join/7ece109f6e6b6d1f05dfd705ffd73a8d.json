@@ -1,0 +1,11 @@
+{
+  "name": "Join",
+  "attrs": {
+    "dtype": {
+      "bitsize": 3,
+      "iteration_length": 4
+    }
+  },
+  "score": null,
+  "callees": []
+}

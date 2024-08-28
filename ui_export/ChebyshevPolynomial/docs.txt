@@ -1,0 +1,24 @@
+Block encoding of $T_j[H]$ where $T_j$ is the $j$-th Chebyshev polynomial.
+
+Here H is a Hamiltonian with spectral norm $|H| \le 1$, we assume we have
+an $n_L$ qubit ancilla register, and assume that $j > 0$ to avoid block
+encoding the identity operator.
+
+Recall:
+
+\begin{align*}
+    T_0[H] &= \mathbb{1} \\
+    T_1[H] &= H \\
+    T_2[H] &= 2 H^2 - \mathbb{1} \\
+    T_3[H] &= 4 H^3 - 3 H \\
+    &\dots
+\end{align*}
+
+See https://github.com/quantumlib/Qualtran/issues/984 for an alternative.
+
+#### Parameters
+ - `block_encoding`: Block encoding of a Hamiltonian $H$, $\mathcal{B}[H]$. Assumes the $|G\rangle$ state of the block encoding is the identity operator.
+ - `order`: order of Chebychev polynomial. 
+
+#### References
+ - [Quantum computing enhanced computational catalysis](https://arxiv.org/abs/2007.14460).     von Burg et al. 2007. Page 45; Theorem 1.

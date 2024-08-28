@@ -1,0 +1,20 @@
+Inner prepare for DF block encoding.
+
+Prepare state over $p$ register controlled on outer $l$ register.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for double factorized Hamiltonian. Call L in Ref[1].
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `num_eig`: Total number of eigenvalues.
+ - `num_bits_rot_aa`: Number of bits of precision for single qubit rotation for amplitude amplification. Called $b_r$ in the reference.
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called $\aleph$ in Ref[1]. 
+
+#### Registers
+ - `xi`: data register for number storing $\Xi^{(l)}$.
+ - `rot`: qubit for amplitude amplification.
+ - `succ_p`: control to flag success for inner state preparation.
+ - `p`: Register for inner state preparation. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor Hypercontraction](https://arxiv.org/abs/2011.03494).
+    Step 3. Page 52.

@@ -1,0 +1,1 @@
+Performs result += a * b

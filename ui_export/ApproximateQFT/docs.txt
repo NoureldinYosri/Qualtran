@@ -1,0 +1,26 @@
+An approximate QFT in which phase shifts smaller than a certain threshold are deleted.
+
+Given a b-bit phase gradient state $|\phi\rangle$ prepared as
+
+$$
+    |\phi\rangle = \frac{1}{\sqrt{2^{b}}} \sum_{k=0}^{2^{b} - 1} \omega_{b}^{-k} |k\rangle
+$$
+
+Phase gradient rotations can be synthesized via additions into the phase gradient register.
+This leads to significant reductions in T/Toffoli complexity and requires 0 arbitrary
+rotations (given a one-time cost to prepare the gradient register). See the linked reference
+for more details.
+
+The QFT uses exponentially small z-power gates. In practice, it is often sufficient to perform
+an approximate qft, where z-power gates smaller than a certain threshold are dropped. When using
+the "add into phase-gradient trick", this amounts to doing smaller additions with a smaller
+phase gradient register.
+
+#### Parameters
+ - `bitsize`: Size of input register to apply QFT on.
+ - `phase_bitsize`: The size of the phase gradient register. Defaults to being math.ceil(math.log2(bitsize)).
+ - `with_reverse`: Whether or not to include the swaps at the end of the circuit decomposition that reverse the order of the qubits. If True, the swaps are inserted. Defaults to True. These are technically necessary in order to perform the correct effect, but can almost always be optimized away by just performing later operations on different qubits. 
+
+#### References
+ - [Turning Gradients into Additions into QFTs](https://algassert.com/post/1620). Gidney, C. 2016.
+ - [Approximation Errors](https://arxiv.org/abs/quant-ph/0008056). Panike, N. 2000.

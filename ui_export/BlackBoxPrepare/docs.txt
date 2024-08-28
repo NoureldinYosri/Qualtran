@@ -1,0 +1,11 @@
+Provide a black-box interface to `Prepare` bloqs.
+
+This wrapper uses `Partition` to combine descriptive selection
+registers into one register named "selection".
+
+#### Parameters
+ - `prepare`: The bloq following the `Prepare` interface to wrap. 
+
+#### Registers
+ - `selection`: selection register.
+ - `junk`: Additional junk registers not prepared upon.

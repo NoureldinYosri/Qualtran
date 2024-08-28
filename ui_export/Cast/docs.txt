@@ -1,0 +1,12 @@
+Cast a register from one n-bit QDType to another QDType.
+
+This re-interprets the register's data type from `inp_dtype` to `out_dtype`.
+
+#### Parameters
+ - `inp_dtype`: Input QDType to cast from.
+ - `out_dtype`: Output QDType to cast to.
+ - `shape`: shape of the register to cast. 
+
+#### Registers
+ - `in`: input register to cast from.
+ - `out`: input register to cast to.

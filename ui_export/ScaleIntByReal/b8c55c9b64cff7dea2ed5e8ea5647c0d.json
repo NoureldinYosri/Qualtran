@@ -1,0 +1,14 @@
+{
+  "name": "ScaleIntByReal",
+  "attrs": {
+    "r_bitsize": 12,
+    "i_bitsize": 4
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

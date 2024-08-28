@@ -1,0 +1,35 @@
+State preparation for the first quantized chemistry Hamiltonian with a quntum projectile.
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register.
+ - `num_bits_n`: The number of bits to represent each dimension of the momentum register for the projectile. Should be larger than num_bits_p.
+ - `eta`: The number of electrons.
+ - `num_atoms`: The number of atoms. $L$ in the reference.
+ - `lambda_zeta`: sum of nuclear charges.
+ - `m_param`: $\mathcal{M}$ in the reference.
+ - `num_bits_nuc_pos`: The number of bits of precision for representing the nuclear coordinates.
+ - `num_bits_t`: The number of bits of precision for the state preparation over the register selecting between the different components of the Hamiltonian.
+ - `num_bits_rot_aa`: The number of bits of precision for the rotation for amplitude amplification.
+ - `is_adjoint`: Whether to dagger the bloq or not. 
+
+#### Registers
+ - `tuv`: Register for preparing superposition for selecting between kinetic and potential terms in the Hamiltonian.
+ - `tepm`: Register to prepare to select between (e)lectron, (p)rojectile, or (m)ean terms.
+ - `uv`: Register to prepare to select between coulombic terms.
+ - `i`: A register for selecting electronic registers.
+ - `j`: A register for selecting electronic registers.
+ - `w`: A register for selecting x, y and z components of the momentum register.
+ - `r`: A register for controlling elements of the momentum register. Used for block encodiding kinetic energy operator.
+ - `s`: A register for controlling elements of the momentum register. Used for block encodiding kinetic energy operator.
+ - `mu`: A register used for implementing nested boxes for the momentum state preparation.
+ - `nu_x`: x component of the momentum register for Coulomb potential.
+ - `nu_y`: y component of the momentum register for Coulomb potential.
+ - `nu_z`: z component of the momentum register for Coulomb potential.
+ - `m`: an ancilla register in a uniform superposition.
+ - `l`: The register for selecting the nuclei.
+ - `succ_nu`: A flag to indiciate the success of the $\nu$ state preparation.
+ - `plus_t`: A flag qubit prepared in the $|+\rangle$ state.
+ - `flags`: A 4 qubit flag register indicating which component of the Hamiltonian to apply. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](     https://arxiv.org/abs/2105.12767)

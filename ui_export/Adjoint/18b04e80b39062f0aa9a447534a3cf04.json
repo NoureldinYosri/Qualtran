@@ -1,0 +1,23 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "bitsize": "Symbol(b2)"
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "ffc4152dd065685132a6e9d0c21e5390.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "8dadf4026df14a99975263edc918d447.json"
+    },
+    {
+      "name": "TGate",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    }
+  ]
+}

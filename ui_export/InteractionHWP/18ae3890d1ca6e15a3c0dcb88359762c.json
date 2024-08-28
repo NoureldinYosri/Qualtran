@@ -1,0 +1,16 @@
+{
+  "name": "InteractionHWP",
+  "attrs": {
+    "length": 8,
+    "angle": 0.5,
+    "hubb_u": 4.0,
+    "eps": 1e-09
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "HammingWeightPhasing",
+      "filename": "08763d8dedbd24658616486d60941b1c.json"
+    }
+  ]
+}

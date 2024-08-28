@@ -1,0 +1,1783 @@
+{
+  "name": "ApplyGateToLthQubit",
+  "attrs": {
+    "selection_regs": [
+      {
+        "name": "q_y",
+        "dtype": {
+          "bitsize": 2,
+          "iteration_length": 3
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "q_x",
+        "dtype": {
+          "bitsize": 2,
+          "iteration_length": 3
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "nth_gate": "NOT_SERIALIZABLE",
+    "control_regs": [
+      {
+        "name": "control",
+        "dtype": {
+          "bitsize": 1
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ]
+  },
+  "score": {
+    "max_x": 39,
+    "max_y": 17,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_y/BoundedQUInt(2, 3)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,q_y,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "control/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,control,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_x/BoundedQUInt(2, 3)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,q_x,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,target,l,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 4,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 5,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "3,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "3,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 6,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "3,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 7,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 8,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 9,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 10,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(4,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 11,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(5,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 12,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(6,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 13,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(7,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 14,
+        "seq_x": 2,
+        "topo_gen": 1,
+        "ident": "6,reg,Side.RIGHT,(8,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "1,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 4,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "1,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 3,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "1,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "2,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 5,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "2,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 15,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "2,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 5,
+        "topo_gen": 4,
+        "ident": "4,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 1,
+        "seq_x": 5,
+        "topo_gen": 4,
+        "ident": "4,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 16,
+        "seq_x": 5,
+        "topo_gen": 4,
+        "ident": "4,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 6,
+        "topo_gen": 5,
+        "ident": "5,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 6,
+        "seq_x": 6,
+        "topo_gen": 5,
+        "ident": "5,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 17,
+        "seq_x": 6,
+        "topo_gen": 5,
+        "ident": "5,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 17,
+        "seq_x": 7,
+        "topo_gen": 6,
+        "ident": "7,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 7,
+        "topo_gen": 6,
+        "ident": "7,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 8,
+        "topo_gen": 7,
+        "ident": "8,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 17,
+        "seq_x": 8,
+        "topo_gen": 7,
+        "ident": "8,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 17,
+        "seq_x": 9,
+        "topo_gen": 8,
+        "ident": "9,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 7,
+        "seq_x": 9,
+        "topo_gen": 8,
+        "ident": "9,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 10,
+        "topo_gen": 9,
+        "ident": "10,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 10,
+        "topo_gen": 9,
+        "ident": "10,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 17,
+        "seq_x": 10,
+        "topo_gen": 9,
+        "ident": "10,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 11,
+        "topo_gen": 10,
+        "ident": "11,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 16,
+        "seq_x": 11,
+        "topo_gen": 10,
+        "ident": "11,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 12,
+        "topo_gen": 11,
+        "ident": "12,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 12,
+        "topo_gen": 11,
+        "ident": "12,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 13,
+        "topo_gen": 12,
+        "ident": "13,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 1,
+        "seq_x": 13,
+        "topo_gen": 12,
+        "ident": "13,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 16,
+        "seq_x": 13,
+        "topo_gen": 12,
+        "ident": "13,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 14,
+        "topo_gen": 13,
+        "ident": "14,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 15,
+        "seq_x": 14,
+        "topo_gen": 13,
+        "ident": "14,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 15,
+        "topo_gen": 14,
+        "ident": "15,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 1,
+        "seq_x": 15,
+        "topo_gen": 14,
+        "ident": "15,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 16,
+        "seq_x": 15,
+        "topo_gen": 14,
+        "ident": "15,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 16,
+        "topo_gen": 15,
+        "ident": "16,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 6,
+        "seq_x": 16,
+        "topo_gen": 15,
+        "ident": "16,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 17,
+        "seq_x": 16,
+        "topo_gen": 15,
+        "ident": "16,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 17,
+        "seq_x": 17,
+        "topo_gen": 16,
+        "ident": "17,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 9,
+        "seq_x": 17,
+        "topo_gen": 16,
+        "ident": "17,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 18,
+        "topo_gen": 17,
+        "ident": "18,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 17,
+        "seq_x": 18,
+        "topo_gen": 17,
+        "ident": "18,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 17,
+        "seq_x": 19,
+        "topo_gen": 18,
+        "ident": "19,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 10,
+        "seq_x": 19,
+        "topo_gen": 18,
+        "ident": "19,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 20,
+        "topo_gen": 19,
+        "ident": "20,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 20,
+        "topo_gen": 19,
+        "ident": "20,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 17,
+        "seq_x": 20,
+        "topo_gen": 19,
+        "ident": "20,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 21,
+        "topo_gen": 20,
+        "ident": "21,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 16,
+        "seq_x": 21,
+        "topo_gen": 20,
+        "ident": "21,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 22,
+        "topo_gen": 21,
+        "ident": "22,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 11,
+        "seq_x": 22,
+        "topo_gen": 21,
+        "ident": "22,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 23,
+        "topo_gen": 22,
+        "ident": "23,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 1,
+        "seq_x": 23,
+        "topo_gen": 22,
+        "ident": "23,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 16,
+        "seq_x": 23,
+        "topo_gen": 22,
+        "ident": "23,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 24,
+        "topo_gen": 23,
+        "ident": "24,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 5,
+        "seq_x": 24,
+        "topo_gen": 23,
+        "ident": "24,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 15,
+        "seq_x": 24,
+        "topo_gen": 23,
+        "ident": "24,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 25,
+        "topo_gen": 24,
+        "ident": "25,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 3,
+        "seq_x": 25,
+        "topo_gen": 24,
+        "ident": "25,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 26,
+        "topo_gen": 25,
+        "ident": "26,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 1,
+        "seq_x": 26,
+        "topo_gen": 25,
+        "ident": "26,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 15,
+        "seq_x": 26,
+        "topo_gen": 25,
+        "ident": "26,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 27,
+        "topo_gen": 26,
+        "ident": "27,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 6,
+        "seq_x": 27,
+        "topo_gen": 26,
+        "ident": "27,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 16,
+        "seq_x": 27,
+        "topo_gen": 26,
+        "ident": "27,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 28,
+        "topo_gen": 27,
+        "ident": "28,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 12,
+        "seq_x": 28,
+        "topo_gen": 27,
+        "ident": "28,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 29,
+        "topo_gen": 28,
+        "ident": "29,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 16,
+        "seq_x": 29,
+        "topo_gen": 28,
+        "ident": "29,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 30,
+        "topo_gen": 29,
+        "ident": "30,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 13,
+        "seq_x": 30,
+        "topo_gen": 29,
+        "ident": "30,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 31,
+        "topo_gen": 30,
+        "ident": "31,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 31,
+        "topo_gen": 30,
+        "ident": "31,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 16,
+        "seq_x": 31,
+        "topo_gen": 30,
+        "ident": "31,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 32,
+        "topo_gen": 31,
+        "ident": "32,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 15,
+        "seq_x": 32,
+        "topo_gen": 31,
+        "ident": "32,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 33,
+        "topo_gen": 32,
+        "ident": "33,q,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 14,
+        "seq_x": 33,
+        "topo_gen": 32,
+        "ident": "33,q,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 34,
+        "topo_gen": 33,
+        "ident": "34,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 1,
+        "seq_x": 34,
+        "topo_gen": 33,
+        "ident": "34,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 15,
+        "seq_x": 34,
+        "topo_gen": 33,
+        "ident": "34,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 2,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 7,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 8,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 9,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 10,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(4,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 11,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(5,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 12,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(6,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 13,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(7,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 14,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.LEFT,(8,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 15,
+        "seq_x": 35,
+        "topo_gen": 33,
+        "ident": "38,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 36,
+        "topo_gen": 34,
+        "ident": "35,ctrl,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 4,
+        "seq_x": 36,
+        "topo_gen": 34,
+        "ident": "35,ctrl,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "\u2227"
+        },
+        "y": 3,
+        "seq_x": 36,
+        "topo_gen": 34,
+        "ident": "35,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 1,
+        "seq_x": 37,
+        "topo_gen": 34,
+        "ident": "37,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 6,
+        "seq_x": 37,
+        "topo_gen": 34,
+        "ident": "37,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 37,
+        "topo_gen": 34,
+        "ident": "37,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 4,
+        "seq_x": 38,
+        "topo_gen": 35,
+        "ident": "36,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 5,
+        "seq_x": 38,
+        "topo_gen": 35,
+        "ident": "36,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 38,
+        "topo_gen": 35,
+        "ident": "36,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "control/QAny(1)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 39,
+        "topo_gen": 36,
+        "ident": "dang,control,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_y/BoundedQUInt(2, 3)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 39,
+        "topo_gen": 36,
+        "ident": "dang,q_y,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_x/BoundedQUInt(2, 3)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 39,
+        "topo_gen": 36,
+        "ident": "dang,q_x,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 15,
+        "seq_x": 39,
+        "topo_gen": 36,
+        "ident": "dang,target,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 39
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 0
+      },
+      {
+        "y": 1,
+        "seq_x_start": 1,
+        "seq_x_end": 37
+      },
+      {
+        "y": 1,
+        "seq_x_start": 38,
+        "seq_x_end": 39
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 2,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 2,
+        "seq_x_start": 37,
+        "seq_x_end": 39
+      },
+      {
+        "y": 3,
+        "seq_x_start": -1,
+        "seq_x_end": 2
+      },
+      {
+        "y": 3,
+        "seq_x_start": 3,
+        "seq_x_end": 36
+      },
+      {
+        "y": 4,
+        "seq_x_start": 0,
+        "seq_x_end": 38
+      },
+      {
+        "y": 5,
+        "seq_x_start": 0,
+        "seq_x_end": 38
+      },
+      {
+        "y": 6,
+        "seq_x_start": 1,
+        "seq_x_end": 37
+      },
+      {
+        "y": 7,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 8,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 9,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 10,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 11,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 12,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 13,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 14,
+        "seq_x_start": 2,
+        "seq_x_end": 35
+      },
+      {
+        "y": 15,
+        "seq_x_start": 4,
+        "seq_x_end": 24
+      },
+      {
+        "y": 15,
+        "seq_x_start": 26,
+        "seq_x_end": 34
+      },
+      {
+        "y": 15,
+        "seq_x_start": 35,
+        "seq_x_end": 39
+      },
+      {
+        "y": 16,
+        "seq_x_start": 5,
+        "seq_x_end": 13
+      },
+      {
+        "y": 16,
+        "seq_x_start": 15,
+        "seq_x_end": 23
+      },
+      {
+        "y": 16,
+        "seq_x_start": 27,
+        "seq_x_end": 31
+      },
+      {
+        "y": 17,
+        "seq_x_start": 6,
+        "seq_x_end": 10
+      },
+      {
+        "y": 17,
+        "seq_x_start": 16,
+        "seq_x_end": 20
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 5,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 6,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 14,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 4,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 15,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 16,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 17,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 17,
+        "bottom_y": 2,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 17,
+        "bottom_y": 16,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 17,
+        "bottom_y": 7,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 17,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 11,
+        "top_y": 16,
+        "bottom_y": 15,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 12,
+        "top_y": 16,
+        "bottom_y": 8,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 13,
+        "top_y": 16,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 14,
+        "top_y": 15,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 15,
+        "top_y": 16,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 16,
+        "top_y": 17,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 17,
+        "top_y": 17,
+        "bottom_y": 9,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 18,
+        "top_y": 17,
+        "bottom_y": 16,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 19,
+        "top_y": 17,
+        "bottom_y": 10,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 20,
+        "top_y": 17,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 21,
+        "top_y": 16,
+        "bottom_y": 15,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 22,
+        "top_y": 16,
+        "bottom_y": 11,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 23,
+        "top_y": 16,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 24,
+        "top_y": 15,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 25,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 26,
+        "top_y": 15,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 27,
+        "top_y": 16,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 28,
+        "top_y": 16,
+        "bottom_y": 12,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 29,
+        "top_y": 16,
+        "bottom_y": 15,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 30,
+        "top_y": 16,
+        "bottom_y": 13,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 31,
+        "top_y": 16,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 32,
+        "top_y": 15,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 33,
+        "top_y": 15,
+        "bottom_y": 14,
+        "label": {
+          "text": "CZ",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 34,
+        "top_y": 15,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 35,
+        "top_y": 15,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 36,
+        "top_y": 4,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 37,
+        "top_y": 6,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 38,
+        "top_y": 5,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "Split",
+      "filename": "5611aff0bb1f26858fb3cd6109bd2266.json"
+    },
+    {
+      "name": "CZPowGate",
+      "filename": "aa95cf46a96199912709398514f2b059.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Join",
+      "filename": "5611aff0bb1f26858fb3cd6109bd2266.json"
+    },
+    {
+      "name": "Split",
+      "filename": "022551bd0a2660f448491e55899a480a.json"
+    },
+    {
+      "name": "Join",
+      "filename": "022551bd0a2660f448491e55899a480a.json"
+    },
+    {
+      "name": "And",
+      "filename": "10122d57e505631155928c58bce4fddd.json"
+    },
+    {
+      "name": "And",
+      "filename": "3be7f9c94e46dfea4642fe777130f638.json"
+    }
+  ]
+}

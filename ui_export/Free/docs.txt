@@ -1,0 +1,11 @@
+Free (i.e. de-allocate) a register.
+
+The tensor decomposition assumes the register is uncomputed and is in the zero
+state before getting freed. To verify that is the case, one can compute the resulting state
+vector after freeing qubits and make sure it is normalized.
+
+#### Parameters
+ - `dtype`: The quantum data type of the register to be freed. 
+
+#### Registers
+ - `reg [left]`: The register to free.

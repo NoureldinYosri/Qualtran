@@ -1,0 +1,15 @@
+{
+  "name": "CtrlScaleModAdd",
+  "attrs": {
+    "k": "Symbol(_k0)",
+    "mod": 221,
+    "bitsize": 8
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "CModAddK",
+      "filename": "0fa5bc195144fbf1e1f5b0bad64235ba.json"
+    }
+  ]
+}

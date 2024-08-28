@@ -1,0 +1,34 @@
+{
+  "name": "InnerPrepareSingleFactorization",
+  "attrs": {
+    "num_aux": 50,
+    "num_spin_orb": 10,
+    "num_bits_state_prep": 12,
+    "num_bits_rot_aa": 7,
+    "kp1": 1,
+    "kp2": 1
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "QROAMTwoRegs",
+      "filename": "daff006bbe4d9c8fec205182315e8dd8.json"
+    },
+    {
+      "name": "ToContiguousIndex",
+      "filename": "987767af06904e3ab368d298f5499adc.json"
+    },
+    {
+      "name": "LessThanEqual",
+      "filename": "547bc2dcf5232f0abada6ba8847e4664.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "74f2ea3bf8623b68ea7947bcccb439af.json"
+    }
+  ]
+}

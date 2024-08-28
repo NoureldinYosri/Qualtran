@@ -1,0 +1,17 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "cvs": {
+        "n": "NOT_SERIALIZABLE"
+      }
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "And",
+      "filename": "10122d57e505631155928c58bce4fddd.json"
+    }
+  ]
+}

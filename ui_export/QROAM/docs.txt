@@ -1,0 +1,9 @@
+Placeholder bloq for QROAM with costs matching literature values.
+
+https://github.com/quantumlib/Qualtran/issues/368
+
+#### Parameters
+ - `data_size`: Amount of data we want to load.
+ - `bitsize`: the amount of bits of output we need.
+ - `adjoint`: whether to get costs from inverse qrom (true) or not (false).
+ - `qroam_blocking_factor`: Block size for qroam. Default None (tries to find optimal block size)

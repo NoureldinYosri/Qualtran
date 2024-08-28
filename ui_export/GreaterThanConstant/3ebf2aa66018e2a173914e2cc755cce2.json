@@ -1,0 +1,14 @@
+{
+  "name": "GreaterThanConstant",
+  "attrs": {
+    "bitsize": 9,
+    "val": 76
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "LessThanConstant",
+      "filename": "78595f7adf16dc4fd73ab3a406493797.json"
+    }
+  ]
+}

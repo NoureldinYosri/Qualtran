@@ -1,0 +1,34 @@
+{
+  "name": "LessThanEqual",
+  "attrs": {
+    "x_bitsize": 0,
+    "y_bitsize": 0
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "SingleQubitCompare",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "BiQubitsMixer",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    },
+    {
+      "name": "BiQubitsMixer",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    },
+    {
+      "name": "SingleQubitCompare",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Prepare a unary encoded one-hot superposition state over the $\mu$ register for nested boxes
+
+Prepares the state in A20
+
+$$
+    \frac{1}{\sqrt{2^{n_n + 2}}} \sum_{\mu=2}^{n_n+1} \sqrt{2^\mu}
+    |0\dots0\underbrace{1\dots1}{\mu}\rangle
+$$
+
+To account for the conditional preparation of weight for the projectile we
+add additional controls to the Hadamards for $p > n_p$.
+
+#### Parameters
+ - `bitsize_n`: The number of bits to represent each dimension of the momentum for the projectile.
+ - `bitsize_p`: The number of bits to represent each dimension of the momentum register for the electron. 
+
+#### Registers
+ - `mu`: the register to prepare the superposition over. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 21, Eq 77.

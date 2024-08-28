@@ -1,0 +1,30 @@
+{
+  "name": "StatePreparationViaRotations",
+  "attrs": {
+    "state_coefficients": {
+      "n": "Symbol(L)"
+    },
+    "phase_bitsize": "Symbol(\\text{phase_bitsize})",
+    "control_bitsize": 0,
+    "uncompute": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Rx",
+      "filename": "d13ee897318e1498288c3c3689b52ab8.json"
+    },
+    {
+      "name": "PRGAViaPhaseGradient",
+      "filename": "d6fc0b1574e8913512cfac881b5ff083.json"
+    },
+    {
+      "name": "Rx",
+      "filename": "11042b4f5d8ad5692b685b712a3d330b.json"
+    }
+  ]
+}

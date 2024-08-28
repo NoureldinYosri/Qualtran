@@ -1,0 +1,5 @@
+Global phase operation of $z$ (where $|z| = 1$).
+
+#### Parameters
+ - `coefficient`: a unit complex number $z$ representing the global phase
+ - `eps`: precision

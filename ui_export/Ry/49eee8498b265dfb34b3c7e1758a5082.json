@@ -1,0 +1,9 @@
+{
+  "name": "Ry",
+  "attrs": {
+    "angle": "NOT_SERIALIZABLE",
+    "eps": "NOT_SERIALIZABLE"
+  },
+  "score": null,
+  "callees": []
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "data_or_shape": [
+        "NOT_SERIALIZABLE",
+        "NOT_SERIALIZABLE",
+        "NOT_SERIALIZABLE",
+        "NOT_SERIALIZABLE",
+        "NOT_SERIALIZABLE"
+      ],
+      "selection_bitsizes": [
+        17
+      ],
+      "target_bitsizes": [
+        1,
+        1,
+        9,
+        9,
+        10
+      ],
+      "target_shapes": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "num_controls": 0,
+      "log_block_sizes": [
+        5
+      ],
+      "use_dirty_ancilla": true
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "2b781de284bd8a926fa939b9378afa5d.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "45d84da5de4f261436b030503f5441c7.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "0b50a249dfdf5d7b8304150cee7c6126.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "SwapWithZero",
+      "filename": "7564b37433e3929e603b858a2e1a323d.json"
+    },
+    {
+      "name": "SwapWithZero",
+      "filename": "037704f7bd8967559fdf9e6adb8dbed2.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "b34db5f71dd43cf7892c3dc163b60e8a.json"
+    },
+    {
+      "name": "SwapWithZero",
+      "filename": "e6c70adb84ab54390574a712fa8f24f1.json"
+    },
+    {
+      "name": "QROM",
+      "filename": "70d0ac5b3631a5b8287ab7c8c9d02c49.json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SwapWithZero",
+  "attrs": {
+    "selection_bitsizes": [
+      "Symbol(k)"
+    ],
+    "target_bitsize": "Symbol(b)",
+    "n_target_registers": [
+      "NOT_SERIALIZABLE"
+    ]
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "CSwapApprox",
+      "filename": "4744eeac29ebd4990208e92cb9b45b20.json"
+    }
+  ]
+}

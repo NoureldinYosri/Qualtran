@@ -1,0 +1,29 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "num_aux": 50,
+      "num_bits_state_prep": 12,
+      "num_bits_rot_aa": 7
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "QROAM",
+      "filename": "79f48039d1578370701dda737ea6c748.json"
+    },
+    {
+      "name": "LessThanEqual",
+      "filename": "547bc2dcf5232f0abada6ba8847e4664.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "5c2cc8f82cdb1eb0ca3f2d372733f381.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "3ef30077b5eed3bcb80ed27907189a90.json"
+    }
+  ]
+}

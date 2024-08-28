@@ -1,0 +1,25 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "num_aux": 50,
+      "num_bits_state_prep": 12,
+      "num_bits_rot_aa": 1
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "5c2cc8f82cdb1eb0ca3f2d372733f381.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "QROAM",
+      "filename": "90cfdf77e670fb642f15ccc2c3b26a5a.json"
+    }
+  ]
+}

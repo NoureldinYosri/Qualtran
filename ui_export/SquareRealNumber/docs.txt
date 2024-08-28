@@ -1,0 +1,20 @@
+Square a fixed-point representation of a real number
+
+i.e.
+
+$$
+    |a\rangle|0\rangle \rightarrow |a\rangle|a^2\rangle
+$$
+
+The real numbers are assumed to be in the range [0, 1).
+
+#### Parameters
+ - `bitsize`: Number of bits used to represent the real number. 
+
+#### Registers
+ - `a`: bitsize-sized input register.
+ - `b`: bitsize-sized input register.
+ - `result`: bitsize output register 
+
+#### References
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](https://arxiv.org/abs/2007.07391). Appendix D. Section 6. (p. 74).

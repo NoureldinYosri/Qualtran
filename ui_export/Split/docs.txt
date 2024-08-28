@@ -1,0 +1,11 @@
+Split a register of a given `dtype` into an array of `QBit`s.
+
+A logical operation may be defined on e.g. a quantum integer, but to define its decomposition
+we must operate on individual bits. `Split` can be used for this purpose. See `Join` for the
+inverse operation.
+
+#### Parameters
+ - `dtype`: The quantum data type of the incoming data that will be split into an array of `QBit`s. 
+
+#### Registers
+ - `reg`: The register to be split. On its left, it is of the given data type. On the right, it is an array of `QBit()`s of shape `(dtype.num_qubits,)`.

@@ -1,0 +1,11 @@
+{
+  "name": "Split",
+  "attrs": {
+    "dtype": {
+      "bitsize": 2,
+      "iteration_length": 4
+    }
+  },
+  "score": null,
+  "callees": []
+}

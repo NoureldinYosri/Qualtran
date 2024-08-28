@@ -1,0 +1,51 @@
+{
+  "name": "StatePreparationAliasSampling",
+  "attrs": {
+    "selection_registers": [
+      {
+        "name": "selection",
+        "dtype": {
+          "bitsize": "NOT_SERIALIZABLE",
+          "iteration_length": "Symbol(L)"
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "alt": {
+      "shape": [
+        "Symbol(L)"
+      ]
+    },
+    "keep": {
+      "shape": [
+        "Symbol(L)"
+      ]
+    },
+    "mu": "NOT_SERIALIZABLE",
+    "sum_of_lcu_coeffs": "Symbol(S)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "LessThanEqual",
+      "filename": "b3dcc7a4d25195035b05b4be08a0b424.json"
+    },
+    {
+      "name": "QROM",
+      "filename": "b4f1fb3176c6178e1a323b7dbf432978.json"
+    },
+    {
+      "name": "PrepareUniformSuperposition",
+      "filename": "9742cb04d2f758c6d1e3988d2a956e0b.json"
+    },
+    {
+      "name": "Hadamard",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "9137bbd26f86f8fa08e729e9166457e8.json"
+    }
+  ]
+}

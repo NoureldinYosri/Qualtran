@@ -1,0 +1,9 @@
+{
+  "name": "GlobalPhase",
+  "attrs": {
+    "coefficient": "-1.0+-0.0i",
+    "eps": 2.5e-12
+  },
+  "score": null,
+  "callees": []
+}

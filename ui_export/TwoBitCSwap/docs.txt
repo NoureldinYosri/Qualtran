@@ -1,0 +1,11 @@
+Swap two bits controlled on a control bit.
+
+This is sometimes known as the [Fredkin Gate](https://en.wikipedia.org/wiki/Fredkin_gate).
+
+#### Registers
+ - `ctrl`: the control bit
+ - `x`: the first bit
+ - `y`: the second bit 
+
+#### References
+ - [An algorithm for the T-count](https://arxiv.org/abs/1308.4134). Gosset et. al. 2013. Figure 5.2.

@@ -1,0 +1,21 @@
+{
+  "name": "CSwapApprox",
+  "attrs": {
+    "bitsize": "Symbol(b2)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "ArbitraryClifford",
+      "filename": "96d730b7a405ed0e9cb1068b43e06fe4.json"
+    },
+    {
+      "name": "ArbitraryClifford",
+      "filename": "53d21dfb7b3e4ffc83a7bbe3f8aefc3e.json"
+    },
+    {
+      "name": "TGate",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    }
+  ]
+}

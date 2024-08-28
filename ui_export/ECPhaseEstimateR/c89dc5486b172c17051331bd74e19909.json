@@ -1,0 +1,23 @@
+{
+  "name": "ECPhaseEstimateR",
+  "attrs": {
+    "n": "Symbol(n)",
+    "point": {
+      "x": "Symbol(R_x)",
+      "y": "Symbol(R_y)",
+      "mod": "Symbol(p)",
+      "curve_a": 0
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "ECAddR",
+      "filename": "d61618bf7e1e0b080e28a7262adefcdb.json"
+    },
+    {
+      "name": "MeasureQFT",
+      "filename": "a342a5189b3a0b449c4d4033872be5eb.json"
+    }
+  ]
+}

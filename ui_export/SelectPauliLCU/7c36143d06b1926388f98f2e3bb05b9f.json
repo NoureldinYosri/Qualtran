@@ -1,0 +1,65 @@
+{
+  "name": "SelectPauliLCU",
+  "attrs": {
+    "selection_bitsize": 2,
+    "target_bitsize": 4,
+    "select_unitaries": [
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE"
+    ],
+    "control_val": null
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Controlled",
+      "filename": "998dc2bd9178354a4f868e66b7c3fee5.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Split",
+      "filename": "1057b6d9127a7a738204094d204bc161.json"
+    },
+    {
+      "name": "Controlled",
+      "filename": "998dc2bd9178354a4f868e66b7c3fee5.json"
+    },
+    {
+      "name": "Join",
+      "filename": "1057b6d9127a7a738204094d204bc161.json"
+    },
+    {
+      "name": "Join",
+      "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+    },
+    {
+      "name": "And",
+      "filename": "3be7f9c94e46dfea4642fe777130f638.json"
+    },
+    {
+      "name": "Controlled",
+      "filename": "998dc2bd9178354a4f868e66b7c3fee5.json"
+    },
+    {
+      "name": "And",
+      "filename": "10122d57e505631155928c58bce4fddd.json"
+    },
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Controlled",
+      "filename": "998dc2bd9178354a4f868e66b7c3fee5.json"
+    },
+    {
+      "name": "Split",
+      "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+    }
+  ]
+}

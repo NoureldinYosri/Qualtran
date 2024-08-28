@@ -1,0 +1,23 @@
+{
+  "name": "OuterPrepareDoubleFactorization",
+  "attrs": {
+    "num_aux": 50,
+    "num_bits_state_prep": 12,
+    "num_bits_rot_aa": 1
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "QROAM",
+      "filename": "7205c1facf0eb52fc5acfda7b543cdb0.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "PrepareUniformSuperposition",
+      "filename": "fe2f454decf3bf8c8cda2e38726054cb.json"
+    }
+  ]
+}

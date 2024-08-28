@@ -1,0 +1,22 @@
+{
+  "name": "AddK",
+  "attrs": {
+    "bitsize": 8,
+    "k": "Symbol(_k0)",
+    "cvs": [
+      1
+    ],
+    "signed": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Add",
+      "filename": "4fa6a9f3a4910e3e8013557ac3cfc3d6.json"
+    }
+  ]
+}

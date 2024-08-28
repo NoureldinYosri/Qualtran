@@ -1,0 +1,18 @@
+{
+  "name": "HoppingPlaquette",
+  "attrs": {
+    "kappa": 8,
+    "eps": 0.15
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Rz",
+      "filename": "20de293816dd52c9a336b79c4ef95f4f.json"
+    },
+    {
+      "name": "TwoBitFFFT",
+      "filename": "f4ac6d594fc1d67026943ec30e8ff41a.json"
+    }
+  ]
+}

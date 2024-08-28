@@ -1,0 +1,10 @@
+{
+  "name": "ZPowGate",
+  "attrs": {
+    "exponent": -0.49999999994427274,
+    "global_shift": -1,
+    "eps": 2.5e-12
+  },
+  "score": null,
+  "callees": []
+}

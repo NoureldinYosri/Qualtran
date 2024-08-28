@@ -1,0 +1,7 @@
+Implements single control, multi-target $C[X^{\otimes n}]$ gate.
+
+Implements $|0><0| I + |1><1| X^{\otimes n}$ using a circuit of depth $2\log(n) + 1$
+containing only CNOT gates.
+
+#### References
+ - [Trading T-gates for dirty qubits in state preparation and unitary synthesis](https://arxiv.org/abs/1812.00954). Appendix B.1.

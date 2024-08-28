@@ -1,0 +1,14 @@
+{
+  "name": "ECAddR",
+  "attrs": {
+    "n": "Symbol(n)",
+    "R": {
+      "x": "Symbol(_Rx0)",
+      "y": "Symbol(_Ry0)",
+      "mod": "Symbol(p)",
+      "curve_a": 0
+    }
+  },
+  "score": null,
+  "callees": []
+}

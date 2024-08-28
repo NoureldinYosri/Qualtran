@@ -1,0 +1,9 @@
+Implents the unitary $e^{-i \alpha H_X}$.
+
+#### Parameters
+ - `nsites`: The number of lattice sites.
+ - `angle`: The angle of the rotation. $\alpha$ in the docstring.
+ - `eps`: The tolerance for the rotation. 
+
+#### Registers
+ - `system`: The system register to apply the unitary to.

@@ -1,0 +1,13 @@
+Apply controlled Z operation to a single qubit in a big system register.
+
+Used in THC / DF Select.
+
+This is either a CCZ or CCCZ operation. Wrap it as a bloq to hide the split / joins.
+
+#### Parameters
+ - `cvs`: The control values of the controls.
+ - `bitsize`: The system bitsize. 
+
+#### Registers
+ - `ctrls`: control registers
+ - `system`: system register

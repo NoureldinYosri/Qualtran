@@ -1,0 +1,14 @@
+{
+  "name": "ApplyNuclearPhase",
+  "attrs": {
+    "num_bits_p": 8,
+    "num_bits_nuc": 16
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

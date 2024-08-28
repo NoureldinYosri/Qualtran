@@ -1,0 +1,11 @@
+Perform y += x*k mod m for constant k, m and quantum x, y.
+
+#### Parameters
+ - `k`: The constant integer to scale `x` before adding into `y`.
+ - `mod`: The modulus of the addition
+ - `bitsize`: The size of the two registers. 
+
+#### Registers
+ - `ctrl`: The control bit
+ - `x`: The 'source' quantum register containing the integer to be scaled and added to `y`.
+ - `y`: The 'destination' quantum register to which the addition will apply.

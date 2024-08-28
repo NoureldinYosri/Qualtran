@@ -1,0 +1,16 @@
+{
+  "name": "OutputIndexedData",
+  "attrs": {
+    "num_aux": 50,
+    "num_spin_orb": 10,
+    "num_eig": 250,
+    "num_bits_rot_aa": 7
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "QROAM",
+      "filename": "ca9b06cba86faf281b8bcf7d8a4c70b4.json"
+    }
+  ]
+}

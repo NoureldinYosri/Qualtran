@@ -1,0 +1,36 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "num_aux": 50,
+      "num_spin_orb": 10,
+      "num_bits_state_prep": 12,
+      "num_bits_rot_aa": 7,
+      "kp1": 1,
+      "kp2": 1
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "cd51fd66452acdf7cb32ae7cf0a13efa.json"
+    },
+    {
+      "name": "LessThanEqual",
+      "filename": "547bc2dcf5232f0abada6ba8847e4664.json"
+    },
+    {
+      "name": "QROAMTwoRegs",
+      "filename": "e4d0fe3de9d0fc2d1e91a24f8cdf1b7b.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "74f2ea3bf8623b68ea7947bcccb439af.json"
+    }
+  ]
+}

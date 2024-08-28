@@ -1,0 +1,20 @@
+Perform $b^e \mod{m}$ for constant `base` $b$, `mod` $m$, and quantum `exponent` $e$.
+
+Modular exponentiation is the main computational primitive for quantum factoring algorithms.
+We follow [GE2019]'s "reference implementation" for factoring. See `ModExp.make_for_shor`
+to set the class attributes for a factoring run.
+
+This bloq decomposes into controlled modular exponentiation for each exponent bit.
+
+#### Parameters
+ - `base`: The integer base of the exponentiation
+ - `mod`: The integer modulus
+ - `exp_bitsize`: The size of the `exponent` thru-register
+ - `x_bitsize`: The size of the `x` right-register 
+
+#### Registers
+ - `exponent`: The exponent
+ - `x [right]`: The output register containing the result of the exponentiation 
+
+#### References
+ - [How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits](https://arxiv.org/abs/1905.09749). Gidney and Ekerå. 2019.

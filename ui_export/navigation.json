@@ -1,0 +1,1625 @@
+{
+  "Basic Gates": {
+    "T Gate": [
+      {
+        "name": "TGate",
+        "examples": [
+          {
+            "name": "t_gate",
+            "filename": "bca4942930594d42e6b73d2b0411149a.json"
+          }
+        ]
+      }
+    ],
+    "Toffoli": [
+      {
+        "name": "Toffoli",
+        "examples": [
+          {
+            "name": "toffoli",
+            "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+          }
+        ]
+      }
+    ],
+    "Hadamard": [
+      {
+        "name": "Hadamard",
+        "examples": [
+          {
+            "name": "hadamard",
+            "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+          }
+        ]
+      }
+    ],
+    "CNOT": [
+      {
+        "name": "CNOT",
+        "examples": [
+          {
+            "name": "cnot",
+            "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+          }
+        ]
+      }
+    ],
+    "S Gate": [
+      {
+        "name": "SGate",
+        "examples": [
+          {
+            "name": "s_gate",
+            "filename": "bca4942930594d42e6b73d2b0411149a.json"
+          }
+        ]
+      }
+    ],
+    "And": [
+      {
+        "name": "And",
+        "examples": [
+          {
+            "name": "and_bloq",
+            "filename": "ea909b4a37d548f5cbc42a8d8bfbff2b.json"
+          }
+        ]
+      },
+      {
+        "name": "MultiAnd",
+        "examples": [
+          {
+            "name": "multi_and",
+            "filename": "81139efe2f638c1de7c8124fc365a90d.json"
+          }
+        ]
+      }
+    ],
+    "States and Effects": [
+      {
+        "name": "ZeroState",
+        "examples": [
+          {
+            "name": "zero_state",
+            "filename": "c3c4fde7321e91364468056f231abe2f.json"
+          }
+        ]
+      },
+      {
+        "name": "ZeroEffect",
+        "examples": [
+          {
+            "name": "zero_effect",
+            "filename": "45b1341f37329c5d99dc54c99d48a919.json"
+          }
+        ]
+      },
+      {
+        "name": "OneState",
+        "examples": [
+          {
+            "name": "one_state",
+            "filename": "1810993e7f280cde6601664af91213f8.json"
+          }
+        ]
+      },
+      {
+        "name": "OneEffect",
+        "examples": [
+          {
+            "name": "one_effect",
+            "filename": "708df011afa5e985ee68040925cd046b.json"
+          }
+        ]
+      },
+      {
+        "name": "IntState",
+        "examples": [
+          {
+            "name": "int_state",
+            "filename": "b58fcc2ba5f4fcdd00de876affd79551.json"
+          }
+        ]
+      },
+      {
+        "name": "IntEffect",
+        "examples": [
+          {
+            "name": "int_effect",
+            "filename": "79a1026dd1da1d444702c61a0ad44ed6.json"
+          }
+        ]
+      },
+      {
+        "name": "PlusState",
+        "examples": [
+          {
+            "name": "plus_state",
+            "filename": "c3c4fde7321e91364468056f231abe2f.json"
+          }
+        ]
+      },
+      {
+        "name": "PlusEffect",
+        "examples": [
+          {
+            "name": "plus_effect",
+            "filename": "45b1341f37329c5d99dc54c99d48a919.json"
+          }
+        ]
+      },
+      {
+        "name": "MinusState",
+        "examples": [
+          {
+            "name": "minus_state",
+            "filename": "1810993e7f280cde6601664af91213f8.json"
+          }
+        ]
+      },
+      {
+        "name": "MinusEffect",
+        "examples": [
+          {
+            "name": "minus_effect",
+            "filename": "708df011afa5e985ee68040925cd046b.json"
+          }
+        ]
+      }
+    ],
+    "Swap Network": [
+      {
+        "name": "CSwap",
+        "examples": [
+          {
+            "name": "cswap_symb",
+            "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+          },
+          {
+            "name": "cswap_small",
+            "filename": "2cd7acc378c730a98acc846c27bb5183.json"
+          },
+          {
+            "name": "cswap_large",
+            "filename": "49893b548a318a6031c085d2d9eda285.json"
+          }
+        ]
+      },
+      {
+        "name": "CSwapApprox",
+        "examples": [
+          {
+            "name": "approx_cswap_symb",
+            "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+          },
+          {
+            "name": "approx_cswap_small",
+            "filename": "2cd7acc378c730a98acc846c27bb5183.json"
+          },
+          {
+            "name": "approx_cswap_large",
+            "filename": "49893b548a318a6031c085d2d9eda285.json"
+          }
+        ]
+      },
+      {
+        "name": "SwapWithZero",
+        "examples": [
+          {
+            "name": "swz",
+            "filename": "5d9e41766a8b3e919d5d461b8ba58e56.json"
+          },
+          {
+            "name": "swz_small",
+            "filename": "59e5a49aa110a82390f15ba3c867decf.json"
+          },
+          {
+            "name": "swz_multi_dimensional",
+            "filename": "e3260b23df999967b228bee82139a003.json"
+          }
+        ]
+      },
+      {
+        "name": "MultiplexedCSwap",
+        "examples": [
+          {
+            "name": "multiplexed_cswap",
+            "filename": "aadd3b93a46eaacd7d21947febde56df.json"
+          }
+        ]
+      }
+    ],
+    "Global Phase": [
+      {
+        "name": "GlobalPhase",
+        "examples": [
+          {
+            "name": "global_phase",
+            "filename": "3b8a98e652282d84a950734f99687d01.json"
+          }
+        ]
+      }
+    ],
+    "Identity Gate": [
+      {
+        "name": "Identity",
+        "examples": [
+          {
+            "name": "identity",
+            "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+          }
+        ]
+      }
+    ],
+    "Bookkeeping Bloqs": [
+      {
+        "name": "Allocate",
+        "examples": [
+          {
+            "name": "alloc",
+            "filename": "3564c155a5f99e21f94ee2e822d782b5.json"
+          }
+        ]
+      },
+      {
+        "name": "Free",
+        "examples": [
+          {
+            "name": "free",
+            "filename": "3564c155a5f99e21f94ee2e822d782b5.json"
+          }
+        ]
+      },
+      {
+        "name": "Split",
+        "examples": [
+          {
+            "name": "split",
+            "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+          }
+        ]
+      },
+      {
+        "name": "Join",
+        "examples": [
+          {
+            "name": "join",
+            "filename": "a50002b62a188fa991d7ff38c1f59a06.json"
+          }
+        ]
+      },
+      {
+        "name": "Partition",
+        "examples": [
+          {
+            "name": "partition",
+            "filename": "548418e9bb9dc30451243ce8478574fd.json"
+          }
+        ]
+      },
+      {
+        "name": "AutoPartition",
+        "examples": [
+          {
+            "name": "auto_partition",
+            "filename": "cbe3b23395fa4e87f89b524b14f70169.json"
+          }
+        ]
+      },
+      {
+        "name": "Cast",
+        "examples": [
+          {
+            "name": "cast",
+            "filename": "ae5b7f80fb90ac59723ed4c3c1b0b245.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Chemistry": {
+    "Sparse": [
+      {
+        "name": "PrepareSparse",
+        "examples": [
+          {
+            "name": "prep_sparse",
+            "filename": "6587a76da545571bf4aa50bebb538912.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectSparse",
+        "examples": [
+          {
+            "name": "sel_sparse",
+            "filename": "ea74594cf0d3bff1cee395d34890ed58.json"
+          }
+        ]
+      }
+    ],
+    "Single Factorization": [
+      {
+        "name": "SingleFactorizationOneBody",
+        "examples": [
+          {
+            "name": "sf_one_body",
+            "filename": "c08ccbce1cc2b7ec32bab6920e2f3f16.json"
+          }
+        ]
+      },
+      {
+        "name": "SingleFactorizationBlockEncoding",
+        "examples": [
+          {
+            "name": "sf_block_encoding",
+            "filename": "3d0185b8dc201269bc20f87a58b7eb35.json"
+          }
+        ]
+      }
+    ],
+    "Double Factorization": [
+      {
+        "name": "DoubleFactorizationOneBody",
+        "examples": [
+          {
+            "name": "df_one_body",
+            "filename": "165d59407b20818050229a03b41a603a.json"
+          }
+        ]
+      },
+      {
+        "name": "DoubleFactorizationBlockEncoding",
+        "examples": [
+          {
+            "name": "df_block_encoding",
+            "filename": "62441ad70b067e26d01601f3bdf0726e.json"
+          }
+        ]
+      }
+    ],
+    "Tensor Hypercontraction": [
+      {
+        "name": "UniformSuperpositionTHC",
+        "examples": [
+          {
+            "name": "thc_uni",
+            "filename": "c3ebbc4762ea09e9ae1414d7d5e7e0ce.json"
+          }
+        ]
+      },
+      {
+        "name": "PrepareTHC",
+        "examples": [
+          {
+            "name": "thc_prep",
+            "filename": "bdbc3e41268c6b8fcb07e298c3bc85da.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectTHC",
+        "examples": [
+          {
+            "name": "thc_sel",
+            "filename": "ca13e12e4397efafd73e4d336fd3e3f6.json"
+          }
+        ]
+      }
+    ],
+    "First Quantized Hamiltonian": [
+      {
+        "name": "PrepareFirstQuantization",
+        "examples": [
+          {
+            "name": "prep_first_quant",
+            "filename": "497baf556ed5a68052b5b948beed74c0.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectFirstQuantization",
+        "examples": [
+          {
+            "name": "sel_first_quant",
+            "filename": "497baf556ed5a68052b5b948beed74c0.json"
+          }
+        ]
+      },
+      {
+        "name": "PrepareTFirstQuantization",
+        "examples": [
+          {
+            "name": "prepare_t",
+            "filename": "8b1051deff2796d39dc050a22053d188.json"
+          }
+        ]
+      },
+      {
+        "name": "PrepareUVFirstQuantization",
+        "examples": [
+          {
+            "name": "prepare_uv",
+            "filename": "0be806c30c7db6d67544b4ba61bca89b.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectTFirstQuantization",
+        "examples": [
+          {
+            "name": "select_t",
+            "filename": "3ae9d9867e3a3fa6c0ec15b567a67a66.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectUVFirstQuantization",
+        "examples": [
+          {
+            "name": "select_uv",
+            "filename": "214fa19432e5da19a6ae41cc1cb95786.json"
+          }
+        ]
+      }
+    ],
+    "First Quantized Hamiltonian with Quantum Projectile": [
+      {
+        "name": "PrepareFirstQuantizationWithProj",
+        "examples": [
+          {
+            "name": "prep_first_quant",
+            "filename": "8574bcf77c2bb878234636d3352e2759.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectFirstQuantizationWithProj",
+        "examples": [
+          {
+            "name": "sel_first_quant",
+            "filename": "8574bcf77c2bb878234636d3352e2759.json"
+          }
+        ]
+      }
+    ],
+    "Trotter Bloqs": [
+      {
+        "name": "PolynmomialEvaluationInverseSquareRoot",
+        "examples": [
+          {
+            "name": "poly_inv_sqrt",
+            "filename": "cc281c63128685d1bb795bff7e391e07.json"
+          }
+        ]
+      },
+      {
+        "name": "NewtonRaphsonApproxInverseSquareRoot",
+        "examples": [
+          {
+            "name": "nr_inv_sqrt",
+            "filename": "27887d530f92b52b772d65f84b0ff607.json"
+          }
+        ]
+      },
+      {
+        "name": "QuantumVariableRotation",
+        "examples": [
+          {
+            "name": "qvr",
+            "filename": "770f9068870a61966595a243a47420c3.json"
+          }
+        ]
+      },
+      {
+        "name": "KineticEnergy",
+        "examples": [
+          {
+            "name": "kinetic_energy",
+            "filename": "2d77f3431e64ce9dfb8cdbef776a2cc8.json"
+          }
+        ]
+      },
+      {
+        "name": "PairPotential",
+        "examples": [
+          {
+            "name": "pair_potential",
+            "filename": "292306e2a6da1c808fe3fd69abbab0cc.json"
+          }
+        ]
+      },
+      {
+        "name": "PotentialEnergy",
+        "examples": [
+          {
+            "name": "potential_energy",
+            "filename": "a79fae82ad1771e8e97006b1251e7711.json"
+          }
+        ]
+      }
+    ],
+    "Trotterization": [
+      {
+        "name": "TrotterizedUnitary",
+        "examples": [
+          {
+            "name": "trott_unitary",
+            "filename": "81b5d6f8881280aa759a0117daf29489.json"
+          }
+        ]
+      }
+    ],
+    "Ising Trotter Bloqs": [
+      {
+        "name": "IsingXUnitary",
+        "examples": [
+          {
+            "name": "ising_x",
+            "filename": "520ab3f393a309a11d11f4145c4f7084.json"
+          }
+        ]
+      },
+      {
+        "name": "IsingZZUnitary",
+        "examples": [
+          {
+            "name": "ising_zz",
+            "filename": "520ab3f393a309a11d11f4145c4f7084.json"
+          }
+        ]
+      }
+    ],
+    "Trotterized Hubbard": [
+      {
+        "name": "HoppingTile",
+        "examples": [
+          {
+            "name": "hopping_tile",
+            "filename": "4616e440f6d64f5d1d32d2b9fcaf461f.json"
+          }
+        ]
+      },
+      {
+        "name": "HoppingPlaquette",
+        "examples": [
+          {
+            "name": "plaquette",
+            "filename": "468719f4c3266e5590a0a4a211a10a44.json"
+          }
+        ]
+      },
+      {
+        "name": "HoppingTileHWP",
+        "examples": [
+          {
+            "name": "hopping_tile_hwp",
+            "filename": "199ff5891edb4a35f8b1e3b29b1c9d89.json"
+          }
+        ]
+      },
+      {
+        "name": "Interaction",
+        "examples": [
+          {
+            "name": "interaction",
+            "filename": "18ae3890d1ca6e15a3c0dcb88359762c.json"
+          }
+        ]
+      },
+      {
+        "name": "InteractionHWP",
+        "examples": [
+          {
+            "name": "interaction_hwp",
+            "filename": "18ae3890d1ca6e15a3c0dcb88359762c.json"
+          }
+        ]
+      }
+    ],
+    "Givens Rotations": [
+      {
+        "name": "RealGivensRotationByPhaseGradient",
+        "examples": [
+          {
+            "name": "real_givens",
+            "filename": "ad7f267ee3a74ef237355728a78f267c.json"
+          }
+        ]
+      },
+      {
+        "name": "ComplexGivensRotationByPhaseGradient",
+        "examples": [
+          {
+            "name": "cplx_givens",
+            "filename": "ad7f267ee3a74ef237355728a78f267c.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Arithmetic": {
+    "Addition": [
+      {
+        "name": "Add",
+        "examples": [
+          {
+            "name": "add_symb",
+            "filename": "87066028a0dac4a85299fada4bcef2f9.json"
+          },
+          {
+            "name": "add_small",
+            "filename": "87215dc0364576ad6d73e4c1103c15e6.json"
+          },
+          {
+            "name": "add_large",
+            "filename": "2a780cf292863218915d904de408eb91.json"
+          },
+          {
+            "name": "add_diff_size_regs",
+            "filename": "d83c043904d6989ca79f8c0b2dab4e17.json"
+          }
+        ]
+      },
+      {
+        "name": "OutOfPlaceAdder",
+        "examples": [
+          {
+            "name": "add_oop_symb",
+            "filename": "a6707b3d6440fd1385b23cf49ddff984.json"
+          },
+          {
+            "name": "add_oop_small",
+            "filename": "20ec83beffeb9ac70f46a04ff49c19ad.json"
+          },
+          {
+            "name": "add_oop_large",
+            "filename": "fd63b66729c480545f5964190ceb1e98.json"
+          }
+        ]
+      },
+      {
+        "name": "AddK",
+        "examples": [
+          {
+            "name": "add_k",
+            "filename": "6f9f1149423e3d126862dca777de632b.json"
+          },
+          {
+            "name": "add_k_small",
+            "filename": "e96fb9f05c9522d1731c6ee0820f6797.json"
+          },
+          {
+            "name": "add_k_large",
+            "filename": "90b3a63398018cb258b52ae9c22eda95.json"
+          }
+        ]
+      }
+    ],
+    "Subtraction": [
+      {
+        "name": "Subtract",
+        "examples": [
+          {
+            "name": "sub_symb",
+            "filename": "87066028a0dac4a85299fada4bcef2f9.json"
+          },
+          {
+            "name": "sub_small",
+            "filename": "87215dc0364576ad6d73e4c1103c15e6.json"
+          },
+          {
+            "name": "sub_large",
+            "filename": "2a780cf292863218915d904de408eb91.json"
+          },
+          {
+            "name": "sub_diff_size_regs",
+            "filename": "d83c043904d6989ca79f8c0b2dab4e17.json"
+          }
+        ]
+      }
+    ],
+    "Multiplication": [
+      {
+        "name": "PlusEqualProduct",
+        "examples": [
+          {
+            "name": "plus_equal_product",
+            "filename": "dc34a205dc08b45a20c033a9e61d6194.json"
+          }
+        ]
+      },
+      {
+        "name": "Product",
+        "examples": [
+          {
+            "name": "product",
+            "filename": "ce6db29ba63b6fc82f42f605258efa96.json"
+          }
+        ]
+      },
+      {
+        "name": "Square",
+        "examples": [
+          {
+            "name": "square",
+            "filename": "c1d4727e97f7270a54e00a790e6d1385.json"
+          }
+        ]
+      },
+      {
+        "name": "SumOfSquares",
+        "examples": [
+          {
+            "name": "sum_of_squares",
+            "filename": "be1fbe4b29a323163a806f7aa6afe5da.json"
+          }
+        ]
+      },
+      {
+        "name": "ScaleIntByReal",
+        "examples": [
+          {
+            "name": "scale_int_by_real",
+            "filename": "b8c55c9b64cff7dea2ed5e8ea5647c0d.json"
+          }
+        ]
+      },
+      {
+        "name": "MultiplyTwoReals",
+        "examples": [
+          {
+            "name": "multiply_two_reals",
+            "filename": "66d2f9c9fb568a52c05cc078863f10ad.json"
+          }
+        ]
+      },
+      {
+        "name": "SquareRealNumber",
+        "examples": [
+          {
+            "name": "square_real_number",
+            "filename": "66d2f9c9fb568a52c05cc078863f10ad.json"
+          }
+        ]
+      }
+    ],
+    "Comparison": [
+      {
+        "name": "LessThanConstant",
+        "examples": [
+          {
+            "name": "lt_k",
+            "filename": "0a7f10d10618031dc6ae25b23ddd892e.json"
+          },
+          {
+            "name": "lt_k_symb",
+            "filename": "ad304a4b446e4c7a6812a4f06c54978f.json"
+          }
+        ]
+      },
+      {
+        "name": "GreaterThan",
+        "examples": [
+          {
+            "name": "greater_than",
+            "filename": "8a27d6f4b86e306a9168887c8a626fa9.json"
+          }
+        ]
+      },
+      {
+        "name": "GreaterThanConstant",
+        "examples": [
+          {
+            "name": "gt_k",
+            "filename": "18e07c3198e7e14ce2346807112adcb5.json"
+          }
+        ]
+      },
+      {
+        "name": "EqualsAConstant",
+        "examples": [
+          {
+            "name": "eq_k",
+            "filename": "18e07c3198e7e14ce2346807112adcb5.json"
+          }
+        ]
+      },
+      {
+        "name": "BiQubitsMixer",
+        "examples": [
+          {
+            "name": "bi_qubits_mixer",
+            "filename": "bca4942930594d42e6b73d2b0411149a.json"
+          }
+        ]
+      },
+      {
+        "name": "SingleQubitCompare",
+        "examples": [
+          {
+            "name": "sq_cmp",
+            "filename": "bca4942930594d42e6b73d2b0411149a.json"
+          }
+        ]
+      },
+      {
+        "name": "LessThanEqual",
+        "examples": [
+          {
+            "name": "leq",
+            "filename": "6edfaf079e8aa678add3361f83afddc5.json"
+          },
+          {
+            "name": "leq_symb",
+            "filename": "9231ef0c176fbee3f4d7dd00d2907b18.json"
+          }
+        ]
+      }
+    ],
+    "Sorting": [
+      {
+        "name": "Comparator",
+        "examples": [
+          {
+            "name": "comparator",
+            "filename": "3ef30077b5eed3bcb80ed27907189a90.json"
+          },
+          {
+            "name": "comparator_symb",
+            "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+          }
+        ]
+      },
+      {
+        "name": "ParallelComparators",
+        "examples": [
+          {
+            "name": "parallel_compare",
+            "filename": "79f1ac63891f1b36720c33c4b24e8a9c.json"
+          }
+        ]
+      },
+      {
+        "name": "BitonicMerge",
+        "examples": [
+          {
+            "name": "bitonic_merge",
+            "filename": "ac6a36b1c2cd2193285f12d60c011334.json"
+          }
+        ]
+      },
+      {
+        "name": "BitonicSort",
+        "examples": [
+          {
+            "name": "bitonic_sort",
+            "filename": "e1014a327f5178d892ebb7a4e203a393.json"
+          },
+          {
+            "name": "bitonic_sort_symb",
+            "filename": "8444ac379ecb418d063ea0adfc97cafb.json"
+          }
+        ]
+      }
+    ],
+    "Conversions": [
+      {
+        "name": "SignedIntegerToTwosComplement",
+        "examples": [
+          {
+            "name": "signed_to_twos",
+            "filename": "66d2f9c9fb568a52c05cc078863f10ad.json"
+          }
+        ]
+      },
+      {
+        "name": "ToContiguousIndex",
+        "examples": [
+          {
+            "name": "to_contg_index",
+            "filename": "e7f7b23adc8146962956013bb14be610.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Modular Arithmetic": {
+    "Modular Addition": [
+      {
+        "name": "ModAdd",
+        "examples": [
+          {
+            "name": "mod_add",
+            "filename": "2508146f643d7b7ff00b81de242be376.json"
+          }
+        ]
+      },
+      {
+        "name": "ModAddK",
+        "examples": [
+          {
+            "name": "mod_add_k",
+            "filename": "11d801365c1f8d6296cfc5adc1dbe2db.json"
+          },
+          {
+            "name": "mod_add_k_small",
+            "filename": "49e9647eca56e46ccfa50c47ece83448.json"
+          },
+          {
+            "name": "mod_add_k_large",
+            "filename": "f97a24e8df6977b4b40525d7b46c223d.json"
+          }
+        ]
+      }
+    ],
+    "Modular Multiplication": [
+      {
+        "name": "CtrlModMul",
+        "examples": [
+          {
+            "name": "modmul_symb",
+            "filename": "49f65178c44e02105382c3acbeada187.json"
+          },
+          {
+            "name": "modmul",
+            "filename": "05bd75c042080385f08c7481c0e124f4.json"
+          }
+        ]
+      }
+    ],
+    "Modular Exponentiation": [
+      {
+        "name": "ModExp",
+        "examples": [
+          {
+            "name": "modexp_symb",
+            "filename": "c4a8225b6fb8aec1d78b89b1c232f03a.json"
+          },
+          {
+            "name": "modexp_small",
+            "filename": "97ae6f58a26c632042bf0496d2c08013.json"
+          },
+          {
+            "name": "modexp",
+            "filename": "f1f0bda97f60114e10a6e46405caa80e.json"
+          }
+        ]
+      }
+    ],
+    "Elliptic Curve Addition": [
+      {
+        "name": "ECAdd",
+        "examples": [
+          {
+            "name": "ec_add",
+            "filename": "87a5629e87bd5d5b4c5726c235c1e32a.json"
+          }
+        ]
+      }
+    ],
+    "Elliptic Curve Cryptography": [
+      {
+        "name": "FindECCPrivateKey",
+        "examples": [
+          {
+            "name": "ecc",
+            "filename": "5e96adfb9cf0542c01c5b883da4dc9a8.json"
+          }
+        ]
+      },
+      {
+        "name": "ECPhaseEstimateR",
+        "examples": [
+          {
+            "name": "ec_pe",
+            "filename": "c89dc5486b172c17051331bd74e19909.json"
+          }
+        ]
+      },
+      {
+        "name": "ECAddR",
+        "examples": [
+          {
+            "name": "ec_add_r",
+            "filename": "d61618bf7e1e0b080e28a7262adefcdb.json"
+          },
+          {
+            "name": "ec_add_r_small",
+            "filename": "10bdc89444768281efa0100c3aeb6e1d.json"
+          }
+        ]
+      },
+      {
+        "name": "ECWindowAddR",
+        "examples": [
+          {
+            "name": "ec_window_add",
+            "filename": "23b63c24ffb918f1ec5f25d5bf372e9a.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Rotations": {
+    "Basic Rotation Gates": [
+      {
+        "name": "XPowGate",
+        "examples": [
+          {
+            "name": "x_pow",
+            "filename": "43ba532aba46af5b5064d6557a87be51.json"
+          }
+        ]
+      },
+      {
+        "name": "YPowGate",
+        "examples": [
+          {
+            "name": "y_pow",
+            "filename": "43ba532aba46af5b5064d6557a87be51.json"
+          }
+        ]
+      },
+      {
+        "name": "ZPowGate",
+        "examples": [
+          {
+            "name": "z_pow",
+            "filename": "43ba532aba46af5b5064d6557a87be51.json"
+          }
+        ]
+      }
+    ],
+    "SU2 Rotation": [
+      {
+        "name": "SU2RotationGate",
+        "examples": [
+          {
+            "name": "su2_rotation_gate",
+            "filename": "f98a42369cc2bf2487523638df471c4b.json"
+          },
+          {
+            "name": "hadamard",
+            "filename": "a83150c4d2c5899fd142d56df398a773.json"
+          },
+          {
+            "name": "t_gate",
+            "filename": "92a027ed991e629ad240fd5b2a704824.json"
+          }
+        ]
+      }
+    ],
+    "Quantum Variable Rotation": [
+      {
+        "name": "QvrZPow",
+        "examples": [
+          {
+            "name": "qvr_zpow",
+            "filename": "4fc50855f55544a022629fa2312a55c2.json"
+          }
+        ]
+      },
+      {
+        "name": "QvrPhaseGradient",
+        "examples": [
+          {
+            "name": "qvr_phase_gradient",
+            "filename": "8c2363066662e145c7a439044b62a9a6.json"
+          }
+        ]
+      }
+    ],
+    "Phasing via Cost function": [
+      {
+        "name": "PhasingViaCostFunction",
+        "examples": [
+          {
+            "name": "square_via_phase_gradient",
+            "filename": "fac5ff5d80625ab2b401d73f9655b771.json"
+          },
+          {
+            "name": "square_via_zpow_phasing",
+            "filename": "fac5ff5d80625ab2b401d73f9655b771.json"
+          }
+        ]
+      }
+    ],
+    "Rotations via Phase Gradients": [
+      {
+        "name": "PhaseGradientUnitary",
+        "examples": [
+          {
+            "name": "phase_gradient_unitary",
+            "filename": "8abdc7bee38e765d6b5e91de59e40fc1.json"
+          }
+        ]
+      },
+      {
+        "name": "PhaseGradientState",
+        "examples": [
+          {
+            "name": "phase_gradient_state",
+            "filename": "3b170bfe4a9e0b97fe47b8d94fedd190.json"
+          }
+        ]
+      },
+      {
+        "name": "AddIntoPhaseGrad",
+        "examples": [
+          {
+            "name": "add_into_phase_grad",
+            "filename": "bc07804e1c240d45f3237e9e0b6aed58.json"
+          }
+        ]
+      },
+      {
+        "name": "AddScaledValIntoPhaseReg",
+        "examples": [
+          {
+            "name": "add_scaled_val_into_phase_reg",
+            "filename": "7ccd52191d9a7a932d613d10122d04e1.json"
+          }
+        ]
+      }
+    ],
+    "Z Rotations via Hamming Weight Phasing": [
+      {
+        "name": "HammingWeightPhasing",
+        "examples": [
+          {
+            "name": "hamming_weight_phasing",
+            "filename": "67d5952418e1c399bbe2781b4ee6799c.json"
+          }
+        ]
+      },
+      {
+        "name": "HammingWeightPhasingViaPhaseGradient",
+        "examples": [
+          {
+            "name": "hamming_weight_phasing_via_phase_gradient",
+            "filename": "67d5952418e1c399bbe2781b4ee6799c.json"
+          }
+        ]
+      }
+    ],
+    "Programmable Rotation Gate Array": [
+      {
+        "name": "ProgrammableRotationGateArray",
+        "examples": [
+          {
+            "name": "programmable_rotation_gate_array",
+            "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+          }
+        ]
+      }
+    ],
+    "Two Bit FFFT Gate": [
+      {
+        "name": "TwoBitFFFT",
+        "examples": [
+          {
+            "name": "two_bit_ffft",
+            "filename": "945796e46e5d8585ef89ad3bc37df60c.json"
+          }
+        ]
+      }
+    ],
+    "Approximate QFT": [
+      {
+        "name": "ApproximateQFT",
+        "examples": [
+          {
+            "name": "approximate_qft_small",
+            "filename": "a1198376c171eddd1799b208d658a208.json"
+          },
+          {
+            "name": "approximate_qft_from_epsilon",
+            "filename": "6f4f9bbcee5256fb2ed246483773a1df.json"
+          }
+        ]
+      }
+    ],
+    "Optimal resource states for Phase Estimation by A. Luis and J. Pe\u0159ina": [
+      {
+        "name": "LPRSInterimPrep",
+        "examples": [
+          {
+            "name": "lprs_interim_prep",
+            "filename": "28196f8f54ea3b70f2ffac98044e004e.json"
+          }
+        ]
+      },
+      {
+        "name": "LPResourceState",
+        "examples": [
+          {
+            "name": "lp_resource_state_small",
+            "filename": "6d5f3aa45390dcfeeb674fc71903a769.json"
+          },
+          {
+            "name": "lp_resource_state_symbolic",
+            "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+          }
+        ]
+      }
+    ],
+    "Textbook Quantum Phase Estimation": [
+      {
+        "name": "TextbookQPE",
+        "examples": [
+          {
+            "name": "textbook_qpe_small",
+            "filename": "4f323b110e3086fbaa9c6084566811a9.json"
+          },
+          {
+            "name": "textbook_qpe_using_m_bits",
+            "filename": "f1380f0a74649928a03dbe69efb3340a.json"
+          },
+          {
+            "name": "textbook_qpe_from_standard_deviation_eps",
+            "filename": "41f40307318e32535fb045f7eb45589c.json"
+          },
+          {
+            "name": "textbook_qpe_from_precision_and_delta",
+            "filename": "41f40307318e32535fb045f7eb45589c.json"
+          }
+        ]
+      }
+    ],
+    "Qubitization Walk Operator": [
+      {
+        "name": "QubitizationWalkOperator",
+        "examples": [
+          {
+            "name": "walk_op",
+            "filename": "249c6e386812bc4e986790fc63c7e653.json"
+          },
+          {
+            "name": "thc_walk_op",
+            "filename": "0ce764ba7a69fba4e81f72bf3032c01b.json"
+          },
+          {
+            "name": "walk_op_chem_sparse",
+            "filename": "84cdaede50ea0b48e0c114154c481e62.json"
+          }
+        ]
+      },
+      {
+        "name": "SelectOracle",
+        "examples": []
+      },
+      {
+        "name": "PrepareOracle",
+        "examples": []
+      }
+    ],
+    "Qubitization Phase Estimation": [
+      {
+        "name": "QubitizationQPE",
+        "examples": [
+          {
+            "name": "qubitization_qpe_hubbard_model_small",
+            "filename": "a718bb110b67efc5a0d4acba1709399b.json"
+          },
+          {
+            "name": "qubitization_qpe_sparse_chem",
+            "filename": "634c1c4d227070afd943c9dfafcc2c44.json"
+          },
+          {
+            "name": "qubitization_qpe_chem_thc",
+            "filename": "575486db1656a2938765cdb6a72681c4.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Other": {
+    "Prepare Uniform Superposition": [
+      {
+        "name": "PrepareUniformSuperposition",
+        "examples": [
+          {
+            "name": "prep_uniform",
+            "filename": "d601b3a2f9b3254b67bae4acf4764540.json"
+          },
+          {
+            "name": "c_prep_uniform",
+            "filename": "8739b0d9752b97033f688f0698e64296.json"
+          }
+        ]
+      }
+    ],
+    "Qubitized Hubbard Model": [
+      {
+        "name": "SelectHubbard",
+        "examples": [
+          {
+            "name": "sel_hubb",
+            "filename": "44bb2844ead6f05773d463d2c8d69cea.json"
+          }
+        ]
+      },
+      {
+        "name": "PrepareHubbard",
+        "examples": [
+          {
+            "name": "prep_hubb",
+            "filename": "9eb8b4b0e0569dccc06c3d3cee360354.json"
+          }
+        ]
+      }
+    ],
+    "Apply to Lth Target": [
+      {
+        "name": "ApplyGateToLthQubit",
+        "examples": [
+          {
+            "name": "apply_z_to_odd",
+            "filename": "a87964d3bc37d9db86e7a319f3a8c2a3.json"
+          }
+        ]
+      }
+    ],
+    "QROM": [
+      {
+        "name": "QROMBase",
+        "examples": []
+      },
+      {
+        "name": "QROM",
+        "examples": [
+          {
+            "name": "qrom_small",
+            "filename": "fbb5d15e4eb7b3567ec90ab2dfae8235.json"
+          },
+          {
+            "name": "qrom_multi_data",
+            "filename": "4f2d84eef64e118059a00620967c1908.json"
+          },
+          {
+            "name": "qrom_multi_dim",
+            "filename": "e03f624b03c755a2d97c82f4ac783bb2.json"
+          },
+          {
+            "name": "qrom_symb",
+            "filename": "af209392a503718bece1bb2f06ebc72f.json"
+          }
+        ]
+      }
+    ],
+    "SelectSwapQROM": [
+      {
+        "name": "QROMBase",
+        "examples": []
+      },
+      {
+        "name": "SelectSwapQROM",
+        "examples": [
+          {
+            "name": "qroam_multi_data",
+            "filename": "b94acd303233529cd61382074a9ca86c.json"
+          },
+          {
+            "name": "qroam_multi_dim",
+            "filename": "c6d914cc83b412eb8a1b6b2ee8ba6084.json"
+          },
+          {
+            "name": "qroam_symb_dirty_1d",
+            "filename": "b45828220362bd06d4e8ae930f0acb0f.json"
+          },
+          {
+            "name": "qroam_symb_dirty_2d",
+            "filename": "b73566626370a614bb5f2faa5e825b90.json"
+          },
+          {
+            "name": "qroam_symb_clean_1d",
+            "filename": "7007dbb90056d17256fd16d8777ed775.json"
+          },
+          {
+            "name": "qroam_symb_clean_2d",
+            "filename": "b287b90c27c73fa260cfce14c65c9f44.json"
+          }
+        ]
+      }
+    ],
+    "Block Encoding": [
+      {
+        "name": "BlockEncoding",
+        "examples": []
+      },
+      {
+        "name": "LCUBlockEncoding",
+        "examples": [
+          {
+            "name": "lcu_block",
+            "filename": "62b173931b27488cf1f950c3d7195fc3.json"
+          },
+          {
+            "name": "black_box_lcu_block",
+            "filename": "3b66220bdd4d6f74101771ec8129216d.json"
+          }
+        ]
+      },
+      {
+        "name": "LCUBlockEncodingZeroState",
+        "examples": [
+          {
+            "name": "lcu_zero_state_block",
+            "filename": "62b173931b27488cf1f950c3d7195fc3.json"
+          },
+          {
+            "name": "black_box_lcu_zero_state_block",
+            "filename": "3b66220bdd4d6f74101771ec8129216d.json"
+          }
+        ]
+      },
+      {
+        "name": "ChebyshevPolynomial",
+        "examples": [
+          {
+            "name": "chebyshev_poly",
+            "filename": "5fed8e8a3e4d31a54318a81254ee4ef1.json"
+          },
+          {
+            "name": "black_box_chebyshev_poly",
+            "filename": "28b1b32158537f513cea737d2e73d962.json"
+          }
+        ]
+      },
+      {
+        "name": "Unitary",
+        "examples": [
+          {
+            "name": "unitary_block_encoding",
+            "filename": "1c35f98af7a8a65cb90a03e4d72ba14c.json"
+          },
+          {
+            "name": "unitary_block_encoding_override",
+            "filename": "30185fbc921279eb3d381df508e73b5f.json"
+          }
+        ]
+      },
+      {
+        "name": "TensorProduct",
+        "examples": [
+          {
+            "name": "tensor_product_block_encoding",
+            "filename": "c4de7354ed879490ff65b7a936cc58c2.json"
+          },
+          {
+            "name": "tensor_product_block_encoding_override",
+            "filename": "b0753e6e366f6a35967a933ad61936ea.json"
+          },
+          {
+            "name": "tensor_product_block_encoding_symb",
+            "filename": "8eff6d601e72de80fa7facd6c871cdb5.json"
+          }
+        ]
+      }
+    ],
+    "Reflections": [
+      {
+        "name": "PrepareIdentity",
+        "examples": [
+          {
+            "name": "prepare_identity",
+            "filename": "f68241db8a468f14a0c51946b4ea18ac.json"
+          }
+        ]
+      },
+      {
+        "name": "ReflectionUsingPrepare",
+        "examples": [
+          {
+            "name": "refl_using_prep",
+            "filename": "6df8b7c79c4fd9dc246c66b21dfcdb66.json"
+          },
+          {
+            "name": "refl_around_zero",
+            "filename": "53abc3b2ed3fb40a91812e9fd9982072.json"
+          }
+        ]
+      }
+    ],
+    "Multi-Paulis": [
+      {
+        "name": "MultiTargetCNOT",
+        "examples": [
+          {
+            "name": "c_multi_not_symb",
+            "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+          },
+          {
+            "name": "c_multi_not",
+            "filename": "6d5f3aa45390dcfeeb674fc71903a769.json"
+          }
+        ]
+      },
+      {
+        "name": "MultiControlPauli",
+        "examples": [
+          {
+            "name": "ccpauli",
+            "filename": "5ebe6d037c5c74696cd6c8f20ffa6632.json"
+          }
+        ]
+      }
+    ],
+    "Generic Select": [
+      {
+        "name": "SelectPauliLCU",
+        "examples": [
+          {
+            "name": "select_pauli_lcu",
+            "filename": "7c36143d06b1926388f98f2e3bb05b9f.json"
+          }
+        ]
+      }
+    ],
+    "State Preparation via Alias Sampling": [
+      {
+        "name": "StatePreparationAliasSampling",
+        "examples": [
+          {
+            "name": "state_prep_alias",
+            "filename": "238b2d0a196a94096532f8f5380bec8d.json"
+          },
+          {
+            "name": "state_prep_alias_symb",
+            "filename": "efa6f0587f034f41714123c9a24aacc5.json"
+          }
+        ]
+      }
+    ],
+    "State Preparation Using Rotations": [
+      {
+        "name": "StatePreparationViaRotations",
+        "examples": [
+          {
+            "name": "state_prep_via_rotation",
+            "filename": "175bb8aac9cb9d678e4e638305255f4c.json"
+          },
+          {
+            "name": "state_prep_via_rotation_symb",
+            "filename": "565b527368bdc8d6bf93c71acfc1bf67.json"
+          }
+        ]
+      }
+    ],
+    "Generalized Quantum Signal Processing": [
+      {
+        "name": "GeneralizedQSP",
+        "examples": [
+          {
+            "name": "gqsp",
+            "filename": "cc5ca2e8e2b002339d8e41a76f0a44be.json"
+          },
+          {
+            "name": "gqsp_with_negative_power",
+            "filename": "51b01a5e238c0cae92c0e0730fb6d385.json"
+          },
+          {
+            "name": "gqsp_with_large_negative_power",
+            "filename": "607d97a41dbed8bb4816e01016adbeb5.json"
+          }
+        ]
+      }
+    ],
+    "Hamiltonian Simulation by Generalized Quantum Signal Processing": [
+      {
+        "name": "HamiltonianSimulationByGQSP",
+        "examples": [
+          {
+            "name": "hubbard_time_evolution_by_gqsp",
+            "filename": "9b3cdf0ee3fbc3e855ca276896bd7856.json"
+          },
+          {
+            "name": "symbolic_hamsim_by_gqsp",
+            "filename": "42c4f1bba651bec3d05a8792ba886591.json"
+          }
+        ]
+      }
+    ]
+  }
+}

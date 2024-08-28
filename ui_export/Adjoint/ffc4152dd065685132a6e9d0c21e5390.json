@@ -1,0 +1,10 @@
+{
+  "name": "Adjoint",
+  "attrs": {
+    "subbloq": {
+      "n": 2
+    }
+  },
+  "score": null,
+  "callees": []
+}

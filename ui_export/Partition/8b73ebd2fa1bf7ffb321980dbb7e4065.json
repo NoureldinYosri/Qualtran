@@ -1,0 +1,23 @@
+{
+  "name": "Partition",
+  "attrs": {
+    "n": 2,
+    "regs": [
+      {
+        "name": "ctrl",
+        "dtype": {},
+        "_shape": [],
+        "side": "Side.THRU"
+      },
+      {
+        "name": "x",
+        "dtype": {},
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ],
+    "partition": false
+  },
+  "score": null,
+  "callees": []
+}

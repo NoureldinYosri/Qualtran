@@ -1,0 +1,28 @@
+Block encoding of single factorization Hamiltonian.
+
+Implements Fig. 15 in the reference.
+
+#### Parameters
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `num_aux`: Dimension of auxiliary index for single factorized Hamiltonian. Called $L$ in the reference.
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called $\aleph$ in the reference.
+ - `num_bits_rot_aa_outer`: Number of bits of precision for rotations for amplitude amplification in outer uniform state preparation. Called $b_r$ in the reference.
+ - `num_bits_rot_aa_inner`: Number of bits of precision for rotations for amplitude amplification in inner uniform state preparation. Called $b_r$ in the reference.
+ - `kp1`: QROAM blocking factor for data prepared over l (auxiliary) index. Defaults to 1 (i.e. QROM).
+ - `kp1`: QROAM blocking factor for data prepared over pq indicies. Defaults to 1 (i.e.) QROM.
+ - `kp1_inv`: QROAM blocking factor for inverting the data prepared over l (auxiliary) index.
+ - `kp1_inv`: QROAM blocking factor for inverting the data prepared over pq. 
+
+#### Registers
+ - `ctrl`: Control registers for state preparation.
+ - `l`: register to store L values for auxiliary index.
+ - `p`: spatial orbital index. range(0, num_spin_orb // 2)
+ - `q`: spatial orbital index. range(0, num_spin_orb // 2)
+ - `rot_aa`: Qubit to rotate for amplitude amplification for state preparation.
+ - `swap_pq`: Qubit for controlling swaps over p and q registers.
+ - `spin`: Qubit for controlling swaps over system registers.
+ - `sys`: The system registers. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494) Fig 15, page 43.

@@ -1,0 +1,21 @@
+Tensor product of a sequence of block encodings.
+
+Builds the block encoding as
+$$
+    B[U_1 ⊗ U_2 ⊗ \cdots ⊗ U_n] = B[U_1] ⊗ B[U_2] ⊗ \cdots ⊗ B[U_n]
+$$
+
+When each $B[U_i]$ is a $(\alpha_i, a_i, \epsilon_i)$-block encoding of $U_i$, we have that
+$B[U_1 ⊗ \cdots ⊗ U_n]$ is a $(\prod_i \alpha_i, \sum_i a_i, \sum_i \alpha_i \epsilon_i)$-block
+encoding of $U_1 ⊗ \cdots ⊗ U_n$.
+
+#### Parameters
+ - `block_encodings`: A sequence of block encodings. 
+
+#### Registers
+ - `system`: The system register.
+ - `ancilla`: The ancilla register (present only if bitsize > 0).
+ - `resource`: The resource register (present only if bitsize > 0). 
+
+#### References
+ - [Quantum algorithms: A survey of applications and end-to-end complexities](https://arxiv.org/abs/2310.03011). Dalzell et al. (2023). Ch. 10.2.

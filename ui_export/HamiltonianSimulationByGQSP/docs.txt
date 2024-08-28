@@ -1,0 +1,50 @@
+Hamiltonian simulation using Generalized QSP given a qubitized quantum walk operator.
+
+Given the Szegedy Quantum Walk Operator for a Hamiltonian $H$ constructed from SELECT and PREPARE oracles,
+one can construct a block-encoding of $e^{-iHt}$ using GQSP (Corollary 8).
+
+### Recap: Qubitization Walk Operator
+
+For a Hamiltonian $H = \sum_j \alpha_j U_j$ where $U_j$ are unitaries and $\alpha_j \ge 0$,
+we are given the SELECT and PREPARE oracles:
+$$ \text{SELECT} = \sum_j |j\rangle\langle j| \otimes U_j $$
+$$ \text{PREPARE} |0\rangle = \sum_j \frac{\sqrt{\alpha_j}}{\|\alpha\|_1} |j\rangle $$
+
+We can then implement the [QubitizationWalkOperator](../qubitization_walk_operator.ipynb) that encodes the spectrum of $H$ in the eigenphases of the walk operator $W$.
+
+### Approximating the function $e^{i\theta} \mapsto e^{it\cos\theta}$
+
+We can use the [Jacobi-Anger expansion](https://en.wikipedia.org/wiki/Jacobi%E2%80%93Anger_expansion) to obtain low-degree polynomial approximations for the $\cos$ function:
+
+$$
+    e^{it\cos\theta} = \sum_{n = -\infty}^{\infty} i^n J_n(t) (e^{i\theta})^n
+$$
+where $J_n$ is the $n$-th [Bessel function of the first kind](https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_first_kind).
+
+If we cut-off the above to terms upto degree $d$, we get
+
+$$
+    P[t](z) = \sum_{n = -d}^d i^n J_n(t) z^n
+$$
+
+Polynomial approximations of the above are provided in the [`qualtran.linalg.jacobi_anger_approximations`](../../linalg/jacobi_anger_approximations.py) module.
+
+### Simulation: Block-encoding $e^{-iHt}$
+
+As the eigenphases of the walk operator above are $e^{-i\arccos(E_k / \|\alpha\|_1)}$,
+we can use the GQSP polynomial with $P = P[-\|\alpha\|_1 t]$ to obtain $P(U) = e^{-iHt}$.
+The obtained GQSP operator $G$ can then be used with two calls to the PREPARE oracle to simulate the hamiltonian:
+
+$$
+    (I \otimes \text{PREPARE}^\dagger \otimes I) G (I \otimes \text{PREPARE} \otimes I) |0\rangle|0\rangle|\psi\rangle = |0\rangle|0\rangle e^{-iHt}|\psi\rangle
+$$
+
+This therefore block-encodes $e^{-iHt}$ in the block where the signal qubit and selection registers are all $|0\rangle$.
+
+#### References
+ - [Generalized Quantum Signal Processing](https://arxiv.org/abs/2308.01501). Motlagh and Wiebe. (2023). Theorem 7, Corollary 8. 
+
+#### Parameters
+ - `walk_operator`: qubitization walk operator of $H$ constructed from SELECT and PREPARE oracles.
+ - `t`: time to simulate the Hamiltonian, i.e. $e^{-iHt}$
+ - `precision`: the precision $\epsilon$ to approximate $e^{it\cos\theta}$ to a polynomial.

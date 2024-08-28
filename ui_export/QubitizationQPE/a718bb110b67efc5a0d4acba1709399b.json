@@ -1,0 +1,4733 @@
+{
+  "name": "QubitizationQPE",
+  "attrs": {
+    "walk": {
+      "select": {
+        "x_dim": 2,
+        "y_dim": 2,
+        "control_val": null
+      },
+      "prepare": {
+        "x_dim": 2,
+        "y_dim": 2,
+        "t": 2,
+        "u": 8
+      },
+      "control_val": null,
+      "uncompute": false
+    },
+    "m_bits": 14,
+    "ctrl_state_prep": {
+      "bitsize": 14
+    },
+    "qft_inv": {
+      "subbloq": {
+        "bitsize": 14,
+        "with_reverse": true
+      }
+    }
+  },
+  "score": {
+    "max_x": 44,
+    "max_y": 23,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "qpe_reg/QFxp(14, 14)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,qpe_reg,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "U/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,U,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "V/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,V,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "p_x/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,p_x,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "p_y/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 4,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,p_y,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alpha/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 5,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,alpha,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_x/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 6,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,q_x,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_y/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 7,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,q_y,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "beta/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 8,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,beta,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QAny(8)",
+          "fontsize": 8
+        },
+        "y": 9,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,target,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "LPResourceState"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,m,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[13]"
+        },
+        "y": 23,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(13,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[12]"
+        },
+        "y": 22,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(12,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[11]"
+        },
+        "y": 21,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(11,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[10]"
+        },
+        "y": 20,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(10,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[9]"
+        },
+        "y": 19,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(9,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 18,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(8,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 17,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(7,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 16,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(6,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 15,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(5,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 14,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(4,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 13,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 12,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 11,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 10,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 23,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 1,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 4,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 5,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 6,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 7,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 8,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W"
+        },
+        "y": 9,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 22,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "3,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 1,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 2,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 3,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 4,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 5,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 6,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 7,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 8,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2"
+        },
+        "y": 9,
+        "seq_x": 4,
+        "topo_gen": 5,
+        "ident": "4,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 22,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 5,
+        "topo_gen": 6,
+        "ident": "5,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 21,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 6,
+        "topo_gen": 7,
+        "ident": "6,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 1,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 2,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 3,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 4,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 5,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 6,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 7,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 8,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4"
+        },
+        "y": 9,
+        "seq_x": 7,
+        "topo_gen": 8,
+        "ident": "7,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 21,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 8,
+        "topo_gen": 9,
+        "ident": "8,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 20,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 9,
+        "topo_gen": 10,
+        "ident": "9,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 1,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 2,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 3,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 4,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 5,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 6,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 7,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 8,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8"
+        },
+        "y": 9,
+        "seq_x": 10,
+        "topo_gen": 11,
+        "ident": "10,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 20,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 11,
+        "topo_gen": 12,
+        "ident": "11,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 19,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 12,
+        "topo_gen": 13,
+        "ident": "12,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 1,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 2,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 3,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 4,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 5,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 6,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 7,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 8,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^16"
+        },
+        "y": 9,
+        "seq_x": 13,
+        "topo_gen": 14,
+        "ident": "13,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 19,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 14,
+        "topo_gen": 15,
+        "ident": "14,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 18,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 15,
+        "topo_gen": 16,
+        "ident": "15,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 1,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 2,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 3,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 4,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 5,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 6,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 7,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 8,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^32"
+        },
+        "y": 9,
+        "seq_x": 16,
+        "topo_gen": 17,
+        "ident": "16,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 18,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 17,
+        "topo_gen": 18,
+        "ident": "17,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 17,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 18,
+        "topo_gen": 19,
+        "ident": "18,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 1,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 2,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 3,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 4,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 5,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 6,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 7,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 8,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^64"
+        },
+        "y": 9,
+        "seq_x": 19,
+        "topo_gen": 20,
+        "ident": "19,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 17,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 20,
+        "topo_gen": 21,
+        "ident": "20,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 16,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 21,
+        "topo_gen": 22,
+        "ident": "21,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 1,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 2,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 3,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 4,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 5,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 6,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 7,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 8,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^128"
+        },
+        "y": 9,
+        "seq_x": 22,
+        "topo_gen": 23,
+        "ident": "22,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 16,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 23,
+        "topo_gen": 24,
+        "ident": "23,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 15,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 24,
+        "topo_gen": 25,
+        "ident": "24,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 1,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 2,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 3,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 4,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 5,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 6,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 7,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 8,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^256"
+        },
+        "y": 9,
+        "seq_x": 25,
+        "topo_gen": 26,
+        "ident": "25,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 15,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 26,
+        "topo_gen": 27,
+        "ident": "26,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 14,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 27,
+        "topo_gen": 28,
+        "ident": "27,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 1,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 2,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 3,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 4,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 5,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 6,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 7,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 8,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^512"
+        },
+        "y": 9,
+        "seq_x": 28,
+        "topo_gen": 29,
+        "ident": "28,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 14,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 29,
+        "topo_gen": 30,
+        "ident": "29,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 13,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 30,
+        "topo_gen": 31,
+        "ident": "30,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 1,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 2,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 3,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 4,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 5,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 6,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 7,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 8,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^1024"
+        },
+        "y": 9,
+        "seq_x": 31,
+        "topo_gen": 32,
+        "ident": "31,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 13,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 32,
+        "topo_gen": 33,
+        "ident": "32,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 12,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 33,
+        "topo_gen": 34,
+        "ident": "33,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 1,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 2,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 3,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 4,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 5,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 6,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 7,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 8,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^2048"
+        },
+        "y": 9,
+        "seq_x": 34,
+        "topo_gen": 35,
+        "ident": "34,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 12,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 35,
+        "topo_gen": 36,
+        "ident": "35,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 11,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 36,
+        "topo_gen": 37,
+        "ident": "36,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 1,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 2,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 3,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 4,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 5,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 6,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 7,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 8,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^4096"
+        },
+        "y": 9,
+        "seq_x": 37,
+        "topo_gen": 38,
+        "ident": "37,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 11,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 38,
+        "topo_gen": 39,
+        "ident": "38,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 10,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 39,
+        "topo_gen": 40,
+        "ident": "39,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 1,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 2,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 3,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 4,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 5,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 6,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 7,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 8,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "W^8192"
+        },
+        "y": 9,
+        "seq_x": 40,
+        "topo_gen": 41,
+        "ident": "40,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 10,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 1,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 2,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 3,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 4,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 5,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 6,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 7,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "R_L"
+        },
+        "y": 8,
+        "seq_x": 41,
+        "topo_gen": 42,
+        "ident": "41,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 10,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 11,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 12,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 13,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 14,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(4,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 15,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(5,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 16,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(6,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 17,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(7,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 18,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(8,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[9]"
+        },
+        "y": 19,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(9,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[10]"
+        },
+        "y": 20,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(10,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[11]"
+        },
+        "y": 21,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(11,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[12]"
+        },
+        "y": 22,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(12,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[13]"
+        },
+        "y": 23,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.LEFT,(13,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 42,
+        "topo_gen": 43,
+        "ident": "42,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "QFTTextBook"
+        },
+        "y": 0,
+        "seq_x": 43,
+        "topo_gen": 44,
+        "ident": "43,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "qpe_reg/QFxp(14, 14)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,qpe_reg,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "U/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,U,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "V/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,V,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "p_x/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 3,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,p_x,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "p_y/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 4,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,p_y,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "alpha/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 5,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,alpha,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_x/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 6,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,q_x,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q_y/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 7,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,q_y,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "beta/BoundedQUInt(1, 2)",
+          "fontsize": 8
+        },
+        "y": 8,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,beta,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "target/QAny(8)",
+          "fontsize": 8
+        },
+        "y": 9,
+        "seq_x": 44,
+        "topo_gen": 45,
+        "ident": "dang,target,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 0,
+        "seq_x_start": 42,
+        "seq_x_end": 44
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 3,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 4,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 5,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 6,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 7,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 8,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 9,
+        "seq_x_start": -1,
+        "seq_x_end": 44
+      },
+      {
+        "y": 10,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 11,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 12,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 13,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 14,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 15,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 16,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 17,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 18,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 19,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 20,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 21,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 22,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      },
+      {
+        "y": 23,
+        "seq_x_start": 1,
+        "seq_x_end": 42
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "LPResourceState",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 23,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 23,
+        "bottom_y": 1,
+        "label": {
+          "text": "QubitizationWalkOperator",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 22,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 22,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 21,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 21,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 20,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 11,
+        "top_y": 20,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 12,
+        "top_y": 19,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 13,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 14,
+        "top_y": 19,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 15,
+        "top_y": 18,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 16,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 17,
+        "top_y": 18,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 18,
+        "top_y": 17,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 19,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 20,
+        "top_y": 17,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 21,
+        "top_y": 16,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 22,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 23,
+        "top_y": 16,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 24,
+        "top_y": 15,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 25,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 26,
+        "top_y": 15,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 27,
+        "top_y": 14,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 28,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 29,
+        "top_y": 14,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 30,
+        "top_y": 13,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 31,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 32,
+        "top_y": 13,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 33,
+        "top_y": 12,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 34,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 35,
+        "top_y": 12,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 36,
+        "top_y": 11,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 37,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 38,
+        "top_y": 11,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 39,
+        "top_y": 10,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 40,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "Power",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 41,
+        "top_y": 10,
+        "bottom_y": 1,
+        "label": {
+          "text": "ReflectionUsingPrepare",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 42,
+        "top_y": 23,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 43,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "QFTTextBook\u2020",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "QubitizationWalkOperator",
+      "filename": "0365ad67087fc8cde5c75fff5d39d17a.json"
+    },
+    {
+      "name": "QubitizationWalkOperator",
+      "filename": "cf0134878375f06098ef9f5c541fff2a.json"
+    },
+    {
+      "name": "LPResourceState",
+      "filename": "3b9ed1fd3fe2991e3aa03419f43778f7.json"
+    },
+    {
+      "name": "ReflectionUsingPrepare",
+      "filename": "40746b1218ff5c8b2d17d6642f822dd6.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "e953b5ff5d8da8bbd1d666154a4ea3aa.json"
+    }
+  ]
+}

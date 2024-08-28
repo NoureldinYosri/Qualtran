@@ -1,0 +1,122 @@
+{
+  "name": "SU2RotationGate",
+  "attrs": {
+    "theta": 0.3667228237610326,
+    "phi": 1.5707963267818248,
+    "lambd": 0,
+    "global_shift": 0,
+    "eps": 1e-11
+  },
+  "score": {
+    "max_x": 4,
+    "max_y": 0,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q/QBit()",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,q,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "ZPowGate(exponent=1.0, global_shift=-1)"
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Ry(0.23346300058474523\u03c0)"
+        },
+        "y": 0,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "ZPowGate(exponent=-0.4999999999958391, global_shift=-1)"
+        },
+        "y": 0,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "q/QBit()",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 4,
+        "topo_gen": 4,
+        "ident": "dang,q,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 4
+      }
+    ],
+    "vlines": [
+      {
+        "x": 1,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "Ry",
+      "filename": "6db837bedabe4a79bac2c5b387dc9eb4.json"
+    },
+    {
+      "name": "GlobalPhase",
+      "filename": "68b68a0dfac5a7f3f6351a25a1f199e8.json"
+    },
+    {
+      "name": "ZPowGate",
+      "filename": "0d4eb41ac0a449f627f0f36f453b5be0.json"
+    },
+    {
+      "name": "ZPowGate",
+      "filename": "2aa87f688617d66ef9ec3932df08ab72.json"
+    }
+  ]
+}

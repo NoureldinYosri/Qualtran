@@ -1,0 +1,26 @@
+Bloq to flag if all components of $\nu$ are smaller in absolute value than $2^{\mu-2}$.
+
+Test
+
+$$
+    (2^{\mu-2})^2 \mathcal{M} > m (\nu_x^2 + \nu_y^2 + \nu_z^2)
+$$
+
+where $m \in [0, \mathcal{M}-1]$ and is store in an ancilla register.
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register.
+ - `num_bits_m`: The number of bits for $\mathcal{M}$. Eq 86.
+ - `is_adjoint`: Whether to dagger the bloq or not. 
+
+#### Registers
+ - `mu`: the one-hot unary superposition register.
+ - `nu`: the momentum transfer register.
+ - `m`: the ancilla register in unfiform superposition.
+ - `flag_mu_prep`: A flag checking the success of the $mu$ state prep.  
+ - `flag_minus_zero`: A flag from checking for negative zero.
+ - `flag_ineq`: A flag from checking $\nu \lt 2^{\mu -2}$.
+ - `succ`: a flag bit for failure of the state preparation. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 21, Eq 80.

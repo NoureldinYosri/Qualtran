@@ -1,0 +1,44 @@
+LCU based block encoding using SELECT and PREPARE oracles.
+
+Builds the block encoding via
+$$
+    B[H] = \mathrm{SELECT}
+$$
+
+$$
+    \mathrm{SELECT} |l\rangle_a|\psi\rangle_s = |l\rangle_a U_l |\psi\rangle_s.
+$$
+
+The Hamiltonian can be extracted via
+
+$$
+    \langle G | B[H] | G \rangle = H / \alpha
+$$
+
+where
+
+$$
+    |G\rangle = \mathrm{PREPARE} |0\rangle_a = \sum_l \sqrt{\frac{w_l}{\alpha}} |l\rangle_a,
+$$
+
+The ancilla register is at least of size $\log L$.
+
+In our implementations we typically split the ancilla registers into
+selection registers (i.e.  the $l$ registers above) and junk registers which
+are extra qubits needed by state preparation but not controlled upon during
+SELECT.
+
+#### Parameters
+ - `alpha`: The normalization constant upper bounding the spectral norm of the Hamiltonian. Often called lambda.
+ - `epsilon`: The precision to which the block encoding is performed. Currently this isn't used: see https://github.com/quantumlib/Qualtran/issues/985
+ - `select`: The bloq implementing the `SelectOracle` interface.
+ - `prepare`: The bloq implementing the `PrepareOracle` interface. 
+
+#### Registers
+ - `selection`: The combined selection register.
+ - `junk`: Additional junk registers not prepared upon.
+ - `system`: The combined system register. 
+
+#### References
+ - [Hamiltonian Simulation by Qubitization](https://quantum-journal.org/papers/q-2019-07-12-163/).     Low et al. 2019. Sec 3.1, page 7 and 8 for high level overview and definitions. A     block encoding is called a standard form encoding there.
+ - [The power of block-encoded matrix powers: improved regression techniques via faster Hamiltonian simulation](https://arxiv.org/abs/1804.01973).     Chakraborty et al. 2018. Definition 3 page 8.

@@ -1,0 +1,18 @@
+Single Factorization SELECT bloq.
+
+Implements selected Majorana Fermion operation.
+
+#### Parameters
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `additional_control`: whether to control on $l \ne zero$ or not. 
+
+#### Registers
+ - `p`: spatial orbital index. range(0, num_spin_orb // 2)
+ - `q`: spatial orbital index. range(0, num_spin_orb // 2)
+ - `spin`: spin index.
+ - `succ_pq`: flag for success of this state preparation.
+ - `succ_l`: flag for success of l state preparation. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494) Appendix B, page 44, listing 4.

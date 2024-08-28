@@ -1,0 +1,1 @@
+Wrapper around MultiplexedCSwap to avoid unsightly split/joins in diagrams.

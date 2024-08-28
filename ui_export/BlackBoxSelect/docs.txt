@@ -1,0 +1,18 @@
+A 'black box' Select bloq.
+
+The `SELECT` operation applies the $l$'th unitary $U_{l}$ on the system register
+when the selection register stores integer $l$.
+When implementing specific `SelectOracle` bloqs, it is helpful to have multiple selection
+registers each with semantic meaning. For example: you could have spatial or spin coordinates
+on different, named registers. The `SelectOracle` interface encourages this. `BlackBoxSelect`
+uses the properties on the `SelectOracle` interface to provide a "black box" view of a select
+operation that just has a selection and system register.
+During decomposition, this bloq will use the `Partition` utility bloq to partition
+and route the parts of the unified selection register to the `Select` bloq.
+
+#### Parameters
+ - `select`: The bloq implementing the `SelectOracle` interface. 
+
+#### Registers
+ - `selection`: The combined selection register
+ - `system`: The combined system register

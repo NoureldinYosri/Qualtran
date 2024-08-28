@@ -1,0 +1,49 @@
+{
+  "name": "SelectSwapQROM",
+  "attrs": {
+    "data_or_shape": [
+      {
+        "shape": [
+          "Symbol(N)"
+        ]
+      }
+    ],
+    "selection_bitsizes": [
+      "NOT_SERIALIZABLE"
+    ],
+    "target_bitsizes": [
+      "Symbol(b)"
+    ],
+    "target_shapes": [
+      []
+    ],
+    "num_controls": "Symbol(c)",
+    "log_block_sizes": [
+      "Symbol(k)"
+    ],
+    "use_dirty_ancilla": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Adjoint",
+      "filename": "2b73ac305c83455644f8d4533dca20ff.json"
+    },
+    {
+      "name": "SwapWithZero",
+      "filename": "dea16ed4b30798b903b22285b0bc8dd2.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "87d8b600fb256f3b7f6f2f8bd1816d1b.json"
+    },
+    {
+      "name": "QROM",
+      "filename": "5007f16412b4bba7fd1975a1a5f5fc04.json"
+    }
+  ]
+}

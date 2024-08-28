@@ -1,0 +1,12 @@
+{
+  "name": "Join",
+  "attrs": {
+    "dtype": {
+      "bitsize": 19,
+      "num_frac": 19,
+      "signed": false
+    }
+  },
+  "score": null,
+  "callees": []
+}

@@ -1,0 +1,7 @@
+Join an array of `QBit`s into one register of type `dtype`.
+
+#### Parameters
+ - `dtype`: The quantum data type of the right (joined) register. 
+
+#### Registers
+ - `reg`: The register to be joined. On its left, it is an array of qubits. On the right, it is a register of the given data type.

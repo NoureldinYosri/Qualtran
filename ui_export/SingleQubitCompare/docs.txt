@@ -1,0 +1,4 @@
+Applies U|a>|b>|0>|0> = |a> |a=b> |(a<b)> |(a>b)>
+
+#### References
+ - Supplementary Materials: Improved Techniques for Preparing Eigenstates of Fermionic Hamiltonians. Figure 3. https://static-content.springer.com/esm/art%3A10.1038%2Fs41534-018-0071-5/MediaObjects/41534_2018_71_MOESM1_ESM.pdf

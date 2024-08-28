@@ -1,0 +1,21 @@
+SELECT oracle for the sparse Hamiltonian.
+
+Implements the two applications of Fig. 13.
+
+#### Parameters
+ - `num_spin_orb`: The number of spin orbitals. Typically called N.
+ - `control_val`: The control value. If None, then the bloq is not controlled. 
+
+#### Registers
+ - `flag_1b`: a single qubit to flag whether the one-body Hamiltonian is to be applied or not during SELECT.
+ - `swap_pq`: a |+> state to restore the symmetries of the p and q indices.
+ - `swap_rs`: a |+> state to restore the symmetries of the r and s indices.
+ - `swap_pqrs`: a |+> state to restore the symmetries of between (pq) and (rs).
+ - `theta`: sign qubit.
+ - `pqrs`: the register to store the spatial orbital index.
+ - `alpha`: spin for (pq) indicies.
+ - `beta`: spin for (rs) indicies. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        hypercontraction](https://arxiv.org/abs/2011.03494) Fig 13.

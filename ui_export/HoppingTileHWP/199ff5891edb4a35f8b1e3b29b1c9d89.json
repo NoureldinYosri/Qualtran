@@ -1,0 +1,21 @@
+{
+  "name": "HoppingTileHWP",
+  "attrs": {
+    "length": 8,
+    "angle": 0.15,
+    "tau": 1.0,
+    "eps": 1e-09,
+    "pink": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "HammingWeightPhasing",
+      "filename": "46f6e596b1f1588e8dd5a45a93cd693c.json"
+    },
+    {
+      "name": "TwoBitFFFT",
+      "filename": "ebb04f3f6e98c1937c15a1382218b085.json"
+    }
+  ]
+}

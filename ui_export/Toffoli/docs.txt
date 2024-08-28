@@ -1,0 +1,10 @@
+The Toffoli gate.
+
+This will flip the target bit if both controls are active. It can be thought of as
+a reversible AND gate.
+
+Like `TGate`, this is a common compilation target. The Clifford+Toffoli gateset is
+universal.
+
+#### References
+ - [Novel constructions for the fault-tolerant Toffoli gate](https://arxiv.org/abs/1212.5069). Cody Jones. 2012. Provides a decomposition into 4 `TGate`.

@@ -1,0 +1,11 @@
+A controlled version of `subbloq`.
+
+This meta-bloq is part of the 'controlled' protocol. As a default fallback,
+we wrap any bloq without a custom controlled version in this meta-bloq.
+
+Users should likely not use this class directly. Prefer using `bloq.controlled(ctrl_spec)`,
+which may return a tailored Bloq that is controlled in the desired way.
+
+#### Parameters
+ - `subbloq`: The bloq we are controlling.
+ - `ctrl_spec`: The specification for how to control the bloq.

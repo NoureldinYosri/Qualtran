@@ -1,0 +1,15 @@
+{
+  "name": "CModAddK",
+  "attrs": {
+    "k": "Symbol(_k0)",
+    "mod": 221,
+    "bitsize": 8
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "AddK",
+      "filename": "dbd3719d7cbbe3fe4c8771ab257b00f2.json"
+    }
+  ]
+}

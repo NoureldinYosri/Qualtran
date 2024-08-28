@@ -1,0 +1,2089 @@
+{
+  "name": "ApplyControlledZs",
+  "attrs": {
+    "cvs": [
+      1,
+      0
+    ],
+    "bitsize": 76
+  },
+  "score": {
+    "max_x": 3,
+    "max_y": 78,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(76)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,system,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ctrls[0]/QBit()",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,ctrls,l,(0,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ctrls[1]/QBit()",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,ctrls,l,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 7,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(4,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 8,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(5,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 9,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(6,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 10,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(7,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 11,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(8,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[9]"
+        },
+        "y": 12,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(9,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[10]"
+        },
+        "y": 13,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(10,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[11]"
+        },
+        "y": 14,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(11,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[12]"
+        },
+        "y": 15,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(12,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[13]"
+        },
+        "y": 16,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(13,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[14]"
+        },
+        "y": 17,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(14,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[15]"
+        },
+        "y": 18,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(15,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[16]"
+        },
+        "y": 19,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(16,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[17]"
+        },
+        "y": 20,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(17,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[18]"
+        },
+        "y": 21,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(18,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[19]"
+        },
+        "y": 22,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(19,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[20]"
+        },
+        "y": 23,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(20,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[21]"
+        },
+        "y": 24,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(21,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[22]"
+        },
+        "y": 25,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(22,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[23]"
+        },
+        "y": 26,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(23,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[24]"
+        },
+        "y": 27,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(24,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[25]"
+        },
+        "y": 28,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(25,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[26]"
+        },
+        "y": 29,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(26,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[27]"
+        },
+        "y": 30,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(27,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[28]"
+        },
+        "y": 31,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(28,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[29]"
+        },
+        "y": 32,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(29,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[30]"
+        },
+        "y": 33,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(30,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[31]"
+        },
+        "y": 34,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(31,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[32]"
+        },
+        "y": 35,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(32,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[33]"
+        },
+        "y": 36,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(33,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[34]"
+        },
+        "y": 37,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(34,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[35]"
+        },
+        "y": 38,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(35,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[36]"
+        },
+        "y": 39,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(36,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[37]"
+        },
+        "y": 40,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(37,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[38]"
+        },
+        "y": 41,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(38,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[39]"
+        },
+        "y": 42,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(39,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[40]"
+        },
+        "y": 43,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(40,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[41]"
+        },
+        "y": 44,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(41,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[42]"
+        },
+        "y": 45,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(42,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[43]"
+        },
+        "y": 46,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(43,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[44]"
+        },
+        "y": 47,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(44,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[45]"
+        },
+        "y": 48,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(45,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[46]"
+        },
+        "y": 49,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(46,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[47]"
+        },
+        "y": 50,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(47,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[48]"
+        },
+        "y": 51,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(48,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[49]"
+        },
+        "y": 52,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(49,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[50]"
+        },
+        "y": 53,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(50,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[51]"
+        },
+        "y": 54,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(51,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[52]"
+        },
+        "y": 55,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(52,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[53]"
+        },
+        "y": 56,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(53,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[54]"
+        },
+        "y": 57,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(54,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[55]"
+        },
+        "y": 58,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(55,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[56]"
+        },
+        "y": 59,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(56,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[57]"
+        },
+        "y": 60,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(57,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[58]"
+        },
+        "y": 61,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(58,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[59]"
+        },
+        "y": 62,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(59,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[60]"
+        },
+        "y": 63,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(60,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[61]"
+        },
+        "y": 64,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(61,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[62]"
+        },
+        "y": 65,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(62,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[63]"
+        },
+        "y": 66,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(63,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[64]"
+        },
+        "y": 67,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(64,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[65]"
+        },
+        "y": 68,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(65,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[66]"
+        },
+        "y": 69,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(66,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[67]"
+        },
+        "y": 70,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(67,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[68]"
+        },
+        "y": 71,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(68,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[69]"
+        },
+        "y": 72,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(69,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[70]"
+        },
+        "y": 73,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(70,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[71]"
+        },
+        "y": 74,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(71,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[72]"
+        },
+        "y": 75,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(72,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[73]"
+        },
+        "y": 76,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(73,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[74]"
+        },
+        "y": 77,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(74,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[75]"
+        },
+        "y": 78,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(75,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,controls,Side.THRU,(0,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": false
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,controls,Side.THRU,(1,)"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "Z"
+        },
+        "y": 3,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "1,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 7,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(4,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 8,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(5,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 9,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(6,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 10,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(7,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 11,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(8,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[9]"
+        },
+        "y": 12,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(9,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[10]"
+        },
+        "y": 13,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(10,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[11]"
+        },
+        "y": 14,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(11,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[12]"
+        },
+        "y": 15,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(12,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[13]"
+        },
+        "y": 16,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(13,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[14]"
+        },
+        "y": 17,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(14,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[15]"
+        },
+        "y": 18,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(15,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[16]"
+        },
+        "y": 19,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(16,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[17]"
+        },
+        "y": 20,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(17,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[18]"
+        },
+        "y": 21,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(18,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[19]"
+        },
+        "y": 22,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(19,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[20]"
+        },
+        "y": 23,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(20,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[21]"
+        },
+        "y": 24,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(21,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[22]"
+        },
+        "y": 25,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(22,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[23]"
+        },
+        "y": 26,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(23,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[24]"
+        },
+        "y": 27,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(24,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[25]"
+        },
+        "y": 28,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(25,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[26]"
+        },
+        "y": 29,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(26,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[27]"
+        },
+        "y": 30,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(27,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[28]"
+        },
+        "y": 31,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(28,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[29]"
+        },
+        "y": 32,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(29,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[30]"
+        },
+        "y": 33,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(30,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[31]"
+        },
+        "y": 34,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(31,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[32]"
+        },
+        "y": 35,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(32,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[33]"
+        },
+        "y": 36,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(33,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[34]"
+        },
+        "y": 37,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(34,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[35]"
+        },
+        "y": 38,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(35,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[36]"
+        },
+        "y": 39,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(36,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[37]"
+        },
+        "y": 40,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(37,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[38]"
+        },
+        "y": 41,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(38,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[39]"
+        },
+        "y": 42,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(39,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[40]"
+        },
+        "y": 43,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(40,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[41]"
+        },
+        "y": 44,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(41,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[42]"
+        },
+        "y": 45,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(42,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[43]"
+        },
+        "y": 46,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(43,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[44]"
+        },
+        "y": 47,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(44,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[45]"
+        },
+        "y": 48,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(45,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[46]"
+        },
+        "y": 49,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(46,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[47]"
+        },
+        "y": 50,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(47,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[48]"
+        },
+        "y": 51,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(48,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[49]"
+        },
+        "y": 52,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(49,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[50]"
+        },
+        "y": 53,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(50,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[51]"
+        },
+        "y": 54,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(51,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[52]"
+        },
+        "y": 55,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(52,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[53]"
+        },
+        "y": 56,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(53,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[54]"
+        },
+        "y": 57,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(54,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[55]"
+        },
+        "y": 58,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(55,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[56]"
+        },
+        "y": 59,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(56,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[57]"
+        },
+        "y": 60,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(57,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[58]"
+        },
+        "y": 61,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(58,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[59]"
+        },
+        "y": 62,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(59,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[60]"
+        },
+        "y": 63,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(60,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[61]"
+        },
+        "y": 64,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(61,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[62]"
+        },
+        "y": 65,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(62,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[63]"
+        },
+        "y": 66,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(63,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[64]"
+        },
+        "y": 67,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(64,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[65]"
+        },
+        "y": 68,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(65,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[66]"
+        },
+        "y": 69,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(66,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[67]"
+        },
+        "y": 70,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(67,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[68]"
+        },
+        "y": 71,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(68,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[69]"
+        },
+        "y": 72,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(69,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[70]"
+        },
+        "y": 73,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(70,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[71]"
+        },
+        "y": 74,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(71,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[72]"
+        },
+        "y": 75,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(72,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[73]"
+        },
+        "y": 76,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(73,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[74]"
+        },
+        "y": 77,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(74,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[75]"
+        },
+        "y": 78,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.LEFT,(75,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 3,
+        "ident": "2,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ctrls[0]/QBit()",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "dang,ctrls,r,(0,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ctrls[1]/QBit()",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "dang,ctrls,r,(1,)"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(76)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 3,
+        "topo_gen": 4,
+        "ident": "dang,system,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 3
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 0
+      },
+      {
+        "y": 2,
+        "seq_x_start": 2,
+        "seq_x_end": 3
+      },
+      {
+        "y": 3,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 4,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 5,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 6,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 7,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 8,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 9,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 10,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 11,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 12,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 13,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 14,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 15,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 16,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 17,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 18,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 19,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 20,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 21,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 22,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 23,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 24,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 25,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 26,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 27,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 28,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 29,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 30,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 31,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 32,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 33,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 34,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 35,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 36,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 37,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 38,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 39,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 40,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 41,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 42,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 43,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 44,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 45,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 46,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 47,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 48,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 49,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 50,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 51,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 52,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 53,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 54,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 55,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 56,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 57,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 58,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 59,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 60,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 61,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 62,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 63,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 64,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 65,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 66,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 67,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 68,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 69,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 70,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 71,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 72,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 73,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 74,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 75,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 76,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 77,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      },
+      {
+        "y": 78,
+        "seq_x_start": 0,
+        "seq_x_end": 2
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 78,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 3,
+        "bottom_y": 0,
+        "label": {
+          "text": "MultiControlPauli",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 78,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+A SELECT bloq for selecting and applying operators from an array of `PauliString`s.
+
+$$
+\mathrm{SELECT} = \sum_{l}|l \rangle \langle l| \otimes U_l
+$$
+
+Where $U_l$ is a member of the Pauli group.
+
+This bloq uses the unary iteration scheme to apply `select_unitaries[selection]` to `target`
+controlled on the single-bit `control` register.
+
+#### Parameters
+ - `selection_bitsize`: The size of the indexing `select` register. This should be at least `log2(len(select_unitaries))`
+ - `target_bitsize`: The size of the `target` register.
+ - `select_unitaries`: List of `DensePauliString`s to apply to the `target` register. Each dense pauli string must contain `target_bitsize` terms.
+ - `control_val`: Optional control value. If specified, a singly controlled gate is constructed.

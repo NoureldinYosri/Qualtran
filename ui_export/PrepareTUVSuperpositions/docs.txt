@@ -1,0 +1,12 @@
+Prepare the superposition over registers selecting between T U and V.
+
+This will produce 3 qubits for flagging which term to apply. xx0 -> T, x0x -> U or V, 0xx -> V.
+
+Note in reality this involves some state preparation and inequality testing.
+
+#### Registers
+ - `tuv`: a single qubit rotated to appropriately weight T and U or V.
+ - `uv`: a single qubit rotated to appropriately weight U or V. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 15, section A

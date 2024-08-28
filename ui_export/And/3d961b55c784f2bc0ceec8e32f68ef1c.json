@@ -1,0 +1,15 @@
+{
+  "name": "And",
+  "attrs": {
+    "cv1": 1,
+    "cv2": 0,
+    "uncompute": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "ArbitraryClifford",
+      "filename": "53d21dfb7b3e4ffc83a7bbe3f8aefc3e.json"
+    }
+  ]
+}

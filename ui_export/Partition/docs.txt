@@ -1,0 +1,10 @@
+Partition a generic index into multiple registers.
+
+#### Parameters
+ - `n`: The total bitsize of the un-partitioned register
+ - `regs`: Registers to partition into. The `side` attribute is ignored.
+ - `partition`: `False` means un-partition instead. 
+
+#### Registers
+ - `x`: the un-partitioned register. LEFT by default.
+ - `[user spec]`: The registers provided by the `regs` argument. RIGHT by default.

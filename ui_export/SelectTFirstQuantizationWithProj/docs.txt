@@ -1,0 +1,18 @@
+SELECT for the kinetic energy operator for the first quantized chemistry Hamiltonian.
+
+#### Parameters
+ - `num_bits_n`: The number of bits to represent each dimension of the momentum register.
+ - `eta`: The number of electrons. 
+
+#### Registers
+ - `flag_T`: a flag to control on the success of the $T$ state preparation.
+ - `flag_mean`: a flag for whether to select the mean part of the projectile's Hamiltonian or not.
+ - `plus`: A $|+\rangle$ state.
+ - `w`: A register for selecting x, y and z components of the momentum register.
+ - `w_mean`: A register for selecting x, y and z components of the momentum register. This is for the mean part of the projectile's kinetic energy.
+ - `r`: A register for controlling elements of the momentum register. Used for block encodiding kinetic energy operator.
+ - `s`: A register for controlling elements of the momentum register. Used for block encodiding kinetic energy operator.
+ - `p`: An ancilla register which should contained the (swapped) electron's state OR the projectiles state. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 20, section B

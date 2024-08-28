@@ -1,0 +1,10 @@
+{
+  "name": "PlusState",
+  "attrs": {
+    "bit": false,
+    "state": true,
+    "n": 1
+  },
+  "score": null,
+  "callees": []
+}

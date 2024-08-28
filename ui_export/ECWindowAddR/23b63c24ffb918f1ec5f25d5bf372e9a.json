@@ -1,0 +1,15 @@
+{
+  "name": "ECWindowAddR",
+  "attrs": {
+    "n": "Symbol(n)",
+    "window_size": 3,
+    "R": {
+      "x": "Symbol(Rx)",
+      "y": "Symbol(Ry)",
+      "mod": "Symbol(p)",
+      "curve_a": 0
+    }
+  },
+  "score": null,
+  "callees": []
+}

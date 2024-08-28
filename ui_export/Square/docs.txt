@@ -1,0 +1,13 @@
+Square an n-bit binary number.
+
+Implements $U|a\rangle|0\rangle \rightarrow |a\rangle|a^2\rangle$ using $n^2 - n$ Toffolis.
+
+#### Parameters
+ - `bitsize`: Number of bits used to represent the integer to be squared. The result is stored in a register of size 2*bitsize. 
+
+#### Registers
+ - `a`: A bitsize-sized input register (register a above).
+ - `result`: A 2-bitsize-sized input/output register. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). pg 76 for Toffoli complexity.

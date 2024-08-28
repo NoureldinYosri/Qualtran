@@ -1,0 +1,9 @@
+{
+  "name": "LinearDepthGreaterThan",
+  "attrs": {
+    "bitsize": "Symbol(n)",
+    "signed": false
+  },
+  "score": null,
+  "callees": []
+}

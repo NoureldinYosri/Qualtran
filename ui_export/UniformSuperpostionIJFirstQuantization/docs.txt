@@ -1,0 +1,12 @@
+Uniform superposition over $\eta$ values of $i$ and $j$ in unary such that $i \ne j$.
+
+#### Parameters
+ - `eta`: The number of electrons.
+ - `num_bits_rot_aa`: The number of bits of precision for the single qubit rotation for amplitude amplification. Called $b_r$ in the reference. 
+
+#### Registers
+ - `i`: a n_eta bit register for unary encoding of eta numbers.
+ - `j`: a n_eta bit register for unary encoding of eta numbers. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 18, section A, around Eq 62.

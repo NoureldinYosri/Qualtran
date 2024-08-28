@@ -1,0 +1,14 @@
+Potential Energy bloq for single pair of particles i and j.
+
+#### Parameters
+ - `bitsize`: The number of bits for a single component of the system register.
+ - `qrom_data`: The polynomial coefficients to load by QROM.
+ - `poly_bitsize`: The number of bits of precision for the polynomial coefficients.
+ - `label`: A label for the bloqs short name. The potential bloq can encode any sort of Coulomb interaction (electron-electron, election-ion, ion-ion,...) so can be reused. This label is to distinguish these different cases. 
+
+#### Registers
+ - `system_i`: The ith electron's register.
+ - `system_j`: The jth electron's register. 
+
+#### References
+ - [Faster quantum chemistry simulation on fault-tolerant quantum     computers](https://iopscience.iop.org/article/10.1088/1367-2630/14/11/115023/meta). 

@@ -1,0 +1,27 @@
+A gate that rotates around the Y axis of the Bloch sphere.
+
+The unitary matrix of `YPowGate(exponent=t)` is:
+$$
+    \begin{bmatrix}
+        e^{i \pi t /2} \cos(\pi t /2) & - e^{i \pi t /2} \sin(\pi t /2) \\
+        e^{i \pi t /2} \sin(\pi t /2) & e^{i \pi t /2} \cos(\pi t /2)
+    \end{bmatrix}
+$$
+
+Note in particular that this gate has a global phase factor of
+$e^{i \pi t / 2}$ vs the traditionally defined rotation matrices
+about the Pauli Y axis. See `Ry` for rotations without the global
+phase. The global phase factor can be adjusted by using the `global_shift`
+parameter when initializing.
+
+#### Parameters
+ - `exponent`: The t in gate**t. Determines how much the eigenvalues of the gate are phased by. For example, eigenvectors phased by -1 when `gate**1` is applied will gain a relative phase of e^{i pi exponent} when `gate**exponent` is applied (relative to eigenvectors unaffected by `gate**1`). 
+ - `global_shift`: Offsets the eigenvalues of the gate at exponent=1. In effect, this controls a global phase factor on the gate's unitary matrix. The factor for global_shift=s is:     exp(i * pi * s * t)
+ - `eps`: precision for implementation of rotation. 
+
+#### Registers
+ - `q`: One-bit register. 
+
+#### References
+ - [Efficient synthesis of universal Repeat-Until-Success circuits](https://arxiv.org/abs/1404.5320). Offers a small improvement
+ - [Optimal ancilla-free Clifford+T approximation of z-rotations](https://arxiv.org/pdf/1403.2975.pdf). 

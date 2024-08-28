@@ -1,0 +1,50 @@
+{
+  "name": "_ModInvInner",
+  "attrs": {
+    "n": "Symbol(n)",
+    "mod": "Symbol(p)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "ModDbl",
+      "filename": "87a5629e87bd5d5b4c5726c235c1e32a.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Subtract",
+      "filename": "87066028a0dac4a85299fada4bcef2f9.json"
+    },
+    {
+      "name": "Add",
+      "filename": "87066028a0dac4a85299fada4bcef2f9.json"
+    },
+    {
+      "name": "CHalf",
+      "filename": "a342a5189b3a0b449c4d4033872be5eb.json"
+    },
+    {
+      "name": "MultiCToffoli",
+      "filename": "8a5bd52ddcdfd884ee07db59aae3b3c7.json"
+    },
+    {
+      "name": "Lt",
+      "filename": "1fbdb9ad04bc0ea541a854a0dc417a82.json"
+    },
+    {
+      "name": "MultiCToffoli",
+      "filename": "6994da60218affb016698d388c8af453.json"
+    },
+    {
+      "name": "CSwap",
+      "filename": "6ca80431c90af3c5c7db315b6f6e6a91.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+A many-bit (multi-control) 'and' operation.
+
+#### Parameters
+ - `cvs`: A tuple of control variable settings. Each entry specifies whether that control line is a "positive" control (`cv[i]=1`) or a "negative" control `0`. If a HasLength object is passed, assumes the control values to be all 1's.  
+
+#### Registers
+ - `ctrl`: An n-bit control register.
+ - `junk [right]`: An `n-2` bit junk register to be cleaned up by the inverse operation.
+ - `target [right]`: The output bit.

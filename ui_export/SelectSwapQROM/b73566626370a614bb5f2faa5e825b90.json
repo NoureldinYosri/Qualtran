@@ -1,0 +1,68 @@
+{
+  "name": "SelectSwapQROM",
+  "attrs": {
+    "data_or_shape": [
+      {
+        "shape": [
+          "Symbol(N)",
+          "Symbol(M)"
+        ]
+      },
+      {
+        "shape": [
+          "Symbol(N)",
+          "Symbol(M)"
+        ]
+      }
+    ],
+    "selection_bitsizes": [
+      "NOT_SERIALIZABLE",
+      "NOT_SERIALIZABLE"
+    ],
+    "target_bitsizes": [
+      "Symbol(b1)",
+      "Symbol(b2)"
+    ],
+    "target_shapes": [
+      [],
+      []
+    ],
+    "num_controls": "Symbol(c)",
+    "log_block_sizes": [
+      "Symbol(k1)",
+      "Symbol(k2)"
+    ],
+    "use_dirty_ancilla": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "SwapWithZero",
+      "filename": "a4735db2cf4155c746ec7fa4eb1cd2f1.json"
+    },
+    {
+      "name": "SwapWithZero",
+      "filename": "5f05ff8d70aac0c7439eb328ed3e5326.json"
+    },
+    {
+      "name": "CNOT",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "QROM",
+      "filename": "c19fb4dc05ef07e5ecf992e42318d721.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "9573be052bd469f5effa96c0b1b5f452.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "25f160507d753c5bb2d9f88909699a9d.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "040d0deed1f85bc62d959e48285b1d9e.json"
+    }
+  ]
+}

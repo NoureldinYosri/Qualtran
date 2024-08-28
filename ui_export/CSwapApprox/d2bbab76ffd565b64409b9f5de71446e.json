@@ -1,0 +1,5334 @@
+{
+  "name": "CSwapApprox",
+  "attrs": {
+    "bitsize": 9
+  },
+  "score": {
+    "max_x": 223,
+    "max_y": 19,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "y/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,y,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "x/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,x,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ctrl/QBit()",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,ctrl,l,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 7,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(4,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 8,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(5,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 9,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(6,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 10,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(7,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 11,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,reg,Side.RIGHT,(8,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 2,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 12,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 13,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 14,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 15,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(4,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 16,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(5,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 17,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(6,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 18,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(7,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 19,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,reg,Side.RIGHT,(8,)"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 4,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "3,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 12,
+        "seq_x": 3,
+        "topo_gen": 2,
+        "ident": "3,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 5,
+        "seq_x": 4,
+        "topo_gen": 2,
+        "ident": "4,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 13,
+        "seq_x": 4,
+        "topo_gen": 2,
+        "ident": "4,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 5,
+        "topo_gen": 2,
+        "ident": "5,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 14,
+        "seq_x": 5,
+        "topo_gen": 2,
+        "ident": "5,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 7,
+        "seq_x": 6,
+        "topo_gen": 2,
+        "ident": "6,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 15,
+        "seq_x": 6,
+        "topo_gen": 2,
+        "ident": "6,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 7,
+        "topo_gen": 2,
+        "ident": "7,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 16,
+        "seq_x": 7,
+        "topo_gen": 2,
+        "ident": "7,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 9,
+        "seq_x": 8,
+        "topo_gen": 2,
+        "ident": "8,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 17,
+        "seq_x": 8,
+        "topo_gen": 2,
+        "ident": "8,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 10,
+        "seq_x": 9,
+        "topo_gen": 2,
+        "ident": "9,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 18,
+        "seq_x": 9,
+        "topo_gen": 2,
+        "ident": "9,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 11,
+        "seq_x": 10,
+        "topo_gen": 2,
+        "ident": "10,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 19,
+        "seq_x": 10,
+        "topo_gen": 2,
+        "ident": "10,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 3,
+        "seq_x": 11,
+        "topo_gen": 3,
+        "ident": "11,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 4,
+        "seq_x": 12,
+        "topo_gen": 3,
+        "ident": "12,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 5,
+        "seq_x": 13,
+        "topo_gen": 3,
+        "ident": "13,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 6,
+        "seq_x": 14,
+        "topo_gen": 3,
+        "ident": "14,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 7,
+        "seq_x": 15,
+        "topo_gen": 3,
+        "ident": "15,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 8,
+        "seq_x": 16,
+        "topo_gen": 3,
+        "ident": "16,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 9,
+        "seq_x": 17,
+        "topo_gen": 3,
+        "ident": "17,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 10,
+        "seq_x": 18,
+        "topo_gen": 3,
+        "ident": "18,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 11,
+        "seq_x": 19,
+        "topo_gen": 3,
+        "ident": "19,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 20,
+        "topo_gen": 4,
+        "ident": "20,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 21,
+        "topo_gen": 4,
+        "ident": "21,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 22,
+        "topo_gen": 4,
+        "ident": "22,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 23,
+        "topo_gen": 4,
+        "ident": "23,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 24,
+        "topo_gen": 4,
+        "ident": "24,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 25,
+        "topo_gen": 4,
+        "ident": "25,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 26,
+        "topo_gen": 4,
+        "ident": "26,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 27,
+        "topo_gen": 4,
+        "ident": "27,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 28,
+        "topo_gen": 4,
+        "ident": "28,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 3,
+        "seq_x": 29,
+        "topo_gen": 5,
+        "ident": "29,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 4,
+        "seq_x": 30,
+        "topo_gen": 5,
+        "ident": "30,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 5,
+        "seq_x": 31,
+        "topo_gen": 5,
+        "ident": "31,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 6,
+        "seq_x": 32,
+        "topo_gen": 5,
+        "ident": "32,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 7,
+        "seq_x": 33,
+        "topo_gen": 5,
+        "ident": "33,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 8,
+        "seq_x": 34,
+        "topo_gen": 5,
+        "ident": "34,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 9,
+        "seq_x": 35,
+        "topo_gen": 5,
+        "ident": "35,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 10,
+        "seq_x": 36,
+        "topo_gen": 5,
+        "ident": "36,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 11,
+        "seq_x": 37,
+        "topo_gen": 5,
+        "ident": "37,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 38,
+        "topo_gen": 6,
+        "ident": "38,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 39,
+        "topo_gen": 6,
+        "ident": "39,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 40,
+        "topo_gen": 6,
+        "ident": "40,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 41,
+        "topo_gen": 6,
+        "ident": "41,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 42,
+        "topo_gen": 6,
+        "ident": "42,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 43,
+        "topo_gen": 6,
+        "ident": "43,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 44,
+        "topo_gen": 6,
+        "ident": "44,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 45,
+        "topo_gen": 6,
+        "ident": "45,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 46,
+        "topo_gen": 6,
+        "ident": "46,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 3,
+        "seq_x": 47,
+        "topo_gen": 7,
+        "ident": "47,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 4,
+        "seq_x": 48,
+        "topo_gen": 7,
+        "ident": "48,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 5,
+        "seq_x": 49,
+        "topo_gen": 7,
+        "ident": "49,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 6,
+        "seq_x": 50,
+        "topo_gen": 7,
+        "ident": "50,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 7,
+        "seq_x": 51,
+        "topo_gen": 7,
+        "ident": "51,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 8,
+        "seq_x": 52,
+        "topo_gen": 7,
+        "ident": "52,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 9,
+        "seq_x": 53,
+        "topo_gen": 7,
+        "ident": "53,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 10,
+        "seq_x": 54,
+        "topo_gen": 7,
+        "ident": "54,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 11,
+        "seq_x": 55,
+        "topo_gen": 7,
+        "ident": "55,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 56,
+        "topo_gen": 8,
+        "ident": "56,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 3,
+        "seq_x": 56,
+        "topo_gen": 8,
+        "ident": "56,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 12,
+        "seq_x": 57,
+        "topo_gen": 8,
+        "ident": "57,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 4,
+        "seq_x": 57,
+        "topo_gen": 8,
+        "ident": "57,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 13,
+        "seq_x": 58,
+        "topo_gen": 8,
+        "ident": "58,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 5,
+        "seq_x": 58,
+        "topo_gen": 8,
+        "ident": "58,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 14,
+        "seq_x": 59,
+        "topo_gen": 8,
+        "ident": "59,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 6,
+        "seq_x": 59,
+        "topo_gen": 8,
+        "ident": "59,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 60,
+        "topo_gen": 8,
+        "ident": "60,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 7,
+        "seq_x": 60,
+        "topo_gen": 8,
+        "ident": "60,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 61,
+        "topo_gen": 8,
+        "ident": "61,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 8,
+        "seq_x": 61,
+        "topo_gen": 8,
+        "ident": "61,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 17,
+        "seq_x": 62,
+        "topo_gen": 8,
+        "ident": "62,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 62,
+        "topo_gen": 8,
+        "ident": "62,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 18,
+        "seq_x": 63,
+        "topo_gen": 8,
+        "ident": "63,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 10,
+        "seq_x": 63,
+        "topo_gen": 8,
+        "ident": "63,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 19,
+        "seq_x": 64,
+        "topo_gen": 8,
+        "ident": "64,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 11,
+        "seq_x": 64,
+        "topo_gen": 8,
+        "ident": "64,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 3,
+        "seq_x": 65,
+        "topo_gen": 9,
+        "ident": "65,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 4,
+        "seq_x": 66,
+        "topo_gen": 9,
+        "ident": "66,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 5,
+        "seq_x": 67,
+        "topo_gen": 9,
+        "ident": "67,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 6,
+        "seq_x": 68,
+        "topo_gen": 9,
+        "ident": "68,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 7,
+        "seq_x": 69,
+        "topo_gen": 9,
+        "ident": "69,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 8,
+        "seq_x": 70,
+        "topo_gen": 9,
+        "ident": "70,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 9,
+        "seq_x": 71,
+        "topo_gen": 9,
+        "ident": "71,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 10,
+        "seq_x": 72,
+        "topo_gen": 9,
+        "ident": "72,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 11,
+        "seq_x": 73,
+        "topo_gen": 9,
+        "ident": "73,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 74,
+        "topo_gen": 10,
+        "ident": "74,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 75,
+        "topo_gen": 10,
+        "ident": "75,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 76,
+        "topo_gen": 10,
+        "ident": "76,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 77,
+        "topo_gen": 10,
+        "ident": "77,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 78,
+        "topo_gen": 10,
+        "ident": "78,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 79,
+        "topo_gen": 10,
+        "ident": "79,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 80,
+        "topo_gen": 10,
+        "ident": "80,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 81,
+        "topo_gen": 10,
+        "ident": "81,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 82,
+        "topo_gen": 10,
+        "ident": "82,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 3,
+        "seq_x": 83,
+        "topo_gen": 11,
+        "ident": "83,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 4,
+        "seq_x": 84,
+        "topo_gen": 11,
+        "ident": "84,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 5,
+        "seq_x": 85,
+        "topo_gen": 11,
+        "ident": "85,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 6,
+        "seq_x": 86,
+        "topo_gen": 11,
+        "ident": "86,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 7,
+        "seq_x": 87,
+        "topo_gen": 11,
+        "ident": "87,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 8,
+        "seq_x": 88,
+        "topo_gen": 11,
+        "ident": "88,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 9,
+        "seq_x": 89,
+        "topo_gen": 11,
+        "ident": "89,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 10,
+        "seq_x": 90,
+        "topo_gen": 11,
+        "ident": "90,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T\u2020"
+        },
+        "y": 11,
+        "seq_x": 91,
+        "topo_gen": 11,
+        "ident": "91,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 92,
+        "topo_gen": 12,
+        "ident": "92,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 93,
+        "topo_gen": 12,
+        "ident": "93,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 94,
+        "topo_gen": 12,
+        "ident": "94,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 95,
+        "topo_gen": 12,
+        "ident": "95,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 96,
+        "topo_gen": 12,
+        "ident": "96,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 97,
+        "topo_gen": 12,
+        "ident": "97,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 98,
+        "topo_gen": 12,
+        "ident": "98,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 99,
+        "topo_gen": 12,
+        "ident": "99,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 100,
+        "topo_gen": 12,
+        "ident": "100,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 3,
+        "seq_x": 101,
+        "topo_gen": 13,
+        "ident": "101,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 4,
+        "seq_x": 102,
+        "topo_gen": 13,
+        "ident": "102,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 5,
+        "seq_x": 103,
+        "topo_gen": 13,
+        "ident": "103,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 6,
+        "seq_x": 104,
+        "topo_gen": 13,
+        "ident": "104,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 7,
+        "seq_x": 105,
+        "topo_gen": 13,
+        "ident": "105,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 8,
+        "seq_x": 106,
+        "topo_gen": 13,
+        "ident": "106,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 9,
+        "seq_x": 107,
+        "topo_gen": 13,
+        "ident": "107,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 10,
+        "seq_x": 108,
+        "topo_gen": 13,
+        "ident": "108,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 11,
+        "seq_x": 109,
+        "topo_gen": 13,
+        "ident": "109,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 7,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(4,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 8,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(5,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 9,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(6,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 10,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(7,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 11,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.LEFT,(8,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 110,
+        "topo_gen": 14,
+        "ident": "110,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 0,
+        "seq_x": 111,
+        "topo_gen": 15,
+        "ident": "111,control,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 1,
+        "seq_x": 111,
+        "topo_gen": 15,
+        "ident": "111,targets,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(0,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(1,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(2,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(3,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 7,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(4,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 8,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(5,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 9,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(6,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 10,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(7,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 11,
+        "seq_x": 112,
+        "topo_gen": 16,
+        "ident": "112,reg,Side.RIGHT,(8,)"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 3,
+        "seq_x": 113,
+        "topo_gen": 17,
+        "ident": "113,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 4,
+        "seq_x": 114,
+        "topo_gen": 17,
+        "ident": "114,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 5,
+        "seq_x": 115,
+        "topo_gen": 17,
+        "ident": "115,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 6,
+        "seq_x": 116,
+        "topo_gen": 17,
+        "ident": "116,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 7,
+        "seq_x": 117,
+        "topo_gen": 17,
+        "ident": "117,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 8,
+        "seq_x": 118,
+        "topo_gen": 17,
+        "ident": "118,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 9,
+        "seq_x": 119,
+        "topo_gen": 17,
+        "ident": "119,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 10,
+        "seq_x": 120,
+        "topo_gen": 17,
+        "ident": "120,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 11,
+        "seq_x": 121,
+        "topo_gen": 17,
+        "ident": "121,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 122,
+        "topo_gen": 18,
+        "ident": "122,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 123,
+        "topo_gen": 18,
+        "ident": "123,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 124,
+        "topo_gen": 18,
+        "ident": "124,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 125,
+        "topo_gen": 18,
+        "ident": "125,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 126,
+        "topo_gen": 18,
+        "ident": "126,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 127,
+        "topo_gen": 18,
+        "ident": "127,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 128,
+        "topo_gen": 18,
+        "ident": "128,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 129,
+        "topo_gen": 18,
+        "ident": "129,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 130,
+        "topo_gen": 18,
+        "ident": "130,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 3,
+        "seq_x": 131,
+        "topo_gen": 19,
+        "ident": "131,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 4,
+        "seq_x": 132,
+        "topo_gen": 19,
+        "ident": "132,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 5,
+        "seq_x": 133,
+        "topo_gen": 19,
+        "ident": "133,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 6,
+        "seq_x": 134,
+        "topo_gen": 19,
+        "ident": "134,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 7,
+        "seq_x": 135,
+        "topo_gen": 19,
+        "ident": "135,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 8,
+        "seq_x": 136,
+        "topo_gen": 19,
+        "ident": "136,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 9,
+        "seq_x": 137,
+        "topo_gen": 19,
+        "ident": "137,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 10,
+        "seq_x": 138,
+        "topo_gen": 19,
+        "ident": "138,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 11,
+        "seq_x": 139,
+        "topo_gen": 19,
+        "ident": "139,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 140,
+        "topo_gen": 20,
+        "ident": "140,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 141,
+        "topo_gen": 20,
+        "ident": "141,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 142,
+        "topo_gen": 20,
+        "ident": "142,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 143,
+        "topo_gen": 20,
+        "ident": "143,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 144,
+        "topo_gen": 20,
+        "ident": "144,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 145,
+        "topo_gen": 20,
+        "ident": "145,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 146,
+        "topo_gen": 20,
+        "ident": "146,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 147,
+        "topo_gen": 20,
+        "ident": "147,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 148,
+        "topo_gen": 20,
+        "ident": "148,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 3,
+        "seq_x": 149,
+        "topo_gen": 21,
+        "ident": "149,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 4,
+        "seq_x": 150,
+        "topo_gen": 21,
+        "ident": "150,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 5,
+        "seq_x": 151,
+        "topo_gen": 21,
+        "ident": "151,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 6,
+        "seq_x": 152,
+        "topo_gen": 21,
+        "ident": "152,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 7,
+        "seq_x": 153,
+        "topo_gen": 21,
+        "ident": "153,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 8,
+        "seq_x": 154,
+        "topo_gen": 21,
+        "ident": "154,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 9,
+        "seq_x": 155,
+        "topo_gen": 21,
+        "ident": "155,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 10,
+        "seq_x": 156,
+        "topo_gen": 21,
+        "ident": "156,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 11,
+        "seq_x": 157,
+        "topo_gen": 21,
+        "ident": "157,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 2,
+        "seq_x": 158,
+        "topo_gen": 22,
+        "ident": "158,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 3,
+        "seq_x": 158,
+        "topo_gen": 22,
+        "ident": "158,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 12,
+        "seq_x": 159,
+        "topo_gen": 22,
+        "ident": "159,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 4,
+        "seq_x": 159,
+        "topo_gen": 22,
+        "ident": "159,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 13,
+        "seq_x": 160,
+        "topo_gen": 22,
+        "ident": "160,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 5,
+        "seq_x": 160,
+        "topo_gen": 22,
+        "ident": "160,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 14,
+        "seq_x": 161,
+        "topo_gen": 22,
+        "ident": "161,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 6,
+        "seq_x": 161,
+        "topo_gen": 22,
+        "ident": "161,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 15,
+        "seq_x": 162,
+        "topo_gen": 22,
+        "ident": "162,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 7,
+        "seq_x": 162,
+        "topo_gen": 22,
+        "ident": "162,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 16,
+        "seq_x": 163,
+        "topo_gen": 22,
+        "ident": "163,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 8,
+        "seq_x": 163,
+        "topo_gen": 22,
+        "ident": "163,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 17,
+        "seq_x": 164,
+        "topo_gen": 22,
+        "ident": "164,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 9,
+        "seq_x": 164,
+        "topo_gen": 22,
+        "ident": "164,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 18,
+        "seq_x": 165,
+        "topo_gen": 22,
+        "ident": "165,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 10,
+        "seq_x": 165,
+        "topo_gen": 22,
+        "ident": "165,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 19,
+        "seq_x": 166,
+        "topo_gen": 22,
+        "ident": "166,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 11,
+        "seq_x": 166,
+        "topo_gen": 22,
+        "ident": "166,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 3,
+        "seq_x": 167,
+        "topo_gen": 23,
+        "ident": "167,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 4,
+        "seq_x": 168,
+        "topo_gen": 23,
+        "ident": "168,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 5,
+        "seq_x": 169,
+        "topo_gen": 23,
+        "ident": "169,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 6,
+        "seq_x": 170,
+        "topo_gen": 23,
+        "ident": "170,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 7,
+        "seq_x": 171,
+        "topo_gen": 23,
+        "ident": "171,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 8,
+        "seq_x": 172,
+        "topo_gen": 23,
+        "ident": "172,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 9,
+        "seq_x": 173,
+        "topo_gen": 23,
+        "ident": "173,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 10,
+        "seq_x": 174,
+        "topo_gen": 23,
+        "ident": "174,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S"
+        },
+        "y": 11,
+        "seq_x": 175,
+        "topo_gen": 23,
+        "ident": "175,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 176,
+        "topo_gen": 24,
+        "ident": "176,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 177,
+        "topo_gen": 24,
+        "ident": "177,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 178,
+        "topo_gen": 24,
+        "ident": "178,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 179,
+        "topo_gen": 24,
+        "ident": "179,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 180,
+        "topo_gen": 24,
+        "ident": "180,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 181,
+        "topo_gen": 24,
+        "ident": "181,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 182,
+        "topo_gen": 24,
+        "ident": "182,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 183,
+        "topo_gen": 24,
+        "ident": "183,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 184,
+        "topo_gen": 24,
+        "ident": "184,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 3,
+        "seq_x": 185,
+        "topo_gen": 25,
+        "ident": "185,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 4,
+        "seq_x": 186,
+        "topo_gen": 25,
+        "ident": "186,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 5,
+        "seq_x": 187,
+        "topo_gen": 25,
+        "ident": "187,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 6,
+        "seq_x": 188,
+        "topo_gen": 25,
+        "ident": "188,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 7,
+        "seq_x": 189,
+        "topo_gen": 25,
+        "ident": "189,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 8,
+        "seq_x": 190,
+        "topo_gen": 25,
+        "ident": "190,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 9,
+        "seq_x": 191,
+        "topo_gen": 25,
+        "ident": "191,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 10,
+        "seq_x": 192,
+        "topo_gen": 25,
+        "ident": "192,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "T"
+        },
+        "y": 11,
+        "seq_x": 193,
+        "topo_gen": 25,
+        "ident": "193,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 3,
+        "seq_x": 194,
+        "topo_gen": 26,
+        "ident": "194,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 4,
+        "seq_x": 195,
+        "topo_gen": 26,
+        "ident": "195,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 5,
+        "seq_x": 196,
+        "topo_gen": 26,
+        "ident": "196,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 6,
+        "seq_x": 197,
+        "topo_gen": 26,
+        "ident": "197,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 7,
+        "seq_x": 198,
+        "topo_gen": 26,
+        "ident": "198,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 8,
+        "seq_x": 199,
+        "topo_gen": 26,
+        "ident": "199,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 9,
+        "seq_x": 200,
+        "topo_gen": 26,
+        "ident": "200,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 10,
+        "seq_x": 201,
+        "topo_gen": 26,
+        "ident": "201,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "H"
+        },
+        "y": 11,
+        "seq_x": 202,
+        "topo_gen": 26,
+        "ident": "202,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 3,
+        "seq_x": 203,
+        "topo_gen": 27,
+        "ident": "203,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 4,
+        "seq_x": 204,
+        "topo_gen": 27,
+        "ident": "204,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 5,
+        "seq_x": 205,
+        "topo_gen": 27,
+        "ident": "205,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 6,
+        "seq_x": 206,
+        "topo_gen": 27,
+        "ident": "206,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 7,
+        "seq_x": 207,
+        "topo_gen": 27,
+        "ident": "207,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 8,
+        "seq_x": 208,
+        "topo_gen": 27,
+        "ident": "208,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 9,
+        "seq_x": 209,
+        "topo_gen": 27,
+        "ident": "209,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 10,
+        "seq_x": 210,
+        "topo_gen": 27,
+        "ident": "210,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "S\u2020"
+        },
+        "y": 11,
+        "seq_x": 211,
+        "topo_gen": 27,
+        "ident": "211,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 3,
+        "seq_x": 212,
+        "topo_gen": 28,
+        "ident": "212,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 2,
+        "seq_x": 212,
+        "topo_gen": 28,
+        "ident": "212,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 4,
+        "seq_x": 213,
+        "topo_gen": 28,
+        "ident": "213,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 12,
+        "seq_x": 213,
+        "topo_gen": 28,
+        "ident": "213,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 5,
+        "seq_x": 214,
+        "topo_gen": 28,
+        "ident": "214,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 13,
+        "seq_x": 214,
+        "topo_gen": 28,
+        "ident": "214,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 6,
+        "seq_x": 215,
+        "topo_gen": 28,
+        "ident": "215,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 14,
+        "seq_x": 215,
+        "topo_gen": 28,
+        "ident": "215,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 7,
+        "seq_x": 216,
+        "topo_gen": 28,
+        "ident": "216,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 15,
+        "seq_x": 216,
+        "topo_gen": 28,
+        "ident": "216,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 8,
+        "seq_x": 217,
+        "topo_gen": 28,
+        "ident": "217,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 16,
+        "seq_x": 217,
+        "topo_gen": 28,
+        "ident": "217,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 9,
+        "seq_x": 218,
+        "topo_gen": 28,
+        "ident": "218,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 17,
+        "seq_x": 218,
+        "topo_gen": 28,
+        "ident": "218,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 10,
+        "seq_x": 219,
+        "topo_gen": 28,
+        "ident": "219,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 18,
+        "seq_x": 219,
+        "topo_gen": 28,
+        "ident": "219,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Circle",
+        "symb_attributes": {
+          "filled": true
+        },
+        "y": 11,
+        "seq_x": 220,
+        "topo_gen": 28,
+        "ident": "220,ctrl,Side.THRU,()"
+      },
+      {
+        "symb_cls": "ModPlus",
+        "symb_attributes": {},
+        "y": 19,
+        "seq_x": 220,
+        "topo_gen": 28,
+        "ident": "220,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 2,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 12,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 13,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 14,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 15,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(4,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 16,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(5,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 17,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(6,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 18,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(7,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 19,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.LEFT,(8,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 221,
+        "topo_gen": 29,
+        "ident": "221,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[0]"
+        },
+        "y": 3,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(0,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[1]"
+        },
+        "y": 4,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(1,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[2]"
+        },
+        "y": 5,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(2,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[3]"
+        },
+        "y": 6,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(3,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[4]"
+        },
+        "y": 7,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(4,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[5]"
+        },
+        "y": 8,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(5,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[6]"
+        },
+        "y": 9,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(6,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[7]"
+        },
+        "y": 10,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(7,)"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": "[8]"
+        },
+        "y": 11,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.LEFT,(8,)"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 222,
+        "topo_gen": 29,
+        "ident": "222,reg,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "ctrl/QBit()",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 223,
+        "topo_gen": 30,
+        "ident": "dang,ctrl,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "x/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 223,
+        "topo_gen": 30,
+        "ident": "dang,x,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "y/QAny(9)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 223,
+        "topo_gen": 30,
+        "ident": "dang,y,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 223
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 1,
+        "seq_x_start": 110,
+        "seq_x_end": 112
+      },
+      {
+        "y": 1,
+        "seq_x_start": 221,
+        "seq_x_end": 223
+      },
+      {
+        "y": 2,
+        "seq_x_start": -1,
+        "seq_x_end": 0
+      },
+      {
+        "y": 2,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 2,
+        "seq_x_start": 222,
+        "seq_x_end": 223
+      },
+      {
+        "y": 3,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 3,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 4,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 4,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 5,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 5,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 6,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 6,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 7,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 7,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 8,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 8,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 9,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 9,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 10,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 10,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 11,
+        "seq_x_start": 0,
+        "seq_x_end": 110
+      },
+      {
+        "y": 11,
+        "seq_x_start": 112,
+        "seq_x_end": 222
+      },
+      {
+        "y": 12,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 13,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 14,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 15,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 16,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 17,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 18,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      },
+      {
+        "y": 19,
+        "seq_x_start": 1,
+        "seq_x_end": 221
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 11,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 19,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 3,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 12,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 13,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 5,
+        "top_y": 14,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 6,
+        "top_y": 15,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 7,
+        "top_y": 16,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 8,
+        "top_y": 17,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 9,
+        "top_y": 18,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 10,
+        "top_y": 19,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 11,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 12,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 13,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 14,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 15,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 16,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 17,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 18,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 19,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 20,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 21,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 22,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 23,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 24,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 25,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 26,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 27,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 28,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 29,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 30,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 31,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 32,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 33,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 34,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 35,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 36,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 37,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 38,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 39,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 40,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 41,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 42,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 43,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 44,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 45,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 46,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 47,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 48,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 49,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 50,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 51,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 52,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 53,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 54,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 55,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 56,
+        "top_y": 3,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 57,
+        "top_y": 12,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 58,
+        "top_y": 13,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 59,
+        "top_y": 14,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 60,
+        "top_y": 15,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 61,
+        "top_y": 16,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 62,
+        "top_y": 17,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 63,
+        "top_y": 18,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 64,
+        "top_y": 19,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 65,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 66,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 67,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 68,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 69,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 70,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 71,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 72,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 73,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 74,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 75,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 76,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 77,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 78,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 79,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 80,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 81,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 82,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 83,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 84,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 85,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 86,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 87,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 88,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 89,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 90,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 91,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 92,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 93,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 94,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 95,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 96,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 97,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 98,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 99,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 100,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 101,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 102,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 103,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 104,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 105,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 106,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 107,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 108,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 109,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 110,
+        "top_y": 11,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 111,
+        "top_y": 1,
+        "bottom_y": 0,
+        "label": {
+          "text": "MultiTargetCNOT",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 112,
+        "top_y": 11,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 113,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 114,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 115,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 116,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 117,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 118,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 119,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 120,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 121,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 122,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 123,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 124,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 125,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 126,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 127,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 128,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 129,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 130,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 131,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 132,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 133,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 134,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 135,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 136,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 137,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 138,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 139,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 140,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 141,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 142,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 143,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 144,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 145,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 146,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 147,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 148,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 149,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 150,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 151,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 152,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 153,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 154,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 155,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 156,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 157,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 158,
+        "top_y": 3,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 159,
+        "top_y": 12,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 160,
+        "top_y": 13,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 161,
+        "top_y": 14,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 162,
+        "top_y": 15,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 163,
+        "top_y": 16,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 164,
+        "top_y": 17,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 165,
+        "top_y": 18,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 166,
+        "top_y": 19,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 167,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 168,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 169,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 170,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 171,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 172,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 173,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 174,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 175,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 176,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 177,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 178,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 179,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 180,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 181,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 182,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 183,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 184,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 185,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 186,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 187,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 188,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 189,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 190,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 191,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 192,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 193,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 194,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 195,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 196,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 197,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 198,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 199,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 200,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 201,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 202,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 203,
+        "top_y": 3,
+        "bottom_y": 3,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 204,
+        "top_y": 4,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 205,
+        "top_y": 5,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 206,
+        "top_y": 6,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 207,
+        "top_y": 7,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 208,
+        "top_y": 8,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 209,
+        "top_y": 9,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 210,
+        "top_y": 10,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 211,
+        "top_y": 11,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 212,
+        "top_y": 3,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 213,
+        "top_y": 12,
+        "bottom_y": 4,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 214,
+        "top_y": 13,
+        "bottom_y": 5,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 215,
+        "top_y": 14,
+        "bottom_y": 6,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 216,
+        "top_y": 15,
+        "bottom_y": 7,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 217,
+        "top_y": 16,
+        "bottom_y": 8,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 218,
+        "top_y": 17,
+        "bottom_y": 9,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 219,
+        "top_y": 18,
+        "bottom_y": 10,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 220,
+        "top_y": 19,
+        "bottom_y": 11,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 221,
+        "top_y": 19,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 222,
+        "top_y": 11,
+        "bottom_y": 2,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "ArbitraryClifford",
+      "filename": "96d730b7a405ed0e9cb1068b43e06fe4.json"
+    },
+    {
+      "name": "ArbitraryClifford",
+      "filename": "53d21dfb7b3e4ffc83a7bbe3f8aefc3e.json"
+    },
+    {
+      "name": "TGate",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    }
+  ]
+}

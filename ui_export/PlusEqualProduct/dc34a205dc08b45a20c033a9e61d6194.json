@@ -1,0 +1,16 @@
+{
+  "name": "PlusEqualProduct",
+  "attrs": {
+    "a_bitsize": 2,
+    "b_bitsize": 2,
+    "result_bitsize": 4,
+    "is_adjoint": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "TGate",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    }
+  ]
+}

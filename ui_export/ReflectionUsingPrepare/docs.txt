@@ -1,0 +1,31 @@
+Applies reflection around a state prepared by `prepare_gate`
+
+Applies $R_{s, g=1} = g (I - 2|s\rangle\langle s|)$ using $R_{s} =
+P(I - 2|0\rangle\langle0|)P^{\dagger}$ s.t. $P|0\rangle = |s\rangle$.
+
+Here:
+- $|s\rangle$: The state along which we want to reflect.
+- $P$: Unitary that prepares that state $|s\rangle $ from the zero state $|0\rangle$
+- $R_{s}$: Reflection operator that adds a `-1` phase to all states in the subspace
+    spanned by $|s\rangle$.
+- $g$: The global phase to control the behavior of the reflection. For example:
+    We often use $g=-1$ in literature to denote the reflection operator as
+    $R_{s} = -1 (I - 2|s\rangle\langle s|) = 2|s\rangle\langle s| - I$
+
+The composite gate corresponds to implementing the following circuit:
+
+```
+|control> ------------------ Z -------------------
+                             |
+|L>       ---- PREPARE^† --- o --- PREPARE -------
+```
+
+
+#### Parameters
+ - `prepare_gate`: An implementation of `PREPARE` for state preparation.
+ - `control_val`: If 0/1, a controlled version of the reflection operator is constructed. Defaults to None, in which case the resulting reflection operator is not controlled.
+ - `global_phase`: The global phase to apply in front of the reflection operator. When building a controlled reflection operator, the global phase translates into a relative phase.
+ - `eps`: precision for implementation of rotation. Only relevant if global_phase is arbitrary angle and gate is not controlled. 
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662).     Babbush et. al. (2018). Figure 1.

@@ -1,0 +1,15 @@
+Placeholder bloq for QROAM on two registers.
+
+#### Parameters
+ - `data_a_size`: Amount of data we want to load from first index.
+ - `data_b_size`: Amount of data we want to load from second index.
+ - `data_a_block_size`: Blocking factor for first index.
+ - `data_b_block_size`: Blocking factor for second index.
+ - `target_bitsize`: the amount of bits of output we need.
+ - `is_adjoint`: whether to get costs from inverse qrom (true) or not (false). 
+
+:returns: minimal (optimal) cost of QROM
+:rtype: val_opt
+
+#### References
+ - [Even More Efficient Quantum Computations of Chemistry Through Tensor     Hypercontraction](https://arxiv.org/abs/2011.03494). Appendix G, Eq. G3 and G6.

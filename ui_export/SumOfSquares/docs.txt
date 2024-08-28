@@ -1,0 +1,18 @@
+Compute the sum of squares of k n-bit binary numbers.
+
+Implements $U|a\rangle|b\rangle\dots k\rangle|0\rangle \rightarrow
+    |a\rangle|b\rangle\dots|k\rangle|a^2+b^2+\dots k^2\rangle$ using
+    $4 k n^2 T$ gates.
+
+The number of bits required by the output register is 2*bitsize + ceil(log2(k)).
+
+#### Parameters
+ - `bitsize`: Number of bits used to represent each of the k integers.
+ - `k`: The number of integers we want to square. 
+
+#### Registers
+ - `input`: k n-bit registers.
+ - `result`: 2 * bitsize + ceil(log2(k)) sized output register. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). pg 80 gives a Toffoli complexity for squaring.

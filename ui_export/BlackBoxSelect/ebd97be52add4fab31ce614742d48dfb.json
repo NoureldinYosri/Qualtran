@@ -1,0 +1,506 @@
+{
+  "name": "BlackBoxSelect",
+  "attrs": {
+    "select": {
+      "x_dim": 3,
+      "y_dim": 3,
+      "control_val": null
+    }
+  },
+  "score": {
+    "max_x": 5,
+    "max_y": 9,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "selection/QAny(12)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,selection,l,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(12)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,system,l,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,x,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,U,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 3,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,V,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 4,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,p_x,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 5,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,p_y,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 6,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,alpha,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 7,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,q_x,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 8,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,q_y,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 9,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,beta,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,x,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 1,
+        "ident": "1,target,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "SelectHubbard"
+        },
+        "y": 2,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,U,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "V"
+        },
+        "y": 3,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,V,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "p_x"
+        },
+        "y": 4,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,p_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "p_y"
+        },
+        "y": 5,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,p_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "alpha"
+        },
+        "y": 6,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,alpha,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "q_x"
+        },
+        "y": 7,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,q_x,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "q_y"
+        },
+        "y": 8,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,q_y,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "beta"
+        },
+        "y": 9,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,beta,Side.THRU,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "target"
+        },
+        "y": 0,
+        "seq_x": 2,
+        "topo_gen": 2,
+        "ident": "2,target,Side.THRU,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,U,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 3,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,V,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 4,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,p_x,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 5,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,p_y,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 6,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,alpha,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 7,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,q_x,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 8,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,q_y,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 9,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,beta,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 1,
+        "seq_x": 3,
+        "topo_gen": 3,
+        "ident": "3,x,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "RarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 0,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "4,target,Side.LEFT,()"
+      },
+      {
+        "symb_cls": "LarrowTextBox",
+        "symb_attributes": {
+          "text": " "
+        },
+        "y": 2,
+        "seq_x": 4,
+        "topo_gen": 3,
+        "ident": "4,x,Side.RIGHT,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "selection/QAny(12)",
+          "fontsize": 8
+        },
+        "y": 1,
+        "seq_x": 5,
+        "topo_gen": 4,
+        "ident": "dang,selection,r,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "system/QAny(12)",
+          "fontsize": 8
+        },
+        "y": 2,
+        "seq_x": 5,
+        "topo_gen": 4,
+        "ident": "dang,system,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 0
+      },
+      {
+        "y": 0,
+        "seq_x_start": 1,
+        "seq_x_end": 4
+      },
+      {
+        "y": 1,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      },
+      {
+        "y": 1,
+        "seq_x_start": 3,
+        "seq_x_end": 5
+      },
+      {
+        "y": 2,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 2,
+        "seq_x_start": 4,
+        "seq_x_end": 5
+      },
+      {
+        "y": 3,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 4,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 5,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 6,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 7,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 8,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      },
+      {
+        "y": 9,
+        "seq_x_start": 0,
+        "seq_x_end": 3
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 9,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 1,
+        "top_y": 1,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 2,
+        "top_y": 9,
+        "bottom_y": 0,
+        "label": {
+          "text": "SelectHubbard(3, 3)",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 3,
+        "top_y": 9,
+        "bottom_y": 1,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      },
+      {
+        "x": 4,
+        "top_y": 2,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "Partition",
+      "filename": "93f1edb503bae6643eb4e19c3c43be91.json"
+    },
+    {
+      "name": "Partition",
+      "filename": "2c4eb983dd5cdb8c1ed5857e1932759d.json"
+    },
+    {
+      "name": "SelectHubbard",
+      "filename": "81141a3fe3501e8c21626686f92cb0ee.json"
+    },
+    {
+      "name": "Partition",
+      "filename": "dd65a910b015ae798a8bc011f9b79f88.json"
+    },
+    {
+      "name": "Partition",
+      "filename": "9c589a52698ca755dc89e2e3eece486c.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Bloq implementing Quantum Variable Rotation
+
+$$
+    \sum_j c_j|\phi_j\rangle \rightarrow \sum_j e^{i \xi \phi_j}  c_j | \phi_j\rangle
+$$
+
+This is the basic implementation in Fig. 14 of the reference.
+
+#### Parameters
+ - `bitsize`: The number of bits encoding the phase angle $\phi_j$. 
+
+#### Registers
+ - `phi`: a bitsize size register storing the angle $\phi_j$. 
+
+#### References
+ - [Faster quantum chemistry simulation on fault-tolerant quantum     computers](https://iopscience.iop.org/article/10.1088/1367-2630/14/11/115023/meta).     Fig 14.

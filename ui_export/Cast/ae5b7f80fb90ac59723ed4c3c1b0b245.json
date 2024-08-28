@@ -1,0 +1,16 @@
+{
+  "name": "Cast",
+  "attrs": {
+    "inp_dtype": {
+      "bitsize": 32
+    },
+    "out_dtype": {
+      "bitsize": 32,
+      "num_frac": 32,
+      "signed": false
+    },
+    "shape": []
+  },
+  "score": null,
+  "callees": []
+}

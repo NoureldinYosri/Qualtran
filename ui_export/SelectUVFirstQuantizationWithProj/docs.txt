@@ -1,0 +1,19 @@
+SELECT for the coulomb operators for the first quantized chemistry Hamiltonian.
+
+Here we include a quantum projectile.
+
+This does not include the controlled swaps from p_i and q_j system registers
+into ancilla registers and back again. Hence there is no system register.
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register.
+ - `num_bits_n`: The number of bits to represent each dimension of the momentum register for the projectile.
+ - `eta`: The number of electrons.
+ - `num_atoms`: The number of atoms.
+ - `num_bits_nuc_pos`: The number of bits to store each component of the nuclear positions. $n_R$ in the reference. 
+
+Registers:
+
+#### References
+ - [Quantum computation of stopping power for inertial fusion target design](https://arxiv.org/abs/2308.12352). page 11, C also page 34 App A. Sec 3.
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). 

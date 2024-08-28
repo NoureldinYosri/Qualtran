@@ -1,0 +1,19 @@
+Takes |x> to |x + k> for a classical integer `k`.
+
+This construction simply XORs the classical constant into a quantum register and
+applies quantum-quantum addition. This is the lowest T-count algorithm at the expense
+of $n$ auxiliary qubits. This construction also permits an inexpensive controlled version:
+you only need to control the loading of the classical constant which can be done with
+only clifford operations.
+
+#### Parameters
+ - `bitsize`: Number of bits used to represent each integer.
+ - `k`: The classical integer value to be added to x.
+ - `cvs`: A tuple of control values. Each entry specifies whether that control line is a "positive" control (`cv[i]=1`) or a "negative" control (`cv[i]=0`).
+ - `signed`: A boolean condition which controls whether the x register holds a value represented in 2's Complement or Unsigned. This affects the ability to add a negative constant. 
+
+#### Registers
+ - `x`: A bitsize-sized input register (register x above). 
+
+#### References
+ - [Improved quantum circuits for elliptic curve discrete logarithms](https://arxiv.org/abs/2001.09580). Haner et. al. 2020. Section 3: Components. "Integer addition" and Fig 2a.

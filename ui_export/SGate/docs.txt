@@ -1,0 +1,12 @@
+The S gate.
+
+The unitary matrix of `cirq.S` is
+$$
+\begin{bmatrix}
+    1 & 0 \\
+    0 & i
+\end{bmatrix}
+$$
+
+#### Registers
+ - `q`: The qubit

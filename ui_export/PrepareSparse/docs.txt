@@ -1,0 +1,45 @@
+Prepare oracle for the sparse chemistry Hamiltonian
+
+Prepare the state:
+
+$$
+    |0\rangle|+\rangle|0\rangle|0\rangle
+    \sum_{\sigma}\sum_{pq}
+    \sqrt{\frac{T_{pq}'}{2\lambda}}
+    |\theta_{pq}^T\rangle|pq\sigma\rangle|000\rangle
+    +|1\rangle|+\rangle|+\rangle|+\rangle
+    \sum_{\alpha\beta}
+    \sum_{pqrs}
+    \sqrt{\frac{\tilde{V}_{pqrs}'}{2\lambda}}
+    |\theta_{pqrs}^V\rangle|pq\alpha\rangle|rs\beta\rangle
+$$
+
+#### Parameters
+ - `num_spin_orb`: The number of spin orbitals.
+ - `num_non_zero`: The number of non-zero matrix elements.
+ - `num_bits_state_prep`: the number of bits of precision for state preparation. This will control the size of the keep register.
+ - `num_bits_rot_aa`: The number of bits of precision for the single-qubit rotation for amplitude amplification during the uniform state preparation. Default 8.
+ - `is_adjoint`: Whether we are apply PREPARE or PREPARE^dag
+ - `qroam_block_size`: qroam blocking factor. 
+
+#### Registers
+ - `d`: the register indexing non-zero matrix elements.
+ - `pqrs`: the register to store the spatial orbital index.
+ - `sigma`: the register prepared for alias sampling.
+ - `alpha`: spin for (pq) indicies.
+ - `beta`: spin for (rs) indicies.
+ - `rot_aa`: the qubit rotated for amplitude amplification.
+ - `swap_pq`: a |+> state to restore the symmetries of the p and q indices.
+ - `swap_rs`: a |+> state to restore the symmetries of the r and s indices.
+ - `swap_pqrs`: a |+> state to restore the symmetries of between (pq) and (rs).
+ - `theta`: sign qubit.
+ - `alt_pqrs`: the register to store the alternate values for the spatial orbital indices.
+ - `theta`: A two qubit register for the sign bit and it's alternate value.
+ - `keep`: The register containing the keep values for alias sampling.
+ - `less_than`: A single qubit for the result of the inequality test during alias sampling.
+ - `flag_1b`: a single qubit register indicating whether to apply only the one-body SELECT.
+ - `alt_flag_1b`: alternate value for flag_1b 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        hypercontraction](https://arxiv.org/abs/2011.03494) Eq. A11.

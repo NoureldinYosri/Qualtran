@@ -1,0 +1,34 @@
+Bloq implementing a "tile" of the one-body hopping unitary using Hamming weight phasing.
+
+Implements the unitary
+$$
+e^{i H_h^{x}} = \prod_{k\sigma} e^{i t H_h^{x(k,\sigma)}}
+$$
+for a particular choise of of plaquette hamiltonian $H_h^x$, where $x$ = pink or gold.
+
+Each plaquette Hamiltonian can be split into $L^2/4$ commuting terms. Each
+term can be implemented using the 4-qubit HoppingPlaquette above. The
+HoppingPlaquette bloq contains 2 arbitrary rotations which are flanked by Clifford operations.
+All of the rotations within a HoppingTile have the same angle so we can use
+HammingWeightPhaseing to reduce the number of T gates that need to be
+synthesized. Accounting for spin there are then $2 \times 2 \times L^2/4$
+arbitrary rotations in each Tile, but only  $L^2/2$ of them can be applied
+at the same time due to the $e^{iXX} e^{iYY}$ circuit not permitting parallel $R_z$ gates.
+
+Unlike in the HoppingTile implementation where we can neatly factor
+everything into sub-bloqs, here we would need to apply any clifford and F
+gates first in parallel then bulk apply the rotations in parallel using
+HammingWeightPhasing and then apply another layer of clifford and F gates.
+
+#### Parameters
+ - `length`: Lattice side length L.
+ - `angle`: The prefactor scaling the Hopping hamiltonian in the unitary (`t` above). This should contain any relevant prefactors including the time step and any splitting coefficients.
+ - `tau`: The Hopping hamiltonian parameter. Typically the hubbard model is defined relative to $\tau$ so it's defaulted to 1.
+ - `eps`: The precision of the single qubit rotations.
+ - `pink`: The colour of the plaquette. 
+
+#### Registers
+ - `system`: The system register of size 2 `length`. 
+
+#### References
+ - [Early fault-tolerant simulations of the Hubbard model](     https://arxiv.org/abs/2012.09238) see Eq. 21 and App E.

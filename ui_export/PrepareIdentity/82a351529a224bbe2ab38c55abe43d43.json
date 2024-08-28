@@ -1,0 +1,77 @@
+{
+  "name": "PrepareIdentity",
+  "attrs": {
+    "selection_regs": [
+      {
+        "name": "reg0_",
+        "dtype": {
+          "bitsize": 12
+        },
+        "_shape": [],
+        "side": "Side.THRU"
+      }
+    ]
+  },
+  "score": {
+    "max_x": 1,
+    "max_y": 0,
+    "soqs": [
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "reg0_/QAny(12)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": -1,
+        "topo_gen": 0,
+        "ident": "dang,reg0_,l,()"
+      },
+      {
+        "symb_cls": "TextBox",
+        "symb_attributes": {
+          "text": "I\u2a0212"
+        },
+        "y": 0,
+        "seq_x": 0,
+        "topo_gen": 1,
+        "ident": "0,q,Side.THRU,()"
+      },
+      {
+        "symb_cls": "Text",
+        "symb_attributes": {
+          "text": "reg0_/QAny(12)",
+          "fontsize": 8
+        },
+        "y": 0,
+        "seq_x": 1,
+        "topo_gen": 2,
+        "ident": "dang,reg0_,r,()"
+      }
+    ],
+    "hlines": [
+      {
+        "y": 0,
+        "seq_x_start": -1,
+        "seq_x_end": 1
+      }
+    ],
+    "vlines": [
+      {
+        "x": 0,
+        "top_y": 0,
+        "bottom_y": 0,
+        "label": {
+          "text": "",
+          "fontsize": 10
+        }
+      }
+    ]
+  },
+  "callees": [
+    {
+      "name": "OnEach",
+      "filename": "01f5e0c04ff1d46c77981e9d72b14279.json"
+    }
+  ]
+}

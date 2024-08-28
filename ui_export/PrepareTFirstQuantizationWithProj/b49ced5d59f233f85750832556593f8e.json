@@ -1,0 +1,21 @@
+{
+  "name": "PrepareTFirstQuantizationWithProj",
+  "attrs": {
+    "num_bits_p": 6,
+    "num_bits_n": 8,
+    "eta": 10,
+    "num_bits_rot_aa": 8,
+    "is_adjoint": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "PreparePowerTwoStateWithProj",
+      "filename": "149de83d0061baa7e13e5036f2f0db83.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

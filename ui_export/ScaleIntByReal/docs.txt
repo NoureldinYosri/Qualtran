@@ -1,0 +1,21 @@
+Scale an integer by fixed-point representation of a real number.
+
+i.e.
+
+$$
+    |r\rangle|i\rangle|0\rangle \rightarrow |r\rangle|i\rangle|r \times i\rangle
+$$
+
+The real number is assumed to be in the range [0, 1).
+
+#### Parameters
+ - `r_bitsize`: Number of bits used to represent the real number.
+ - `i_bitsize`: Number of bits used to represent the integer. 
+
+#### Registers
+ - `real_in`: r_bitsize-sized input fixed-point register.
+ - `int_in`: i_bitsize-sized input register.
+ - `result`: a r_bitsize sized output fixed-point register. 
+
+#### References
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](     https://arxiv.org/pdf/2007.07391.pdf) pg 70.

@@ -1,0 +1,17 @@
+Compare and potentially swaps two n-bit numbers.
+
+Implements $|a\rangle|b\rangle \mapsto |\min(a,b)\rangle|\max(a,b)\rangle|a>b\rangle$,
+
+where $a$ and $b$ are n-qubit quantum registers. On output a and b are
+swapped if a > b. Forms the base primitive for sorting.
+
+#### Parameters
+ - `bitsize`: value of $n$ (i.e. the inputs are $n$-bit numbers). 
+
+#### Registers
+ - `a`: A n-bit-sized input register (register a above).
+ - `b`: A n-bit-sized input register (register b above).
+ - `out`: A single bit output register which will store the result of the comparator. 
+
+#### References
+ - [Improved techniques for preparing eigenstates of fermionic Hamiltonians](https://www.nature.com/articles/s41534-018-0071-5). Fig. 1. in main text.

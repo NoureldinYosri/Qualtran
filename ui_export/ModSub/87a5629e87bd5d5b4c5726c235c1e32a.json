@@ -1,0 +1,9 @@
+{
+  "name": "ModSub",
+  "attrs": {
+    "n": "Symbol(n)",
+    "mod": "Symbol(p)"
+  },
+  "score": null,
+  "callees": []
+}

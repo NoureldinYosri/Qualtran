@@ -1,0 +1,26 @@
+{
+  "name": "LessThanEqual",
+  "attrs": {
+    "x_bitsize": "Symbol(n1)",
+    "y_bitsize": "Symbol(n2)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "SingleQubitCompare",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    },
+    {
+      "name": "BiQubitsMixer",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    },
+    {
+      "name": "BiQubitsMixer",
+      "filename": "bca4942930594d42e6b73d2b0411149a.json"
+    },
+    {
+      "name": "SingleQubitCompare",
+      "filename": "3c1b3e1ac805f2fc355ebd97b1e15cca.json"
+    }
+  ]
+}

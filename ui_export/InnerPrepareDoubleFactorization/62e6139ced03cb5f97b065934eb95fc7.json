@@ -1,0 +1,25 @@
+{
+  "name": "InnerPrepareDoubleFactorization",
+  "attrs": {
+    "num_aux": 50,
+    "num_spin_orb": 10,
+    "num_eig": 250,
+    "num_bits_rot_aa": 7,
+    "num_bits_state_prep": 12
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "QROAM",
+      "filename": "dad765cf1ecaae859e3b40284130a363.json"
+    },
+    {
+      "name": "Add",
+      "filename": "4fa6a9f3a4910e3e8013557ac3cfc3d6.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "CSwap",
+  "attrs": {
+    "bitsize": 76
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "TwoBitCSwap",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

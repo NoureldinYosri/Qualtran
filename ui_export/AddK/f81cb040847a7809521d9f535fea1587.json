@@ -1,0 +1,20 @@
+{
+  "name": "AddK",
+  "attrs": {
+    "bitsize": "NOT_SERIALIZABLE",
+    "k": "NOT_SERIALIZABLE",
+    "cvs": [],
+    "signed": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "XGate",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    },
+    {
+      "name": "Add",
+      "filename": "160859b2c4cb2b8f8e8a08e8f06958a4.json"
+    }
+  ]
+}

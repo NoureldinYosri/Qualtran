@@ -1,0 +1,12 @@
+Single-qubit Rz gate.
+
+#### Parameters
+ - `angle`: Rotation angle in radians.
+ - `eps`: precision for implementation of rotation. 
+
+#### Registers
+ - `q`: One-bit register. 
+
+#### References
+ - [Efficient synthesis of universal Repeat-Until-Success circuits](https://arxiv.org/abs/1404.5320). Offers a small improvement
+ - [Optimal ancilla-free Clifford+T approximation of z-rotations](https://arxiv.org/pdf/1403.2975.pdf). 

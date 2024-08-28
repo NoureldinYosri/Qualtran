@@ -1,0 +1,27 @@
+Applies U|x>|y>|z> = |x>|y> |z ^ (x <= y)>
+
+Decomposes the gate in a T-complexity optimal way.
+
+The construction can be broken in 4 parts:
+ 1. In case of differing bitsizes then a multicontrol And Gate
+    (Section III.A. of the first reference) is used to check whether
+    the extra prefix is equal to zero and the result is stored in the `prefix_equality` qubit.
+ 2. The tree structure (Fig. 2) of the second reference.
+    followed by a `SingleQubitCompare` to compute the result of comparison of
+    the suffixes of equal length. The result is stored in `less_than` and `greater_than` and
+    equality in `qubits[-2]`
+ 3. The results from the previous two steps are combined to update the target qubit.
+ 4. The adjoint of the previous operations is added to restore the input qubits
+    to their original state and clean the ancilla qubits.
+
+When both registers are of the same size the T complexity is
+8n - 4 as in the second reference.
+
+When the registers differ in size and `n` is the size of the smaller one and
+`d` is the difference in size, the T complexity is the sum of the tree
+decomposition as before giving 8n + O(1); and the T complexity of an `And` gate
+over `d` registers giving 4d + O(1). This totals 8n + 4d + O(1).
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662). 
+ - Supplementary Materials: Improved Techniques for Preparing Eigenstates of Fermionic Hamiltonians. https://static-content.springer.com/esm/art%3A10.1038%2Fs41534-018-0071-5/MediaObjects/41534_2018_71_MOESM1_ESM.pdf

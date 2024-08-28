@@ -1,0 +1,23 @@
+Outer state preparation.
+
+Implements "the appropriate superposition state" on the $l$ register. i.e.
+
+$$
+|0\rangle = \sum_l a_l |l\rangle,
+$$
+
+where $a_l = \sqrt{\frac{c^{l}}{\sum_{l} c^{(l)}}$, and $c^{l} = \sum_{k} f_k^{(l)}^2$.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for double factorized Hamiltonian. Call L in Ref[1].
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called $\aleph$ in Ref[1].
+ - `num_bits_rot_aa`: Number of bits of precision for single qubit rotation for amplitude amplification in inner state preparation. Called $b_r$ in the reference. 
+
+#### Registers
+ - `l`: register to store L values for auxiliary index.
+ - `succ_l`: flag for success of this state preparation. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494)
+        Appendix C, page 51 and 52

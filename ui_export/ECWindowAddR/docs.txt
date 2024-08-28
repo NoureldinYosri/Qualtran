@@ -1,0 +1,16 @@
+Perform elliptic curve addition of many multiples of constant `R`.
+
+This adds R, 2R, ... 2^window_size into the register.
+
+#### Parameters
+ - `n`: The bitsize of the two registers storing the elliptic curve point
+ - `window_size`: The number of bits in the window.
+ - `R`: The elliptic curve point to add. 
+
+#### Registers
+ - `ctrl`: `window_size` control bits.
+ - `x`: The x component of the input elliptic curve point of bitsize `n`.
+ - `y`: The y component of the input elliptic curve point of bitsize `n`. 
+
+#### References
+ - [How to compute a 256-bit elliptic curve private key with only 50 million Toffoli gates](https://arxiv.org/abs/2306.08585). Litinski. 2013. Section 1, eq. (3) and (4).

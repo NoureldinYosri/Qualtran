@@ -1,0 +1,17 @@
+{
+  "name": "HoppingTile",
+  "attrs": {
+    "length": 8,
+    "angle": 0.5,
+    "tau": 1.0,
+    "eps": 1e-09,
+    "pink": true
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "HoppingPlaquette",
+      "filename": "66bbc89c7156aaf0c192f66445fe8f62.json"
+    }
+  ]
+}

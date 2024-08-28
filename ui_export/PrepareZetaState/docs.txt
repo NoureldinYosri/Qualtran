@@ -1,0 +1,14 @@
+PREPARE the superpostion over $l$ weighted by $\zeta_l$.
+
+See https://github.com/quantumlib/Qualtran/issues/473.
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register.
+ - `eta`: The number of electrons.
+ - `m_param`: $\mathcal{M}$ in the reference.
+ - `lambda_zeta`: sum of nuclear charges. 
+
+#### Registers
+ - `l`: the register indexing the atomic number. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 23-24, last 3 paragraphs.

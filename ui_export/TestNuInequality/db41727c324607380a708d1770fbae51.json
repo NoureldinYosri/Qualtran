@@ -1,0 +1,27 @@
+{
+  "name": "TestNuInequality",
+  "attrs": {
+    "num_bits_p": 6,
+    "num_bits_m": 8,
+    "is_adjoint": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Product",
+      "filename": "a6d3aebb3e9cd56e47a10b03a94c9323.json"
+    },
+    {
+      "name": "SumOfSquares",
+      "filename": "9629b9e0cd125e8e35bce5d7dc0b6bac.json"
+    },
+    {
+      "name": "GreaterThan",
+      "filename": "43e5f0f04e355629e0cb85fc67a913a2.json"
+    },
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

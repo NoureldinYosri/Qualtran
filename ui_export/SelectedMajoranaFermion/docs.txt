@@ -1,0 +1,14 @@
+Implements U s.t. U|l>|Psi> -> |l> T_{l} . Z_{l - 1} ... Z_{0} |Psi>
+
+where T is a single qubit target gate that defaults to pauli Y. The gate is
+implemented using an accumulator bit in the unary iteration circuit as explained
+in the reference below.
+
+
+#### Parameters
+ - `selection_regs`: Indexing `select` signature of type `Register(dtype=BoundedQUInt)`. It also contains information about the iteration length of each selection register.
+ - `control_regs`: Control signature for constructing a controlled version of the gate.
+ - `target_gate`: Single qubit gate to be applied to the target qubits. 
+
+#### References
+ - [Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity](https://arxiv.org/abs/1805.03662). Fig 9.

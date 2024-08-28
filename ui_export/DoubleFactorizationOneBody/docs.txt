@@ -1,0 +1,31 @@
+Block encoding of double factorization one-body Hamiltonian.
+
+Implements inner "half" of Fig. 15 in the reference. This block encoding is
+applied twice (with a reflection around the inner state preparation
+registers) to implement (roughly) the square of this one-body operator.
+
+#### Parameters
+ - `num_aux`: Dimension of auxiliary index for double factorized Hamiltonian. Call L in Ref[1].
+ - `num_spin_orb`: The number of spin orbitals. Typically called $N$.
+ - `num_eig`: The total number of eigenvalues.
+ - `num_bits_state_prep`: The number of bits of precision for coherent alias sampling. Called $\aleph$ in the reference.
+ - `num_bits_rot_aa_outer`: Number of bits of precision for single qubit rotation for amplitude amplification. Called $b_r$ in the reference.
+ - `num_bits_rot`: Number of bits of precision for rotations for amplitude amplification in uniform state preparation. Called $\beth$ in Ref[1]. 
+
+#### Registers
+ - `succ_l`: control for success for outer state preparation.
+ - `succ_p`: control for success for inner state preparation, this is reused in second application.
+ - `l_ne_zero`: control for one-body part of Hamiltonian.
+ - `xi`: data register for number storing $\Xi^{(l)}$.
+ - `p`: Register for inner state preparation.
+ - `rot_aa`: A qubit to be rotated for amplitude amplification.
+ - `spin`: A single qubit register for spin superpositions.
+ - `xi`: Register for rank parameter.
+ - `offset`: Offset for p register.
+ - `rot`: Amplitude amplification angles for inner preparations.
+ - `rotations`: Rotations for basis rotations.
+ - `sys`: The system register. 
+
+Refererences:
+    [Even More Efficient Quantum Computations of Chemistry Through Tensor
+        Hypercontraction](https://arxiv.org/abs/2011.03494)

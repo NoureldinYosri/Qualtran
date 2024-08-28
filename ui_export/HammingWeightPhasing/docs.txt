@@ -1,0 +1,38 @@
+Applies $Z^{\text{exponent}}$ to every qubit of an input register of size `bitsize`.
+
+The goal of Hamming Weight Phasing is to reduce the number of rotations needed to
+apply a single qubit rotation $Z^{\texttt{exponent}}$
+to every qubit of an input register `x` of size `bitsize` from `bitsize` to $O(\log (\texttt{bitsize}))$.
+Naively this would take exactly `bitsize` rotations to be synthesized. The number of rotations synthesized is
+reduced by taking advantage of the insight that the resulting phase that is applied to
+an input state only depends on the Hamming weight of the state. Since each `1` that is present in the input register
+accumulates a phase of $(-1)^{\texttt{exponenet}}$, the total accumulated
+phase of an input basis state is $(-1)^{\text{exponent} * HW(x)}$, where
+$HW(x)$ is the Hamming weight of $x$. The overall procedure is done in 3 steps:
+
+1. Compute the input register Hamming weight coherently using (at-most) $\texttt{bitsize}-1$ ancilla
+    and Toffolis, storing the result in a newly allocated output
+    register of size $\log_2(\texttt{bitsize})$. $HW|x\rangle \mapsto |x\rangle |HW(x)\rangle$.
+    See `HammingWeightCompute` for implementation details of this step.
+2. Apply $Z^{2^{k}\text{exponent}}$ to the k'th qubit of newly allocated Hamming weight
+     register.
+3. Uncompute the Hamming weight register and ancillas allocated in Step-1 with 0 Toffoli
+    cost.
+
+Since the size of the Hamming weight register is $\log_2(\texttt{bitsize})$, as the maximum
+Hamming weight is $\texttt{bitsize}$ and we only need $\log_2$ bits to store that as an integer, we
+have reduced the number of costly rotations to be synthesized from $\texttt{bitsize}$
+to $\log_2(\texttt{bitsize})$. This procedure uses $\texttt{bitsize} - HW(\texttt{bitsize})$
+Toffoli's and $\texttt{bitsize} - HW(\texttt{bitsize}) + \log_2(\texttt{bitsize})$
+ancilla qubits to achieve this reduction in rotations.
+
+#### Parameters
+ - `bitsize`: Size of input register to apply `Z ** exponent` to.
+ - `exponent`: The exponent of `Z ** exponent` to be applied to each qubit in the input register.
+ - `eps`: Accuracy of synthesizing the Z rotations. 
+
+#### Registers
+ - `x`: A `THRU` register of `bitsize` qubits. 
+
+#### References
+ - [Halving the cost of quantum addition](https://arxiv.org/abs/1709.06648). , Page-4

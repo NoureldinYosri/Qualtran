@@ -1,0 +1,20 @@
+{
+  "name": "ModExp",
+  "attrs": {
+    "base": "Symbol(g)",
+    "mod": "Symbol(N)",
+    "exp_bitsize": "Symbol(n_e)",
+    "x_bitsize": "Symbol(n_x)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "CtrlModMul",
+      "filename": "c941d0e0357d5695954794361398638a.json"
+    },
+    {
+      "name": "IntState",
+      "filename": "a98db3efef9c74def17b0d20dc696d94.json"
+    }
+  ]
+}

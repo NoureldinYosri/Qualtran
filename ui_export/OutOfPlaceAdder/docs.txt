@@ -1,0 +1,15 @@
+An n-bit addition gate.
+
+Implements $U|a\rangle|b\rangle 0\rangle \rightarrow |a\rangle|b\rangle|a+b\rangle$
+using $4n - 4 T$ gates. Uncomputation requires 0 T-gates.
+
+#### Parameters
+ - `bitsize`: Number of bits used to represent each input integer. The allocated output register is of size `bitsize+1` so it has enough space to hold the sum of `a+b`. 
+
+#### Registers
+ - `a`: A bitsize-sized input register (register a above).
+ - `b`: A bitsize-sized input register (register b above).
+ - `c`: A bitize+1-sized LEFT/RIGHT register depending on whether the gate adjoint or not. 
+
+#### References
+ - [Halving the cost of quantum addition](https://arxiv.org/abs/1709.06648). 

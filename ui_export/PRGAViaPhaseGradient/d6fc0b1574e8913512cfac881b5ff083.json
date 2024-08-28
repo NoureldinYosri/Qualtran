@@ -1,0 +1,28 @@
+{
+  "name": "PRGAViaPhaseGradient",
+  "attrs": {
+    "selection_bitsize": "NOT_SERIALIZABLE",
+    "phase_bitsize": "Symbol(\\text{phase_bitsize})",
+    "rom_values": {
+      "shape": [
+        "Symbol(L)"
+      ]
+    },
+    "control_bitsize": 1
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "AddIntoPhaseGrad",
+      "filename": "e59a0140fcf76f9f9dca0605adc296af.json"
+    },
+    {
+      "name": "QROM",
+      "filename": "fcfe2ea2d6783f4f136fd2c8d96621de.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "4a9629d49eee5fffe31a7aac27743f71.json"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "NewtonRaphsonApproxInverseSquareRoot",
+  "attrs": {
+    "x_sq_bitsize": 7,
+    "poly_bitsize": 8,
+    "target_bitsize": 12
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Add",
+      "filename": "586fd64ba2435e348f0ce890628148cb.json"
+    },
+    {
+      "name": "ScaleIntByReal",
+      "filename": "038e5f3af64bba6394bbd8f16c02d838.json"
+    },
+    {
+      "name": "SquareRealNumber",
+      "filename": "2b90c6ad4357e2dfd78cac90d1bbe6d6.json"
+    },
+    {
+      "name": "MultiplyTwoReals",
+      "filename": "b416bb8a62d8ef89b352c4fd05ba0c7d.json"
+    }
+  ]
+}

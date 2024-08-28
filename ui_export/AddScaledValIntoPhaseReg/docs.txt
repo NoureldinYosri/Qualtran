@@ -1,0 +1,20 @@
+Optimized quantum-quantum addition into a phase gradient register scaled by a constant $\gamma$.
+
+$$
+    U(\gamma)|x\rangle|\text{phase_grad}\rangle = |x\rangle|\text{phase_grad} + x * \gamma\rangle
+$$
+
+The operation calls `AddIntoPhaseGrad` gate $(\text{gamma_bitsize} + 2) / 2$ times.
+
+#### Parameters
+ - `x_dtype`: Fixed point specification of the input register.
+ - `phase_bitsize`: Size of phase gradient register to which the scaled input should be added.
+ - `gamma`: Floating point scaling factor.
+ - `gamma_dtype`: `QFxp` data type capturing number of bits of precisions to be used for integer and fractional part of `gamma`. 
+
+#### Registers
+ - `x`: Input THRU register storing input value x to be scaled and added to the phase gradient register.
+ - `phase_grad`: Phase gradient THRU register. 
+
+#### References
+ - [Compilation of Fault-Tolerant Quantum Heuristics for Combinatorial Optimization](https://arxiv.org/abs/2007.07391). Appendix A: Addition for controlled rotations

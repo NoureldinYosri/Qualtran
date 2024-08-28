@@ -1,0 +1,10 @@
+Perform x += k mod m for constant k, m and quantum x.
+
+#### Parameters
+ - `k`: The integer to add to `x`.
+ - `mod`: The modulus for the addition.
+ - `bitsize`: The bitsize of the `x` register. 
+
+#### Registers
+ - `ctrl`: The control bit
+ - `x`: The register to perform the in-place modular addition.

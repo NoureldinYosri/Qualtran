@@ -1,0 +1,70 @@
+{
+  "name": "ControlledMultiplexedCSwap3D",
+  "attrs": {
+    "num_bits_p": 6,
+    "num_bits_n": 8,
+    "eta": 10,
+    "cvs": [
+      0
+    ]
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Split",
+      "filename": "b6f47075aea40f24bad280b1645bf79c.json"
+    },
+    {
+      "name": "Split",
+      "filename": "1387a785d2352e5712d7b0c8e066fbbf.json"
+    },
+    {
+      "name": "Join",
+      "filename": "fa8d2db13da4f351f843a40f3e86d357.json"
+    },
+    {
+      "name": "Join",
+      "filename": "3aa9e24ab38e82796de652f031522007.json"
+    },
+    {
+      "name": "Split",
+      "filename": "b26452df6b104cde3fc5393155749242.json"
+    },
+    {
+      "name": "Split",
+      "filename": "4f6dd5717331567d62a6246f18565f04.json"
+    },
+    {
+      "name": "Join",
+      "filename": "1387a785d2352e5712d7b0c8e066fbbf.json"
+    },
+    {
+      "name": "Split",
+      "filename": "27d804918ada4968deb26e6890b0f8e3.json"
+    },
+    {
+      "name": "Split",
+      "filename": "fa8d2db13da4f351f843a40f3e86d357.json"
+    },
+    {
+      "name": "Join",
+      "filename": "b6f47075aea40f24bad280b1645bf79c.json"
+    },
+    {
+      "name": "MultiplexedCSwap",
+      "filename": "b968c7389c4ea173583c5c35ba9a244b.json"
+    },
+    {
+      "name": "Join",
+      "filename": "27d804918ada4968deb26e6890b0f8e3.json"
+    },
+    {
+      "name": "Split",
+      "filename": "3aa9e24ab38e82796de652f031522007.json"
+    },
+    {
+      "name": "Join",
+      "filename": "b26452df6b104cde3fc5393155749242.json"
+    }
+  ]
+}

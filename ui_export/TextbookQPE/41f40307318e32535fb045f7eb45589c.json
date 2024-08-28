@@ -1,0 +1,36 @@
+{
+  "name": "TextbookQPE",
+  "attrs": {
+    "unitary": {
+      "exponent": "NOT_SERIALIZABLE",
+      "global_shift": 0.0,
+      "eps": 1e-11
+    },
+    "m_bits": "NOT_SERIALIZABLE",
+    "ctrl_state_prep": {
+      "n": "NOT_SERIALIZABLE",
+      "gate": {}
+    },
+    "qft_inv": {
+      "subbloq": {
+        "bitsize": "NOT_SERIALIZABLE",
+        "with_reverse": true
+      }
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Controlled",
+      "filename": "d8442b37b3f15fef20847e68ae6372e6.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "5d29a87228c6a65237eeeb045f917b0e.json"
+    },
+    {
+      "name": "OnEach",
+      "filename": "50dd07bad854eb75f80191b270b90bc5.json"
+    }
+  ]
+}

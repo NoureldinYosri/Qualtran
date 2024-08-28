@@ -1,0 +1,14 @@
+{
+  "name": "SelectSingleFactorization",
+  "attrs": {
+    "num_spin_orb": 10,
+    "additional_control": false
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Toffoli",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Allocate",
+  "attrs": {
+    "dtype": {
+      "bitsize": 16
+    }
+  },
+  "score": null,
+  "callees": []
+}

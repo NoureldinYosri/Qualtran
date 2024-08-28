@@ -1,0 +1,15 @@
+{
+  "name": "MultiAnd",
+  "attrs": {
+    "cvs": {
+      "n": "NOT_SERIALIZABLE"
+    }
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "And",
+      "filename": "ea909b4a37d548f5cbc42a8d8bfbff2b.json"
+    }
+  ]
+}

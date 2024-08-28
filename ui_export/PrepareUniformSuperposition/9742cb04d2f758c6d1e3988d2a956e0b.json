@@ -1,0 +1,34 @@
+{
+  "name": "PrepareUniformSuperposition",
+  "attrs": {
+    "n": "Symbol(L)",
+    "cvs": []
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Rz",
+      "filename": "0d7889c847e92a3f6b3ad239a2adab1f.json"
+    },
+    {
+      "name": "LessThanConstant",
+      "filename": "24cb5b007840da19c721c983dcffdf06.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "b3e07d58ad9852dfb1dd44b2b1c09725.json"
+    },
+    {
+      "name": "MultiAnd",
+      "filename": "2fb73e41b934bb07c394c0d01c59e111.json"
+    },
+    {
+      "name": "Adjoint",
+      "filename": "26d666ab5b52a8f3bb47fb3f68c54e4d.json"
+    },
+    {
+      "name": "Hadamard",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}

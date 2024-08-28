@@ -1,0 +1,20 @@
+Prepare the superposition over $\nu$ following the creation of the $|\mu\rangle$ state.
+
+Prepares the state in Eq. 78
+
+$$
+    \frac{1}{\sqrt{2^{n_p + 2}}} \sum_{\mu=2}^{n_p+1}
+    \sum_{\nu_{x,y,z}=-(2^{\mu-1}-1)}^{2^{\mu-1}-1}
+    \frac{1}{2\mu}
+    |\mu\rangle|\nu_x\rangle|\nu_y\rangle|\nu_z\rangle
+$$
+
+#### Parameters
+ - `num_bits_p`: The number of bits to represent each dimension of the momentum register. 
+
+#### Registers
+ - `mu`: the register one-hot encoded $\mu$ register from eq 77.
+ - `nu`: the momentum transfer register. 
+
+#### References
+ - [Fault-Tolerant Quantum Simulations of Chemistry in First Quantization](https://arxiv.org/abs/2105.12767). page 21, Eq 78.

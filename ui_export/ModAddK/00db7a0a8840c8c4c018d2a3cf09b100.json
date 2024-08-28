@@ -1,0 +1,19 @@
+{
+  "name": "ModAddK",
+  "attrs": {
+    "bitsize": 1,
+    "mod": 2,
+    "add_val": 1,
+    "cvs": [
+      0,
+      0
+    ]
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "Add",
+      "filename": "4a7cfa1785f13d294c9802354027a0e4.json"
+    }
+  ]
+}

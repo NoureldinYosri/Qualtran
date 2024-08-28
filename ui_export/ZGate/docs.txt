@@ -1,0 +1,3 @@
+The Z gate.
+
+This causes a phase flip: Z|+> = |-> and vice-versa.

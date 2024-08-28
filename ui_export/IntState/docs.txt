@@ -1,0 +1,8 @@
+The state |val> for non-negative integer val
+
+#### Parameters
+ - `val`: the classical value
+ - `bitsize`: The bitsize of the register 
+
+#### Registers
+ - `val`: The register of size `bitsize` which initializes the value `val`.

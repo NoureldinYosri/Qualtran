@@ -1,0 +1,13 @@
+{
+  "name": "Swap",
+  "attrs": {
+    "bitsize": "Symbol(n)"
+  },
+  "score": null,
+  "callees": [
+    {
+      "name": "TwoBitSwap",
+      "filename": "99914b932bd37a50b983c5e7c90ae93b.json"
+    }
+  ]
+}
